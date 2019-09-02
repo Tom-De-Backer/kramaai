@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import Navlinks from "./Navlinks";
 
 import mobileNavIcon from "../../images/mobile-nav-icon.svg";
 // Icon from: https://material.io/resources/icons/?search=keyboard&icon=keyboard_arrow_left&style=baseline
@@ -11,7 +11,7 @@ const MyDesktopNavbar = styled.nav`
   justify-content: space-evenly;
   align-items: center;
 
-  background: red;
+  background: ${props => props.theme.primary};
   color: white;
 
   height: 15vh;
@@ -19,8 +19,10 @@ const MyDesktopNavbar = styled.nav`
   .logo {
     font-size: 7vh;
     font-weight: bold;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 5px 5px 2px ${props => props.theme.accent};
   }
+
+  box-shadow: 0 10px 5px ${props => props.theme.accent};
 
   .nav-links {
     display: flex;
@@ -30,6 +32,10 @@ const MyDesktopNavbar = styled.nav`
 
     list-style: none;
     width: 35vw;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 
   .link {
@@ -40,38 +46,27 @@ const MyDesktopNavbar = styled.nav`
 `;
 
 const MyMobileNavButton = styled.button`
-  background: transparant;
+  background: ${props => props.theme.primary};
   height: 6vh;
   width: 6vh;
   border: none;
+  display: none;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 `;
 
 const DesktopNavbar = () => {
   return (
     <MyDesktopNavbar>
-      <div className="logo">Logo</div>
+      <div className="logo">Kramaai</div>
 
-      <ul className="nav-links">
-        <li>
-          <Link to="/" className="link">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/about" className="link">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/contact" className="link">
-            Contact
-          </Link>
-        </li>
-      </ul>
+      <Navlinks />
 
-      {/* <MyMobileNavButton>
+      <MyMobileNavButton>
         <img src={mobileNavIcon} alt="This is the navv" />
-      </MyMobileNavButton> */}
+      </MyMobileNavButton>
     </MyDesktopNavbar>
   );
 };
