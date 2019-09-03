@@ -1,17 +1,15 @@
 .slide-container {
   width: 100%;
   margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
-h3 {
-  text-align: center;
-}
-
-.each-slide > div {
+.each-slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 800px;
+  height: 600px;
 }
 
 .image {

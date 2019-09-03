@@ -83,7 +83,7 @@ const MyMobileNavButton = styled.button`
 
   transition: transform 1s ease-in-out;
   transform: rotate(
-    ${props => (props.displayMobileNavbar ? "540deg" : "0deg ")}
+    ${props => (props.displayMobileNavbar ? "450deg" : "-90deg ")}
   );
 
   &:focus {

@@ -9,6 +9,7 @@ const MyNavbar = styled.div`
   justify-content: flex-start;
 
   overflow-x: hidden;
+  overflow-y: hidden;
 `;
 
 class Navbar extends Component {
