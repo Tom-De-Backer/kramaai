@@ -68,7 +68,7 @@ const MyDesktopNavbar = styled.nav`
     }
 
     &:hover::after {
-      width: 125%;
+      width: 115%;
       transform: width;
     }
   }

@@ -18,6 +18,7 @@ class Navbar extends Component {
 
   componentDidMount = () => {
     window.addEventListener("resize", this.checkAndAutoHideMobileNavbar);
+    this.checkAndAutoHideMobileNavbar();
   };
 
   componentWillUnmount = () => {
