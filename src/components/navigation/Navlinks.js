@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navlinks = props => {
   let tempTabIndex;
@@ -9,19 +9,19 @@ const Navlinks = props => {
   return (
     <ul className="nav-links">
       <li>
-        <Link to="/" className="link" tabIndex={tempTabIndex}>
+        <NavLink to="/" className="link" tabIndex={tempTabIndex}>
           Home
-        </Link>
+        </NavLink>
       </li>
       <li>
-        <Link to="/leiding" className="link" tabIndex={tempTabIndex}>
+        <NavLink to="/leiding" className="link" tabIndex={tempTabIndex}>
           Leiding
-        </Link>
+        </NavLink>
       </li>
       <li>
-        <Link to="/inschrijven" className="link" tabIndex={tempTabIndex}>
+        <NavLink to="/inschrijven" className="link" tabIndex={tempTabIndex}>
           Inschrijven
-        </Link>
+        </NavLink>
       </li>
     </ul>
   );
