@@ -7,6 +7,8 @@ const MyNavbar = styled.div`
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
+
+  overflow-x: hidden;
 `;
 
 class Navbar extends Component {
@@ -14,10 +16,37 @@ class Navbar extends Component {
     displayMobileNavbar: true
   };
 
+  componentDidMount = () => {
+    window.addEventListener("resize", this.checkAndAutoHideMobileNavbar);
+  };
+
+  componentWillUnmount = () => {
+    window.removeEventListener("resize", this.checkAndAutoHideMobileNavbar);
+  };
+
+  toggleMobileNavbar = () => {
+    this.setState(prevstate => {
+      return { displayMobileNavbar: !prevstate.displayMobileNavbar };
+    });
+  };
+
+  checkAndAutoHideMobileNavbar = () => {
+    const screenWidth = window.innerWidth;
+
+    if (this.state.displayMobileNavbar && screenWidth > 768) {
+      this.setState({
+        displayMobileNavbar: false
+      });
+    }
+  };
+
   render() {
     return (
       <MyNavbar>
-        <DesktopNavbar />
+        <DesktopNavbar
+          toggleMobileNavbar={this.toggleMobileNavbar}
+          displayMobileNavbar={this.state.displayMobileNavbar}
+        />
         <MobileNavbar displayMobileNavbar={this.state.displayMobileNavbar} />
       </MyNavbar>
     );

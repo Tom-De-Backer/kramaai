@@ -42,6 +42,35 @@ const MyDesktopNavbar = styled.nav`
     color: white;
     font-size: 2.5vh;
     text-decoration: none;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 15vh;
+
+    padding: 0 1rem;
+    border-radius: 10px
+
+    &:focus {
+      background: rgba(0, 0, 0, 0.1);
+      outline: none;
+    }
+
+    &::after {
+      content: "";
+      height: 2px;
+      width: 0px;
+      background: white;
+      display: block;
+      transition: width 0.5s;
+    }
+
+    &:hover::after {
+      width: 125%;
+      transform: width;
+    }
   }
 `;
 
@@ -52,19 +81,31 @@ const MyMobileNavButton = styled.button`
   border: none;
   display: none;
 
+  transition: transform 1s ease-in-out;
+  transform: rotate(
+    ${props => (props.displayMobileNavbar ? "540deg" : "0deg ")}
+  );
+
+  &:focus {
+    outline: none;
+  }
+
   @media screen and (max-width: 768px) {
     display: block;
   }
 `;
 
-const DesktopNavbar = () => {
+const DesktopNavbar = props => {
   return (
     <MyDesktopNavbar>
       <div className="logo">Kramaai</div>
 
       <Navlinks />
 
-      <MyMobileNavButton>
+      <MyMobileNavButton
+        onClick={props.toggleMobileNavbar}
+        displayMobileNavbar={props.displayMobileNavbar}
+      >
         <img src={mobileNavIcon} alt="This is the navv" />
       </MyMobileNavButton>
     </MyDesktopNavbar>
