@@ -13,7 +13,11 @@ class Home extends Component {
         <SlideEffect className="slideEffect" />
         <section className="info">
           <div className="news">
-            <NewsItem />
+            <NewsItem
+              title="Leidersvoorstelling"
+              text=" "
+              imageUrl="https://kramaaiblog.files.wordpress.com/2019/09/img_3425.jpg?w=676"
+            />
           </div>
 
           <div className="calender">
@@ -28,7 +32,7 @@ class Home extends Component {
               date="20 okt"
               event="Geen vergadering (leidersweekend)"
             />
-            <CalendarItem date="9 november" event="Italiaans etentje" />
+            <CalendarItem date="9 nov" event="Italiaans etentje" />
           </div>
         </section>
       </div>
