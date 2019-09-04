@@ -1,2 +1,65 @@
-.slideEffect {
+footer {
+  margin-top: 40px;
+  background: rgb(48, 135, 50);
+  text-align: center;
+}
+
+footer div {
+  display: inline-block;
+}
+
+footer .data ul {
+  display: inline-block;
+}
+
+footer div ul {
+  list-style-type: none;
+}
+footer div ul li {
+  display: inline-table;
+  margin: 10px;
+}
+
+.link {
+  color: white;
+  font-size: 1.5vh;
+  text-decoration: none;
+}
+
+@media (min-width: 0px) and (max-width: 599px) {
+  footer {
+    padding: 40px 0;
+  }
+  footer div {
+    display: block;
+  }
+
+  footer div.data {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  footer div.media {
+    padding-top: 20px;
+  }
+
+  footer div ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  footer div.data ul {
+    margin: 0;
+    display: block;
+    padding: 0;
+  }
+
+  footer div.data ul li {
+    margin: 10px 0;
+    display: block;
+    padding: 0;
+  }
+
+  footer .media ul li a {
+    font-size: 60px;
+  }
 }
