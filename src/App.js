@@ -26,6 +26,10 @@ function App() {
       <footer>
         <div className="data">
           <Navlinks />
+          <p>
+            Website made by{" "}
+            <a href="mailto: tom_debacker@msn.com">Tom De Backer</a>
+          </p>
         </div>
       </footer>
     </BrowserRouter>

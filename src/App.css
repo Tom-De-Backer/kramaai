@@ -5,7 +5,8 @@ footer {
 }
 
 footer div {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer .data ul {
@@ -24,6 +25,11 @@ footer div ul li {
   color: white;
   font-size: 1.5vh;
   text-decoration: none;
+}
+
+p,
+a {
+  color: white;
 }
 
 @media (min-width: 0px) and (max-width: 599px) {
