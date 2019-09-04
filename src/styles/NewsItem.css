@@ -1,0 +1,22 @@
+.newsBox {
+  color: white;
+  padding: 10px;
+}
+
+.titleNews {
+  font-weight: bold;
+  font-size: 40px;
+  border-bottom-style: solid;
+  border-width: 3px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-left: 10px;
+}

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import SlideEffect from "../components/slideShow/slideEffect";
+import CalendarItem from "./CalendarItem";
+import NewsItem from "./NewsItem";
 
 import "../styles/Home.css";
 
@@ -9,17 +11,24 @@ class Home extends Component {
     return (
       <div>
         <SlideEffect className="slideEffect" />
-        <section className="calendar">
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1506703248799-a1b1896290e8?auto=format&fit=crop&w=634&q=80"
-              alt="test"
-            />
+        <section className="info">
+          <div className="news">
+            <NewsItem />
           </div>
-          <div>
-            <p className="titleCalendar">Kalender</p>
-            <p>17 september: Leidersvoorstelling @ GBS Mollem</p>
-            <p>22 september: Eerste vergadering</p>
+
+          <div className="calender">
+            <h2 className="titleCalendar">Kalender</h2>
+            <CalendarItem
+              date="17 sep"
+              event="Leidersvoorstelling @ GBS Mollem"
+            />
+            <CalendarItem date="22 sep" event="Eerste vergadering" />
+            <CalendarItem date="6 okt" event="Ouderavond" />
+            <CalendarItem
+              date="20 okt"
+              event="Geen vergadering (leidersweekend)"
+            />
+            <CalendarItem date="9 november" event="Italiaans etentje" />
           </div>
         </section>
       </div>
