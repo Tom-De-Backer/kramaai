@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "../styles/Inschrijven.css";
-import EnrollForm from "./EnrollForm";
+import EnrollForm from "./enroll/EnrollForm";
 
 class Inschrijven extends Component {
   render() {
