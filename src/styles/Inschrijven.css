@@ -1,0 +1,13 @@
+.uitlegDiv {
+  width: auto;
+  margin: 15px;
+  background-color: rgb(48, 135, 50);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.enrollForm {
+  border-top-style: solid;
+  padding: 15px;
+  color: white;
+}
