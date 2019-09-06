@@ -27,7 +27,7 @@ function App() {
         <div className="data">
           <Navlinks />
           <p>
-            Website made by{" "}
+            © Website made by{" "}
             <a href="mailto: tom_debacker@msn.com">Tom De Backer</a>
           </p>
         </div>

@@ -2,8 +2,12 @@
   width: auto;
   margin: 5px;
   background-color: rgb(48, 135, 50);
-  padding: 5px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   border-radius: 10px;
+  display: flex;
 }
 
 .title {
@@ -34,5 +38,5 @@ th {
 }
 
 tr:nth-child(odd) {
-  background-color: rgb(22, 104, 22);
+  background-color: rgb(25, 117, 25);
 }

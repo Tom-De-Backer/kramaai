@@ -1,6 +1,8 @@
 Lay out:
 
-* Navigation bar met Kramaai logo
-* Grote banner met random foto's van op kamp
+* Navigation bar met Kramaai logo (DONE)
+* Grote banner met random foto's van op kamp (DONE)
 * links: nieuwsberichten zoals diavoorstelling. Rechts: Belangrijke data + sponsors
-* footer met sitemap + copyright Falcon
+* footer met sitemap + copyright Falcon (DONE)
+
+TODO: sponsors toevoegen aan sidewidget
