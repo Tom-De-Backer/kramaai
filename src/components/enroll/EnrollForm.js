@@ -8,7 +8,12 @@ class EnrollForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      step: 1
+      step: 1,
+      voornaam: null,
+      achternaam: null,
+      adres: null,
+      tak: null,
+      email: null
     };
   }
 

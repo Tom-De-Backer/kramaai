@@ -3,104 +3,110 @@ import React, { Component } from "react";
 import "../styles/Inschrijven.css";
 import EnrollForm from "./enroll/EnrollForm";
 
+import SideWidget from "./SideWidget";
+
 class Inschrijven extends Component {
   render() {
     return (
-      <div className="uitlegDiv">
-        <p>Beste ouders</p>
-        <p>
-          Het ledenaantal van scouts Mollem blijft jaar na jaar groeien. Binnen
-          de leiding vinden we dit natuurlijk een heel positieve trend, maar
-          helaas botst de leiding hierdoor ook op zijn limieten. In de eerste
-          plaats willen we nog steeds alle kinderen met volle aandacht de beste
-          zondagen bezorgen. Daarom hebben we beslist om een ledenstop in te
-          voeren, voor het tweede jaar op rij.
-          <br />
-          <br />
-          <h3>
-            <u>Wat wil dit concreet zeggen?</u>
-          </h3>
-        </p>
-        <p>
-          <strong>
-            Alle leden die reeds lid zijn, zijn zeker dat ze hun
-            scoutscarri&egrave;re kunnen verder zetten
-          </strong>
-          . De stop slaat enkel op nieuwe leden.
-        </p>
-        <p>
-          Van ingeschreven&nbsp;leden&nbsp;verwachten we wel dat ze actief lid
-          zijn doorheen het hele scoutsjaar (
-          <strong>minstens 10 aanwezigheden</strong>), om mee te mogen op kamp
-          en voorrang te krijgen om zich het jaar nadien in te schrijven. De
-          aanwezigheden worden doorheen het jaar dan ook goed bijhouden.
-        </p>
-        <p>
-          <br />
-          <h3>
-            <u>Wanneer starten de inschrijvingen?</u>
-          </h3>
-        </p>
+      <div className="inschrijven">
+        <div className="uitlegDiv">
+          <p>Beste ouders</p>
+          <p>
+            Het ledenaantal van scouts Mollem blijft jaar na jaar groeien.
+            Binnen de leiding vinden we dit natuurlijk een heel positieve trend,
+            maar helaas botst de leiding hierdoor ook op zijn limieten. In de
+            eerste plaats willen we nog steeds alle kinderen met volle aandacht
+            de beste zondagen bezorgen. Daarom hebben we beslist om een
+            ledenstop in te voeren, voor het tweede jaar op rij.
+            <br />
+            <br />
+            <h3>
+              <u>Wat wil dit concreet zeggen?</u>
+            </h3>
+          </p>
+          <p>
+            <strong>
+              Alle leden die reeds lid zijn, zijn zeker dat ze hun
+              scoutscarri&egrave;re kunnen verder zetten
+            </strong>
+            . De stop slaat enkel op nieuwe leden.
+          </p>
+          <p>
+            Van ingeschreven&nbsp;leden&nbsp;verwachten we wel dat ze actief lid
+            zijn doorheen het hele scoutsjaar (
+            <strong>minstens 10 aanwezigheden</strong>), om mee te mogen op kamp
+            en voorrang te krijgen om zich het jaar nadien in te schrijven. De
+            aanwezigheden worden doorheen het jaar dan ook goed bijhouden.
+          </p>
+          <p>
+            <br />
+            <h3>
+              <u>Wanneer starten de inschrijvingen?</u>
+            </h3>
+          </p>
 
-        <p>
-          <strong>Op 17 september 2019 tijdens de dia avond</strong>: voor
-          kinderen woonachtig in Mollem of die reeds een{" "}
-          <strong>broer of zus</strong> in onze Scouts hebben. Je moet wel
-          aanwezig zijn, je kan niet andermans kind inschrijven.
-        </p>
-        <p>
-          Kan je er niet bij zijn tijdens deze avond dan kan je nog inschrijven
-          tussen 18 en 22 september door een mailtje te sturen naar{" "}
-          <a href="mailto:groepsleiding@kramaai.be">
-            <strong>groepsleiding@kramaai.be</strong>
-          </a>
-        </p>
-        <p>
-          <strong>Vanaf 22 september om 17u</strong> zijn de inschrijvingen open
-          voor <strong>niet-Mollemnaren</strong> via www.kramaai.be
-        </p>
-        <br />
-        <p>
-          <h3>
-            <u>Hoeveel nieuwe leden kunnen er nog worden ingeschreven?</u>
-          </h3>
-        </p>
-        <p>
-          Scouts Mollem wil garant staan voor een kwaliteitsvolle werking, met
-          aandacht voor elk kind. Hierdoor kunnen we spijtig genoeg maar de{" "}
-          <strong>
-            volgende aantallen leden in de verschillende takken inschrijven
-          </strong>
-          :
-        </p>
-        <p>
-          &ndash; Kapoenen: 18
+          <p>
+            <strong>Op 17 september 2019 tijdens de dia avond</strong>: voor
+            kinderen woonachtig in Mollem of die reeds een{" "}
+            <strong>broer of zus</strong> in onze Scouts hebben. Je moet wel
+            aanwezig zijn, je kan niet andermans kind inschrijven.
+          </p>
+          <p>
+            Kan je er niet bij zijn tijdens deze avond dan kan je nog
+            inschrijven tussen 18 en 22 september door een mailtje te sturen
+            naar{" "}
+            <a href="mailto:groepsleiding@kramaai.be">
+              <strong>groepsleiding@kramaai.be</strong>
+            </a>
+          </p>
+          <p>
+            <strong>Vanaf 22 september om 17u</strong> zijn de inschrijvingen
+            open voor <strong>niet-Mollemnaren</strong> via www.kramaai.be
+          </p>
           <br />
-          &ndash; Welpen: 13
+          <p>
+            <h3>
+              <u>Hoeveel nieuwe leden kunnen er nog worden ingeschreven?</u>
+            </h3>
+          </p>
+          <p>
+            Scouts Mollem wil garant staan voor een kwaliteitsvolle werking, met
+            aandacht voor elk kind. Hierdoor kunnen we spijtig genoeg maar de{" "}
+            <strong>
+              volgende aantallen leden in de verschillende takken inschrijven
+            </strong>
+            :
+          </p>
+          <p>
+            &ndash; Kapoenen: 18
+            <br />
+            &ndash; Welpen: 13
+            <br />
+            &ndash; Bevers: 2<br />
+            &ndash; Jong-Givers: 0<br />
+            &ndash; Givers: 3
+          </p>
           <br />
-          &ndash; Bevers: 2<br />
-          &ndash; Jong-Givers: 0<br />
-          &ndash; Givers: 3
-        </p>
-        <br />
-        <p>
-          <h3>
-            <u>Kan ik op een wachtlijst komen?</u>
-          </h3>
-        </p>
-        <p>
-          Op advies van Scouts &amp; Gidsen Vlaanderen leggen we geen wachtlijst
-          aan, vol is vol. Vanaf <strong>1 oktober </strong>worden geen
-          nieuwe&nbsp;leden&nbsp;meer ingeschreven.
-        </p>
-        <p>Met dank voor jullie begrip.</p>
-        <p>
-          Een stevige linker
+          <p>
+            <h3>
+              <u>Kan ik op een wachtlijst komen?</u>
+            </h3>
+          </p>
+          <p>
+            Op advies van Scouts &amp; Gidsen Vlaanderen leggen we geen
+            wachtlijst aan, vol is vol. Vanaf <strong>1 oktober </strong>worden
+            geen nieuwe&nbsp;leden&nbsp;meer ingeschreven.
+          </p>
+          <p>Met dank voor jullie begrip.</p>
+          <p>
+            Een stevige linker
+            <br />
+            De Leiding
+          </p>
           <br />
-          De Leiding
-        </p>
-        <br />
-        <EnrollForm />
+          {/* <EnrollForm /> */}
+        </div>
+        <SideWidget />
       </div>
     );
   }

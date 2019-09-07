@@ -22,6 +22,11 @@ const Navlinks = props => {
         <NavLink to="/inschrijven" className="link" tabIndex={tempTabIndex}>
           Inschrijven
         </NavLink>
+      </li>{" "}
+      <li>
+        <NavLink to="/fotos" className="link" tabIndex={tempTabIndex}>
+          Foto's
+        </NavLink>
       </li>
     </ul>
   );

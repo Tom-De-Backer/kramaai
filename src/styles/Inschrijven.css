@@ -1,3 +1,13 @@
+.inschrijven {
+  width: auto;
+  margin: 5px;
+  background-color: rgb(48, 135, 50);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
 .uitlegDiv {
   width: auto;
   margin: 15px;
