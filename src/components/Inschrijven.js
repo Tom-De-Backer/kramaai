@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import "../styles/Inschrijven.css";
-import EnrollForm from "./enroll/EnrollForm";
+// import EnrollForm from "./enroll/EnrollForm";
 
 import SideWidget from "./SideWidget";
 
@@ -20,10 +20,11 @@ class Inschrijven extends Component {
             ledenstop in te voeren, voor het tweede jaar op rij.
             <br />
             <br />
-            <h3>
-              <u>Wat wil dit concreet zeggen?</u>
-            </h3>
           </p>
+          <h3>
+            <u>Wat wil dit concreet zeggen?</u>
+          </h3>
+
           <p>
             <strong>
               Alle leden die reeds lid zijn, zijn zeker dat ze hun
@@ -40,10 +41,10 @@ class Inschrijven extends Component {
           </p>
           <p>
             <br />
-            <h3>
-              <u>Wanneer starten de inschrijvingen?</u>
-            </h3>
           </p>
+          <h3>
+            <u>Wanneer starten de inschrijvingen?</u>
+          </h3>
 
           <p>
             <strong>Op 17 september 2019 tijdens de dia avond</strong>: voor
@@ -64,11 +65,10 @@ class Inschrijven extends Component {
             open voor <strong>niet-Mollemnaren</strong> via www.kramaai.be
           </p>
           <br />
-          <p>
-            <h3>
-              <u>Hoeveel nieuwe leden kunnen er nog worden ingeschreven?</u>
-            </h3>
-          </p>
+          <p></p>
+          <h3>
+            <u>Hoeveel nieuwe leden kunnen er nog worden ingeschreven?</u>
+          </h3>
           <p>
             Scouts Mollem wil garant staan voor een kwaliteitsvolle werking, met
             aandacht voor elk kind. Hierdoor kunnen we spijtig genoeg maar de{" "}
@@ -87,11 +87,10 @@ class Inschrijven extends Component {
             &ndash; Givers: 3
           </p>
           <br />
-          <p>
-            <h3>
-              <u>Kan ik op een wachtlijst komen?</u>
-            </h3>
-          </p>
+          <p></p>
+          <h3>
+            <u>Kan ik op een wachtlijst komen?</u>
+          </h3>
           <p>
             Op advies van Scouts &amp; Gidsen Vlaanderen leggen we geen
             wachtlijst aan, vol is vol. Vanaf <strong>1 oktober </strong>worden
