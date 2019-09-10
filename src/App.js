@@ -7,6 +7,7 @@ import Leiding from "./components/Leiding.js";
 import Navbar from "./components/navigation/Navbar";
 import Navlinks from "./components/navigation/Navlinks";
 import Photos from "./components/Photos";
+import Album from "./components/Album";
 
 import "./App.css";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/inschrijven" component={Inschrijven} exact />
         <Route path="/leiding" component={Leiding} exact />
         <Route path="/fotos" component={Photos} exact />
+        <Route path="/fotos/:id" component={Album} />
         {/* Dit is voor een pad dat niet bestaat. Hier kan een speciale Error component voor gemaakt worden */}
         <Route component={Home} exact />
       </Switch>
