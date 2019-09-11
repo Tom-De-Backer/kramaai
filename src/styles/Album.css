@@ -1,0 +1,15 @@
+.albumDiv {
+  width: auto;
+  margin: 5px;
+  background-color: rgb(48, 135, 50);
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.albumImage {
+  width: 20%;
+  height: auto;
+  padding: 15px;
+}

@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 
-import Gallery from "react-photo-gallery";
 import { photos2009 } from "../images/photos2009";
 import { photos2019 } from "../images/photos2019";
+
+import "../styles/Album.css";
+
+// Use this video for the slideshow or the slideshow from home screen
+// https://www.youtube.com/watch?v=AqOaI41TADU
 
 class Album extends Component {
   constructor(props) {
@@ -38,7 +42,25 @@ class Album extends Component {
   render() {
     return (
       <div>
-        {this.state.id !== undefined && <Gallery photos={this.state.id} />}
+        {this.state.id !== undefined && (
+          <div className="albumDiv">
+            <img
+              src="http://kramaai.be/images/photoalbum/album_6/1.jpg"
+              alt="Test"
+              className="albumImage"
+            />
+            <img
+              src="http://kramaai.be/images/photoalbum/album_6/3.jpg"
+              alt="Test"
+              className="albumImage"
+            />
+            <img
+              src="http://kramaai.be/images/photoalbum/album_6/6.jpg"
+              alt="Test"
+              className="albumImage"
+            />
+          </div>
+        )}
       </div>
     );
   }

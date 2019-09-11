@@ -9,7 +9,7 @@ import image2 from "../../images/slideShow/IMG_20190803_201342.jpg";
 const slideImages = [image0, image1, image2];
 
 const properties = {
-  duration: 50000,
+  duration: 10000,
   transitionDuration: 500,
   infinite: true,
   indicators: false,
