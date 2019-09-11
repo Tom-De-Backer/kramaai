@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Gallery from "react-photo-gallery";
 import { photos2009 } from "../images/photos2009";
+import { photos2019 } from "../images/photos2019";
 
 class Album extends Component {
   constructor(props) {
@@ -14,18 +15,30 @@ class Album extends Component {
     const {
       match: { params }
     } = this.props;
-    console.log(params);
+
+    let temp = undefined;
+    switch (params.id) {
+      case "album2009":
+        temp = photos2009;
+        break;
+      case "album2010":
+        temp = photos2009;
+        break;
+      case "album2019":
+        temp = photos2019;
+        break;
+      default:
+        temp = photos2009;
+    }
     this.setState({
-      id: params.id
+      id: temp
     });
-    // Hier een switch die via id een juist album toekent aan variabele die in render functie gebruikt wordt
-    console.log(params.id);
   }
 
   render() {
     return (
       <div>
-        {this.state.id === "album2019" && <Gallery photos={photos2009} />}
+        {this.state.id !== undefined && <Gallery photos={this.state.id} />}
       </div>
     );
   }
