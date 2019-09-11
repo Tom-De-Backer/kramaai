@@ -12,7 +12,8 @@ class Album extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      id: undefined
+      id: undefined,
+      name: undefined
     };
   }
   componentDidMount() {
@@ -35,7 +36,8 @@ class Album extends Component {
         temp = photos2009;
     }
     this.setState({
-      id: temp
+      id: temp,
+      name: params.id
     });
   }
 
@@ -43,22 +45,15 @@ class Album extends Component {
     return (
       <div>
         {this.state.id !== undefined && (
-          <div className="albumDiv">
-            <img
-              src="http://kramaai.be/images/photoalbum/album_6/1.jpg"
-              alt="Test"
-              className="albumImage"
-            />
-            <img
-              src="http://kramaai.be/images/photoalbum/album_6/3.jpg"
-              alt="Test"
-              className="albumImage"
-            />
-            <img
-              src="http://kramaai.be/images/photoalbum/album_6/6.jpg"
-              alt="Test"
-              className="albumImage"
-            />
+          <div>
+            <div className="albumTitle">{this.state.name.toString()}</div>
+            <div className="albumDiv">
+              {this.state.id.map(url => (
+                <a href={url} key={url}>
+                  <img src={url} alt="Test" className="albumImage" />
+                </a>
+              ))}
+            </div>
           </div>
         )}
       </div>
