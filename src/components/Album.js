@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 
-import { photos2009 } from "../images/photos2009";
-import { photos2019 } from "../images/photos2019";
+import {
+  photosUnknown,
+  photos2009,
+  photos2010,
+  photos2019
+} from "../images/photosURLs";
 
 import "../styles/Album.css";
 
@@ -27,13 +31,13 @@ class Album extends Component {
         temp = photos2009;
         break;
       case "album2010":
-        temp = photos2009;
+        temp = photos2010;
         break;
       case "album2019":
         temp = photos2019;
         break;
       default:
-        temp = photos2009;
+        temp = photosUnknown;
     }
     this.setState({
       id: temp,
