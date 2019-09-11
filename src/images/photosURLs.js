@@ -1,15 +1,6 @@
-export const photosUnknown = [
-  "http://kramaai.be/images/photoalbum/album_18/2012.jpg",
-  "http://kramaai.be/images/photoalbum/album_18/2013.jpg",
-  "http://kramaai.be/images/photoalbum/album_18/2014.jpg",
-  "http://kramaai.be/images/photoalbum/album_18/2015.jpg",
-  "http://kramaai.be/images/photoalbum/album_18/2016.jpg",
-  "http://kramaai.be/images/photoalbum/album_18/2017.jpg",
-  "http://kramaai.be/images/photoalbum/album_18/2022.jpg",
-  "http://kramaai.be/images/photoalbum/album_18/2042.jpg"
-];
+export const photosUnknown = [];
 
-export const photos2009 = [
+export const photos2007 = [
   "http://kramaai.be/images/photoalbum/album_6/1.jpg",
   "http://kramaai.be/images/photoalbum/album_6/2.jpg",
   "http://kramaai.be/images/photoalbum/album_6/3.jpg",
@@ -18,10 +9,7 @@ export const photos2009 = [
   "http://kramaai.be/images/photoalbum/album_6/6.jpg",
   "http://kramaai.be/images/photoalbum/album_6/7.jpg",
   "http://kramaai.be/images/photoalbum/album_6/8.jpg",
-  "http://kramaai.be/images/photoalbum/album_6/9.jpg"
-];
-
-export const photos2010 = [
+  "http://kramaai.be/images/photoalbum/album_6/9.jpg",
   "http://kramaai.be/images/photoalbum/album_1/1.jpg",
   "http://kramaai.be/images/photoalbum/album_1/10.jpg",
   "http://kramaai.be/images/photoalbum/album_1/11.jpg",
@@ -59,8 +47,54 @@ export const photos2010 = [
   "http://kramaai.be/images/photoalbum/album_1/dsc01630.jpg"
 ];
 
-export const photos2019 = [
-  "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-1.jpg",
-  "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-10.jpg",
-  "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-100.jpg"
+export const photos2008 = [
+  "http://kramaai.be/images/photoalbum/album_18/2012.jpg",
+  "http://kramaai.be/images/photoalbum/album_18/2013.jpg",
+  "http://kramaai.be/images/photoalbum/album_18/2014.jpg",
+  "http://kramaai.be/images/photoalbum/album_18/2015.jpg",
+  "http://kramaai.be/images/photoalbum/album_18/2016.jpg",
+  "http://kramaai.be/images/photoalbum/album_18/2017.jpg",
+  "http://kramaai.be/images/photoalbum/album_18/2022.jpg",
+  "http://kramaai.be/images/photoalbum/album_18/2042.jpg"
 ];
+
+// export const photos2019 = [
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-1.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-10.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-100.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-101.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-102.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-103.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-104.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-105.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-106.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-107.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-108.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-109.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-11.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-110.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-111.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-112.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-113.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-114.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-115.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-116.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-117.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-118.jpg",
+//   "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-119.jpg"
+// ];
+
+const calculationBullingen = () => {
+  let photoss2019 = [];
+  for (let i = 1; i <= 355; i++) {
+    photoss2019.push(
+      "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-" +
+        i +
+        ".jpg"
+    );
+  }
+  console.log(photoss2019);
+  return photoss2019;
+};
+
+export const photos2019 = calculationBullingen();

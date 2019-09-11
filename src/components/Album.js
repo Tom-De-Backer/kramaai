@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 import {
   photosUnknown,
-  photos2009,
-  photos2010,
+  photos2007,
+  photos2008,
   photos2019
 } from "../images/photosURLs";
 
@@ -26,12 +26,25 @@ class Album extends Component {
     } = this.props;
 
     let temp = undefined;
+
+    let photoss2019 = [];
+    for (let i = 1; i <= 355; i++) {
+      photoss2019.push(
+        "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-" +
+          i +
+          ".jpg"
+      );
+    }
+    console.log(photos2019);
     switch (params.id) {
-      case "album2009":
-        temp = photos2009;
+      case "unknown":
+        temp = photosUnknown;
         break;
-      case "album2010":
-        temp = photos2010;
+      case "album2007":
+        temp = photos2007;
+        break;
+      case "album2008":
+        temp = photos2008;
         break;
       case "album2019":
         temp = photos2019;

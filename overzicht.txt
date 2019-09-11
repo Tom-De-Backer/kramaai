@@ -5,4 +5,8 @@ Lay out:
 * links: nieuwsberichten zoals diavoorstelling. Rechts: Belangrijke data + sponsors
 * footer met sitemap + copyright Falcon (DONE)
 
-TODO: sponsors toevoegen aan sidewidget
+TODO: sponsors toevoegen aan sidewidget 
+- Kramaai tab
+- FAQ tab
+- responsive maken
+- 

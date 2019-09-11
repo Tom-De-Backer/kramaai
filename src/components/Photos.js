@@ -11,11 +11,14 @@ class Photos extends Component {
     return (
       <div>
         <div className="photosButtonsDiv">
-          <NavLink to="/fotos/album2009" className="button">
-            Album 2009
+          {/* <NavLink to="/fotos/unknown" className="button">
+            Album onbekend jaar
+          </NavLink> */}
+          <NavLink to="/fotos/album2007" className="button">
+            Album 2007
           </NavLink>
-          <NavLink to="/fotos/album2010" className="button">
-            Album 2010
+          <NavLink to="/fotos/album2008" className="button">
+            Album 2008
           </NavLink>
           <NavLink to="/fotos/album2019" className="button">
             Album 2019
