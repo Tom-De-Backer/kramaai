@@ -20,7 +20,13 @@ const SideWidget = () => {
           </a>{" "}
           en steun zo Scouts Kramaai Mollem
         </div>
-        <img src={Bol} alt="Bol.com affiliate" className="bolLogo" />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.bol.com/nl/index.html?Referrer=ADVNLPPcefc5f00cdbf929700828d3415160039069&utm_source=39069&utm_medium=Affiliates&utm_campaign=CPS&utm_content=btn"
+        >
+          <img src={Bol} alt="Bol.com affiliate" className="bolLogo" />
+        </a>
       </div>
 
       <div className="bol">
@@ -35,7 +41,13 @@ const SideWidget = () => {
           </a>{" "}
           van Trooper en steun zo Scouts Kramaai Mollem
         </div>
-        <img src={Trooper} alt="Bol.com affiliate" className="bolLogo" />
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.trooper.be/kramaai"
+        >
+          <img src={Trooper} alt="Trooper affiliate" className="bolLogo" />
+        </a>
       </div>
     </div>
   );

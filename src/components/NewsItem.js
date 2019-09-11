@@ -7,7 +7,9 @@ const NewsItem = props => {
     <div className="newsBox">
       <h2 className="titleNews">{props.title}</h2>
       <p>{props.text}</p>
-      {props.imageUrl !== " " && <img src={props.imageUrl} alt="NewsImage" />}
+      {props.imageUrl !== " " && (
+        <img src={props.imageUrl} alt="NewsImage" className="newsImg" />
+      )}
     </div>
   );
 };

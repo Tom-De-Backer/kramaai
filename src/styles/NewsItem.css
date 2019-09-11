@@ -21,7 +21,8 @@ h2 {
   margin-left: 10px;
 }
 
-img {
+.newsImg {
   padding: 10px;
-  width: 90%;
+  width: auto;
+  height: 400px;
 }
