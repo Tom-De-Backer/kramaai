@@ -22,6 +22,10 @@ const MyDesktopNavbar = styled.nav`
     text-shadow: 5px 5px 2px ${props => props.theme.accent};
   }
 
+  a {
+    text-decoration: none;
+  }
+
   box-shadow: 0 10px 5px ${props => props.theme.accent};
 
   .nav-links {
@@ -98,7 +102,9 @@ const MyMobileNavButton = styled.button`
 const DesktopNavbar = props => {
   return (
     <MyDesktopNavbar>
-      <div className="logo">Kramaai</div>
+      <a href="/">
+        <div className="logo">Kramaai</div>
+      </a>
 
       <Navlinks />
 

@@ -45,4 +45,7 @@ tr:nth-child(odd) {
   .infoLeiding {
     display: block;
   }
+  td {
+    font-size: 12px;
+  }
 }

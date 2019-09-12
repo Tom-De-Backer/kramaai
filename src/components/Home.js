@@ -26,7 +26,7 @@ class Home extends Component {
             />
             <NewsItem
               title="Opening nieuw lokaal"
-              text="Eindelijk is het zover. Onze officiële opening van het nieuwe scoutslokaal in Mollem. Dankzij jullie zou het nooit gelukt zijn. Ouders, leiding, leden, oud-leiding, sympathisanten, de gemeente, de architecten… Allemaal hebben ze de afgelopen jaren het beste van zichzelf gegeven om dit te verwezenlijken. Daarom willen we er dan ook een groot feest van maken, en dit dan ook te vieren met iedereen. Hou zaterdag 9 maart dus zeker en vast maar vrij in jullie agenda, want het wordt GEWELDIG!"
+              text="Eindelijk is het zover. Onze officiële opening van het nieuwe scoutslokaal in Mollem. Zonder jullie zou het nooit gelukt zijn. Ouders, leiding, leden, oud-leiding, sympathisanten, de gemeente, de architecten… Allemaal hebben ze de afgelopen jaren het beste van zichzelf gegeven om dit te verwezenlijken. Daarom willen we er dan ook een groot feest van maken, en dit dan ook te vieren met iedereen. Hou zaterdag 9 maart dus zeker en vast maar vrij in jullie agenda, want het wordt GEWELDIG!"
               imageUrl="https://kramaaiblog.files.wordpress.com/2019/02/52100085_1374893045991088_3056328753949966336_o.jpg?w=676"
             />
           </div>
