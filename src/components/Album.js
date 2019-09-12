@@ -61,7 +61,7 @@ class Album extends Component {
             <div className="albumDiv">
               {this.state.id.map(url => (
                 <a href={url} key={url}>
-                  <img src={url} alt="Test" className="albumImage" />
+                  <img src={url} alt={url} className="albumImage" />
                 </a>
               ))}
             </div>

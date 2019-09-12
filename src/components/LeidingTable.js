@@ -11,14 +11,10 @@ const LeidingTable = () => {
           september!!
         </b>
       </p>
+      <br />
+      <div className="titleTable">Kapoenen</div>
       <table className="table">
         <tbody>
-          <tr>
-            <th></th>
-            <th>Kapoenen</th>
-            <th></th>
-          </tr>
-
           <tr>
             <td>
               <b>Lise Michiels</b>
@@ -54,13 +50,9 @@ const LeidingTable = () => {
       </table>
       <br />
       <br />
+      <div className="titleTable">Welpen</div>
       <table className="table">
         <tbody>
-          <tr>
-            <th></th>
-            <th>Welpen</th>
-            <th></th>
-          </tr>
           <tr>
             <td>
               <b>Lennart Beeckman</b>
@@ -91,13 +83,9 @@ const LeidingTable = () => {
       </table>
       <br />
       <br />
+      <div className="titleTable">Bevers</div>
       <table className="table">
         <tbody>
-          <tr>
-            <th></th>
-            <th>Bevers</th>
-            <th></th>
-          </tr>
           <tr>
             <td>
               <b>Lennart Beeckman</b>
@@ -128,13 +116,9 @@ const LeidingTable = () => {
       </table>
       <br />
       <br />
+      <div className="titleTable">jong-Givers</div>
       <table className="table">
         <tbody>
-          <tr>
-            <th></th>
-            <th>Jong-Givers</th>
-            <th></th>
-          </tr>
           <tr>
             <td>
               <b>Lennart Beeckman</b>
@@ -160,13 +144,9 @@ const LeidingTable = () => {
       </table>
       <br />
       <br />
+      <div className="titleTable">Givers</div>
       <table className="table">
         <tbody>
-          <tr>
-            <th></th>
-            <th>Givers</th>
-            <th></th>
-          </tr>
           <tr>
             <td>
               <b>Lennart Beeckman</b>
@@ -192,13 +172,9 @@ const LeidingTable = () => {
       </table>
       <br />
       <br />
+      <div className="titleTable">Jins</div>
       <table className="table">
         <tbody>
-          <tr>
-            <th></th>
-            <th>Jins</th>
-            <th></th>
-          </tr>
           <tr>
             <td>
               <b>Lennart Beeckman</b>
@@ -214,6 +190,27 @@ const LeidingTable = () => {
             <td>Sander Bettens</td>
             <td>Standvastige Bergduivel</td>
             <td>sander@kramaai.be</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <br />
+      <div className="titleTable">Groepsleiding</div>
+      <table className="table">
+        <tbody>
+          <tr>
+            <td>
+              <b>Thomas Vitry</b>
+            </td>
+            <td>
+              <b>Merkwaardige Cholo</b>
+            </td>
+            <td>
+              <b>thomas@kramaai.be</b>
+            </td>
+            <td>
+              <b>+32 479 38 18 08</b>
+            </td>
           </tr>
         </tbody>
       </table>

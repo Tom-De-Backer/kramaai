@@ -1,0 +1,21 @@
+.slide-containerSponsor {
+  width: auto;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.each-slideSponsor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 30%;
+}
+
+.imageSponsor {
+  height: 200px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}

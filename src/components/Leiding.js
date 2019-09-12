@@ -13,7 +13,7 @@ class Leiding extends Component {
     return (
       <section className="infoLeiding">
         <SideSpace />
-        <div>
+        <div className="leidingTable">
           <div className="title">Leiding 2019-2020</div>
           <p>
             De vetgedrukte namen zijn de <b>takverantwoordelijken</b>, aarzel

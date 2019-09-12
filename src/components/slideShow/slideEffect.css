@@ -28,28 +28,6 @@
 }
 */
 
-.each-fade {
-  display: flex;
-}
-
-.each-fade .image-container {
-  width: 75%;
-  overflow: hidden;
-}
-
-.each-fade .image-container img {
-  width: 100%;
-}
-
-.each-fade h2 {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  background: #adceed;
-}
-
 @media (max-width: 768px) {
   .image {
     width: 100%;
