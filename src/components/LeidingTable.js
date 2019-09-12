@@ -5,6 +5,12 @@ import "../styles/Leiding.css";
 const LeidingTable = () => {
   return (
     <div>
+      <p>
+        <b>
+          De correcte leiding wordt aangepast na leidersvoorstelling op 17
+          september!!
+        </b>
+      </p>
       <table className="table">
         <tbody>
           <tr>

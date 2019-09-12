@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  height: 550px;
 }
 
 .image {
@@ -48,4 +48,13 @@
   align-items: center;
   margin: 0;
   background: #adceed;
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+  }
+  .each-slide {
+    height: auto;
+  }
 }

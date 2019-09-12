@@ -2,9 +2,9 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import "./slideEffect.css";
 
-import image0 from "../../images/slideShow/Bullingen2019-1.jpg";
+import image2 from "../../images/slideShow/Bullingen2019-1.jpg";
 import image1 from "../../images/slideShow/Bullingen2019-38.jpg";
-import image2 from "../../images/slideShow/IMG_20190803_201342.jpg";
+import image0 from "../../images/slideShow/Bullingen2019-72.jpg";
 
 const slideImages = [image0, image1, image2];
 

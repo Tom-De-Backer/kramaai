@@ -29,7 +29,10 @@ h2 {
 
 @media (max-width: 768px) {
   .newsImg {
-    width: 100%;
+    width: 95%;
     height: auto;
+  }
+  .titleNews {
+    font-size: 30px;
   }
 }
