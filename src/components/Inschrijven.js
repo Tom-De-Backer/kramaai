@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import ReactGA from "react-ga";
+
 import "../styles/Inschrijven.css";
 // import EnrollForm from "./enroll/EnrollForm";
 
@@ -8,6 +10,7 @@ import SideSpace from "./SideSpace";
 
 class Inschrijven extends Component {
   render() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div className="inschrijven">
         <SideSpace />

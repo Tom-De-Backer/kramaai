@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import ReactGA from "react-ga";
+
 import { NavLink } from "react-router-dom";
 
 import "../styles/Photos.css";
@@ -8,6 +10,7 @@ import "../styles/Photos.css";
 
 class Photos extends Component {
   render() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div>
         <div className="photosButtonsDiv">

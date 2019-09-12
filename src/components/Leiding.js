@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import ReactGA from "react-ga";
+
 import "../styles/Leiding.css";
 import LeidingTable from "./LeidingTable";
 import SideWidget from "./SideWidget";
@@ -7,6 +9,7 @@ import SideSpace from "./SideSpace";
 
 class Leiding extends Component {
   render() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <section className="infoLeiding">
         <SideSpace />

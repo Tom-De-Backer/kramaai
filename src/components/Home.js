@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import ReactGA from "react-ga";
+
 import SlideEffect from "../components/slideShow/slideEffect";
 import CalendarItem from "./CalendarItem";
 import NewsItem from "./NewsItem";
@@ -10,6 +12,7 @@ import SideSpace from "./SideSpace";
 
 class Home extends Component {
   render() {
+    ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div>
         <SlideEffect className="slideEffect" />

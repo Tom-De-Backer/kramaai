@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import ReactGA from "react-ga";
+
 import Home from "./components/Home.js";
 import Inschrijven from "./components/Inschrijven.js";
 import Leiding from "./components/Leiding.js";
@@ -12,6 +14,8 @@ import Album from "./components/Album";
 import "./App.css";
 
 function App() {
+  ReactGA.initialize("UA-147726960-1");
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <BrowserRouter>
       <header>
