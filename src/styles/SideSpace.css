@@ -1,0 +1,10 @@
+.sideDiv {
+  width: 15%;
+  background-color: rgb(48, 135, 50);
+}
+
+@media (max-width: 930px) {
+  .sideDiv {
+    width: 0%;
+  }
+}

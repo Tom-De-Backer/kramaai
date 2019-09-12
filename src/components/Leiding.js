@@ -3,11 +3,13 @@ import React, { Component } from "react";
 import "../styles/Leiding.css";
 import LeidingTable from "./LeidingTable";
 import SideWidget from "./SideWidget";
+import SideSpace from "./SideSpace";
 
 class Leiding extends Component {
   render() {
     return (
       <section className="infoLeiding">
+        <SideSpace />
         <div>
           <div className="title">Leiding 2019-2020</div>
           <p>
@@ -20,6 +22,7 @@ class Leiding extends Component {
           <LeidingTable />
         </div>
         <SideWidget />
+        <SideSpace />
       </section>
     );
   }

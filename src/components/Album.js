@@ -27,15 +27,6 @@ class Album extends Component {
 
     let temp = undefined;
 
-    let photoss2019 = [];
-    for (let i = 1; i <= 355; i++) {
-      photoss2019.push(
-        "http://kramaai.be/images/bullingen2019/B%C3%BCllingen%202019-" +
-          i +
-          ".jpg"
-      );
-    }
-    console.log(photos2019);
     switch (params.id) {
       case "unknown":
         temp = photosUnknown;

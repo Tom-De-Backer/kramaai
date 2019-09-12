@@ -4,11 +4,13 @@ import "../styles/Inschrijven.css";
 // import EnrollForm from "./enroll/EnrollForm";
 
 import SideWidget from "./SideWidget";
+import SideSpace from "./SideSpace";
 
 class Inschrijven extends Component {
   render() {
     return (
       <div className="inschrijven">
+        <SideSpace />
         <div className="uitlegDiv">
           <p>Beste ouders</p>
           <p>
@@ -106,6 +108,7 @@ class Inschrijven extends Component {
           {/* <EnrollForm /> */}
         </div>
         <SideWidget />
+        <SideSpace />
       </div>
     );
   }

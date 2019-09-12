@@ -6,6 +6,7 @@ import NewsItem from "./NewsItem";
 
 import "../styles/Home.css";
 import SideWidget from "./SideWidget";
+import SideSpace from "./SideSpace";
 
 class Home extends Component {
   render() {
@@ -13,6 +14,7 @@ class Home extends Component {
       <div>
         <SlideEffect className="slideEffect" />
         <section className="info">
+          <SideSpace />
           <div className="news">
             <NewsItem
               title="Leidersvoorstelling"
@@ -41,6 +43,7 @@ class Home extends Component {
             <CalendarItem date="9 nov" event="Italiaans etentje" />
             <SideWidget />
           </div>
+          <SideSpace />
         </section>
       </div>
     );
