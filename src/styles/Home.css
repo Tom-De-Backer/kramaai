@@ -34,11 +34,11 @@
   .info {
     width: 100%;
     margin: 0;
+    display: block;
   }
 
   .info div {
     width: 95%;
     padding: 5px;
-    display: block;
   }
 }

@@ -26,3 +26,10 @@ h2 {
   width: auto;
   height: 400px;
 }
+
+@media (max-width: 768px) {
+  .newsImg {
+    width: 100%;
+    height: auto;
+  }
+}
