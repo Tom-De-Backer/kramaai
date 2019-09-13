@@ -10,6 +10,7 @@ import Navbar from "./components/navigation/Navbar";
 import Navlinks from "./components/navigation/Navlinks";
 import Photos from "./components/Photos";
 import Album from "./components/Album";
+import Kramaai from "./components/Kramaai";
 
 import "./App.css";
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/leiding" component={Leiding} exact />
         <Route path="/fotos" component={Photos} exact />
         <Route path="/fotos/:id" component={Album} />
+        <Route path="/kramaai" component={Kramaai} />
         {/* Dit is voor een pad dat niet bestaat. Hier kan een speciale Error component voor gemaakt worden */}
         <Route component={Home} exact />
       </Switch>

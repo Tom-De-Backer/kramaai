@@ -1,0 +1,32 @@
+.kramaaiDiv {
+  width: auto;
+  margin: 8px;
+  background-color: rgb(48, 135, 50);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.kramaaiTitle {
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.kramaaiExplanation {
+  color: white;
+  padding: 10px;
+}
+
+.kramaaiLink {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.kramaaiA {
+  text-decoration: none;
+}
