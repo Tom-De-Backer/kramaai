@@ -37,7 +37,7 @@ const MyDesktopNavbar = styled.nav`
     list-style: none;
     width: 35vw;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1040px) {
       display: none;
     }
   }
@@ -94,7 +94,7 @@ const MyMobileNavButton = styled.button`
     outline: none;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1040px) {
     display: block;
   }
 `;
