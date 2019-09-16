@@ -5,6 +5,8 @@ import "../styles/Verhuur.css";
 import SideSpace from "./SideSpace";
 import SideWidget from "./SideWidget";
 
+import lokaal from "../images/lokaal.jpg";
+
 class Verhuur extends Component {
   render() {
     return (
@@ -18,6 +20,9 @@ class Verhuur extends Component {
             <a href="mailto:groepsleiding@kramaai.be">
               groepsleiding@kramaai.be
             </a>
+            <br />
+            <br />
+            <img src={lokaal} alt="verhuur lokaal" className="verhuurImage" />
           </div>
         </section>
         <SideWidget />
