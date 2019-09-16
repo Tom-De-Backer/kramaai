@@ -14,13 +14,15 @@ const MyNavbar = styled.div`
 
 class Navbar extends Component {
   state = {
-    displayMobileNavbar: true
+    displayMobileNavbar: false
   };
 
   componentDidMount = () => {
     window.addEventListener("resize", this.checkAndAutoHideMobileNavbar);
     this.checkAndAutoHideMobileNavbar();
   };
+
+  componentDidUpdate = () => {};
 
   componentWillUnmount = () => {
     window.removeEventListener("resize", this.checkAndAutoHideMobileNavbar);

@@ -14,6 +14,7 @@ import Kramaai from "./components/Kramaai";
 import Faq from "./components/Faq.js";
 
 import "./App.css";
+import Verhuur from "./components/Verhuur.js";
 
 function App() {
   ReactGA.initialize("UA-147726960-1");
@@ -32,6 +33,7 @@ function App() {
         <Route path="/fotos/:id" component={Album} />
         <Route path="/kramaai" component={Kramaai} />
         <Route path="/faq" component={Faq} />
+        <Route path="/verhuur" component={Verhuur} />
         {/* Dit is voor een pad dat niet bestaat. Hier kan een speciale Error component voor gemaakt worden */}
         <Route component={Home} exact />
       </Switch>

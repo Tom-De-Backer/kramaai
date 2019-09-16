@@ -64,7 +64,7 @@ const SideWidget = () => {
 
       <div className="widget">
         <div className="widgetText">
-          Kom wat{" "}
+          Kom{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -72,7 +72,7 @@ const SideWidget = () => {
           >
             hier
           </a>{" "}
-          meer te weten over de nieuwe lokalen
+          wat meer te weten over de nieuwe lokalen
         </div>
       </div>
     </div>

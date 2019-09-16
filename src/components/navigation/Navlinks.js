@@ -27,7 +27,12 @@ const Navlinks = props => {
         <NavLink to="/inschrijven" className="link" tabIndex={tempTabIndex}>
           Inschrijven
         </NavLink>
-      </li>{" "}
+      </li>
+      <li>
+        <NavLink to="/verhuur" className="link" tabIndex={tempTabIndex}>
+          Verhuur
+        </NavLink>
+      </li>
       <li>
         <NavLink to="/fotos" className="link" tabIndex={tempTabIndex}>
           Foto's

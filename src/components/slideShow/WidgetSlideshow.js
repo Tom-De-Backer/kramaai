@@ -3,7 +3,7 @@ import { Slide } from "react-slideshow-image";
 import "./WidgetSlideshow.css";
 
 import image0 from "../../images/sponsors/palm_logo.jpg";
-import image1 from "../../images/sponsors/tgoudenfrietje3.png";
+import image1 from "../../images/sponsors/goudenfritje.jpg";
 import image2 from "../../images/sponsors/ki-music.jpg";
 
 const slideImages = [image0, image1, image2];

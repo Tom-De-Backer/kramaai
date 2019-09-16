@@ -9,7 +9,7 @@ import image0 from "../../images/slideShow/Bullingen2019-72.jpg";
 const slideImages = [image0, image1, image2];
 
 const properties = {
-  duration: 10000,
+  duration: 8000,
   transitionDuration: 500,
   infinite: true,
   indicators: false,
