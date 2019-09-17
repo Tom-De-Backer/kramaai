@@ -41,6 +41,11 @@ tr:nth-child(even) {
   background-color: rgb(25, 117, 25);
 }
 
+.emailTable {
+  font-size: 15px;
+  text-decoration: none;
+}
+
 .titleTable {
   color: white;
   text-align: center;
