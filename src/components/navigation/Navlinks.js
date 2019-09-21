@@ -39,6 +39,11 @@ const Navlinks = props => {
         </NavLink>
       </li>
       <li>
+        <NavLink to="/videos" className="link" tabIndex={tempTabIndex}>
+          Video's
+        </NavLink>
+      </li>
+      <li>
         <NavLink to="/faq" className="link" tabIndex={tempTabIndex}>
           FAQ
         </NavLink>

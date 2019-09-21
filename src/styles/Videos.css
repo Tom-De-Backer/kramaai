@@ -1,0 +1,41 @@
+.videosDiv {
+  width: auto;
+  margin: 8px;
+  background-color: rgb(48, 135, 50);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.videosDivDiv {
+  width: 85%;
+}
+.videosTitle {
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.videosExplanation {
+  color: white;
+  padding: 10px;
+}
+
+.videosLink {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.videosA {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .videosDiv {
+    display: block;
+  }
+}

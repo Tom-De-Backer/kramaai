@@ -39,7 +39,7 @@ class Faq extends Component {
           <div className="faqAnswer">
             Door de aanhoudende toestroom van leden naar onze scouts, zijn wij
             verplicht om een ledenstop te houden. Meer informatie vinden jullie
-            in de menubalk bij <a href="/inschrijven">inschrijven</a>. Hierna
+            in de menubalk bij <a href="/#/inschrijven">inschrijven</a>. Hierna
             krijg je een mailtje met verdere info.
           </div>
           <div className="faqQuestion">
@@ -84,7 +84,7 @@ class Faq extends Component {
             te vinden. Heb jij je Kramaai niet gekregen? Geef je takleiding een
             seintje, dan is er vast en zeker een vergissing gebeurd. U kan de
             Kramaai ook steeds downloaden onder de rubriek{" "}
-            <a href="/kramaai">Kramaai</a>.
+            <a href="/#/kramaai">Kramaai</a>.
           </div>
           <div className="faqQuestion">
             Vanaf welke leeftijd ben je Scoutsrechtig?

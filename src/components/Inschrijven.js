@@ -112,7 +112,7 @@ class Inschrijven extends Component {
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeTxcgXks937_JWOsCJvcQxcbhSuYi-3TnKSRupQW8NQg7J6A/viewform?embedded=true"
               width="640"
-              height="762"
+              height="1166"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
