@@ -83,13 +83,13 @@ class Inschrijven extends Component {
             :
           </p>
           <p>
-            &ndash; Kapoenen: 18
+            &ndash; Kapoenen: 4
             <br />
-            &ndash; Welpen: 13
+            &ndash; Welpen: 7
             <br />
-            &ndash; Bevers: 2<br />
+            &ndash; Bevers: 0<br />
             &ndash; Jong-Givers: 0<br />
-            &ndash; Givers: 3
+            &ndash; Givers: 1
           </p>
           <br />
           <p></p>
@@ -108,7 +108,19 @@ class Inschrijven extends Component {
             De Leiding
           </p>
           <br />
-          {/* <EnrollForm /> */}
+          {new Date(2019, 8, 22, 17, 0, 0, 0) < new Date() && (
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeTxcgXks937_JWOsCJvcQxcbhSuYi-3TnKSRupQW8NQg7J6A/viewform?embedded=true"
+              width="640"
+              height="762"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              title="inschrijven form"
+            >
+              Laden…
+            </iframe>
+          )}
         </div>
         <SideWidget />
         <SideSpace />

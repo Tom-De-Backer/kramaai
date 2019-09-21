@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import ReactGA from "react-ga";
 
@@ -20,7 +20,7 @@ function App() {
   ReactGA.initialize("UA-147726960-1");
   ReactGA.pageview(window.location.pathname + window.location.search);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <header>
         <Navbar />
       </header>
@@ -46,7 +46,7 @@ function App() {
           </p>
         </div>
       </footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

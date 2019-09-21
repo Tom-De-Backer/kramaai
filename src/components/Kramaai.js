@@ -21,7 +21,16 @@ class Kramaai extends Component {
           <div className="titleTable">2019 - 2020</div>
           <div>
             <br />
-            <div className="kramaaiLink">Nog even geduld!</div>
+            <div className="kramaaiLink">
+              <a
+                className="kramaaiA"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://kramaaiblog.files.wordpress.com/2019/09/kramaai-sep-okt-nov-2019-2020-1.pdf"
+              >
+                September-Oktober-November
+              </a>
+            </div>
             <br />
           </div>
           <div className="titleTable">2018 - 2019</div>
