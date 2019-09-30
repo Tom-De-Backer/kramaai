@@ -17,7 +17,9 @@ class Videos extends Component {
           <div className="videosTitle">
             Video's leidersvoorstelling 2019-2020
           </div>
-          <div className="videosExplanation"></div>
+          <div className="videosExplanation">
+            De video's van leidersvoorstelling komen weldra online!
+          </div>
           <br />
           {/* titleTable is zelfde css als bij LeidingTable.css */}
           <div className="titleTable">Kapoenen</div>

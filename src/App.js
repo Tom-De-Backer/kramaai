@@ -16,6 +16,13 @@ import Faq from "./components/Faq.js";
 import "./App.css";
 import Verhuur from "./components/Verhuur.js";
 import Videos from "./components/Videos.js";
+import Kapoenen from "./components/takken/Kapoenen.js";
+import Welpen from "./components/takken/Welpen.js";
+import Bevers from "./components/takken/Bevers.js";
+import JongGivers from "./components/takken/JongGivers";
+import Givers from "./components/takken/Givers.js";
+import Jins from "./components/takken/Jins.js";
+import Groepsleiding from "./components/takken/Groepsleiding.js";
 
 function App() {
   ReactGA.initialize("UA-147726960-1");
@@ -36,6 +43,13 @@ function App() {
         <Route path="/videos" component={Videos} />
         <Route path="/faq" component={Faq} />
         <Route path="/verhuur" component={Verhuur} />
+        <Route path="/kapoenen" component={Kapoenen} />
+        <Route path="/welpen" component={Welpen} />
+        <Route path="/bevers" component={Bevers} />
+        <Route path="/jongGivers" component={JongGivers} />
+        <Route path="/givers" component={Givers} />
+        <Route path="/jins" component={Jins} />
+        <Route path="/groepsleiding" component={Groepsleiding} />
         {/* Dit is voor een pad dat niet bestaat. Hier kan een speciale Error component voor gemaakt worden */}
         <Route component={Home} exact />
       </Switch>
