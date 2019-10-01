@@ -15,7 +15,7 @@ import Faq from "./components/Faq.js";
 
 import "./App.css";
 import Verhuur from "./components/Verhuur.js";
-import Videos from "./components/Videos.js";
+import Takken from "./components/Takken.js";
 import Kapoenen from "./components/takken/Kapoenen.js";
 import Welpen from "./components/takken/Welpen.js";
 import Bevers from "./components/takken/Bevers.js";
@@ -40,7 +40,7 @@ function App() {
         <Route path="/fotos" component={Photos} exact />
         <Route path="/fotos/:id" component={Album} />
         <Route path="/kramaai" component={Kramaai} />
-        <Route path="/videos" component={Videos} />
+        <Route path="/Takken" component={Takken} />
         <Route path="/faq" component={Faq} />
         <Route path="/verhuur" component={Verhuur} />
         <Route path="/kapoenen" component={Kapoenen} />
