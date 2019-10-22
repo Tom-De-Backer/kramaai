@@ -76,13 +76,13 @@ class Inschrijven extends Component {
           </h3>
           <p>
             Scouts Mollem wil garant staan voor een kwaliteitsvolle werking, met
-            aandacht voor elk kind. Hierdoor kunnen we spijtig genoeg maar de{" "}
+            aandacht voor elk kind. Hierdoor kunnen we spijtig genoeg{" "}
             <strong>
-              volgende aantallen leden in de verschillende takken inschrijven
+              geen nieuwe leden meer inschrijven voor dit scoutsjaar (2019-2020)
             </strong>
             :
           </p>
-          <p>
+          {/* <p>
             &ndash; Kapoenen: 4
             <br />
             &ndash; Welpen: 7
@@ -90,7 +90,7 @@ class Inschrijven extends Component {
             &ndash; Bevers: 0<br />
             &ndash; Jong-Givers: 0<br />
             &ndash; Givers: 1
-          </p>
+          </p> */}
           <br />
           <p></p>
           <h3>
@@ -108,6 +108,7 @@ class Inschrijven extends Component {
             De Leiding
           </p>
           <br />
+          {/*         Dit gedeeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  
           {new Date(2019, 8, 22, 17, 0, 0, 0) < new Date() && (
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeTxcgXks937_JWOsCJvcQxcbhSuYi-3TnKSRupQW8NQg7J6A/viewform?embedded=true"
@@ -120,7 +121,7 @@ class Inschrijven extends Component {
             >
               Laden…
             </iframe>
-          )}
+          )} */}
         </div>
         <SideWidget />
         <SideSpace />

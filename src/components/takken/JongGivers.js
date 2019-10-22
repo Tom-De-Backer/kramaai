@@ -40,7 +40,7 @@ class JongGivers extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai2.eu5.org/leidersvoorstelling2019-2020/Jong-givers.mp4" />
+                <source src="http://kramaai.be/images/videos/2019-2020/Jong-givers.mp4" />
               </Player>
             </div>
             <br />
