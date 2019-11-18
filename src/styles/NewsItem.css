@@ -24,7 +24,7 @@ h2 {
 .newsImg {
   padding: 10px;
   width: auto;
-  height: 400px;
+  height: 500px;
 }
 
 @media (max-width: 768px) {

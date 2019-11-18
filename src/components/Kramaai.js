@@ -26,6 +26,17 @@ class Kramaai extends Component {
                 className="kramaaiA"
                 target="_blank"
                 rel="noopener noreferrer"
+                href="https://kramaaiblog.files.wordpress.com/2019/11/kramaai-dec-jan-feb-2019-2020.pdf"
+              >
+                December-Januari-Februari
+              </a>
+            </div>
+            <br />
+            <div className="kramaaiLink">
+              <a
+                className="kramaaiA"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://kramaaiblog.files.wordpress.com/2019/09/kramaai-sep-okt-nov-2019-2020-1.pdf"
               >
                 September-Oktober-November

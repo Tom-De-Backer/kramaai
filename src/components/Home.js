@@ -21,30 +21,48 @@ class Home extends Component {
           <div className="news">
             {" "}
             <NewsItem
-              title="Leidersvoorstelling 2019"
+              title="Givers fietsen naar Music For Life voor het Kom Op Tegen Kanker!"
               text=" "
-              imageUrl="https://kramaaiblog.files.wordpress.com/2019/09/diavoorstelling2019.jpg"
+              imageUrl="https://kramaaiblog.files.wordpress.com/2019/11/giversmusicforlife.jpg?"
             />
             <NewsItem
-              title="Leidersvoorstelling"
+              title="Jeneveravond"
               text=" "
-              imageUrl="https://kramaaiblog.files.wordpress.com/2019/09/img_3425.jpg?w=676"
+              imageUrl="https://kramaaiblog.files.wordpress.com/2019/11/jeneveravond.jpg"
+            />
+            <NewsItem
+              title="Kerstmarkt Asse"
+              text=" "
+              imageUrl="https://kramaaiblog.files.wordpress.com/2019/11/kerstmarktasse.jpg"
             />
           </div>
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
             <CalendarItem
-              date="17 sep"
-              event="Leidersvoorstelling @ GBS Mollem"
+              date="1 dec"
+              event="Sinterklaas komt naar Scout Mollem"
             />
-            <CalendarItem date="22 sep" event="Eerste vergadering" />
-            <CalendarItem date="6 okt" event="Ouderavond" />
+            <CalendarItem date="21 dec" event="Kerstmarkt @Asse" />
             <CalendarItem
-              date="20 okt"
-              event="Geen vergadering (leidersweekend)"
+              date="22 dec"
+              event="Givers fietsen naar Music For Life + Geen vergadering"
+            />{" "}
+            <CalendarItem
+              date="24 dec"
+              event="Jeneveravond @Kerkplein Mollem"
             />
-            <CalendarItem date="9 nov" event="Italiaans etentje" />
+            <CalendarItem date="29 dec" event="Geen Vergadering" />
+            <CalendarItem
+              date="1 jan"
+              event="Gelukkig Nieuwjaar vanwege de voltallige leidingsploeg!"
+            />
+            <CalendarItem date="4 jan" event="Zwemvergadering " />
+            <CalendarItem date="26 jan" event="Schaatsen" />
+            <CalendarItem
+              date="16 feb"
+              event="Geen vergadering (Kampverkenning voor leiding)"
+            />
             <SideWidget />
           </div>
           <SideSpace />
