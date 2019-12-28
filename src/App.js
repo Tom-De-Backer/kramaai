@@ -12,6 +12,7 @@ import Photos from "./components/Photos";
 import Album from "./components/Album";
 import Kramaai from "./components/Kramaai";
 import Faq from "./components/Faq.js";
+import NewsLetter from "./components/NewsLetter.js";
 
 import "./App.css";
 import Verhuur from "./components/Verhuur.js";
@@ -42,6 +43,7 @@ function App() {
         <Route path="/kramaai" component={Kramaai} />
         <Route path="/Takken" component={Takken} />
         <Route path="/faq" component={Faq} />
+        <Route path="/nieuwsbrief" component={NewsLetter} />
         <Route path="/verhuur" component={Verhuur} />
         <Route path="/kapoenen" component={Kapoenen} />
         <Route path="/welpen" component={Welpen} />

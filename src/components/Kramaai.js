@@ -31,7 +31,6 @@ class Kramaai extends Component {
                 December-Januari-Februari
               </a>
             </div>
-            <br />
             <div className="kramaaiLink">
               <a
                 className="kramaaiA"
