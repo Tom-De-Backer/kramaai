@@ -20,12 +20,14 @@ class Navbar extends Component {
   componentDidMount = () => {
     window.addEventListener("resize", this.checkAndAutoHideMobileNavbar);
     this.checkAndAutoHideMobileNavbar();
+    this.node.addEventListener("click", this.toggleMobileNavbar);
   };
 
   componentDidUpdate = () => {};
 
   componentWillUnmount = () => {
     window.removeEventListener("resize", this.checkAndAutoHideMobileNavbar);
+    this.node.removeEventListener("click", this.toggleMobileNavbar);
   };
 
   toggleMobileNavbar = () => {
@@ -51,7 +53,10 @@ class Navbar extends Component {
           toggleMobileNavbar={this.toggleMobileNavbar}
           displayMobileNavbar={this.state.displayMobileNavbar}
         />
-        <MobileNavbar displayMobileNavbar={this.state.displayMobileNavbar} />
+        {/* Check whether an element in navlinks is being clicked to let the menu disappear */}
+        <span ref={node => (this.node = node)}>
+          <MobileNavbar displayMobileNavbar={this.state.displayMobileNavbar} />
+        </span>
       </MyNavbar>
     );
   }

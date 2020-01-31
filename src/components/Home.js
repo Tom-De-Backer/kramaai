@@ -21,35 +21,25 @@ class Home extends Component {
           <div className="news">
             {" "}
             <NewsItem
-              title="Givers fietsen naar Music For Life voor Kom Op Tegen Kanker!"
+              title="Santé op onze jubilé: 45 jarig bestaan Scouts Mollem"
               text=" "
-              imageUrl="https://kramaaiblog.files.wordpress.com/2019/12/giversmusicforlifee-2.png"
-            />
-            <NewsItem
-              title="Jeneveravond"
-              text=" "
-              imageUrl="https://kramaaiblog.files.wordpress.com/2019/11/jeneveravond.jpg"
-            />
-            <NewsItem
-              title="Kerstmarkt Asse"
-              text=" "
-              imageUrl="https://kramaaiblog.files.wordpress.com/2019/11/kerstmarktasse.jpg"
+              imageUrl="https://kramaaiblog.files.wordpress.com/2020/01/jubilee40jaarscouts.jpg"
             />
           </div>
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="29 dec" event="Geen Vergadering" />
-            <CalendarItem
-              date="1 jan"
-              event="Gelukkig Nieuwjaar vanwege de voltallige leidingsploeg!"
-            />
-            <CalendarItem date="4 jan" event="Zwemvergadering " />
-            <CalendarItem date="26 jan" event="Schaatsen" />
             <CalendarItem
               date="16 feb"
               event="Geen vergadering (Kampverkenning voor leiding)"
             />
+            <CalendarItem date="21 maa" event="KramaaiQuiz" />
+            <CalendarItem date="11 apr" event="Santé op onze Jubilé" />
+            <CalendarItem
+              date="17 mei"
+              event="Laatste vergadering van scoutsjaar 2019-2020"
+            />
+            <CalendarItem date="4 tot 14 augustus" event="Kamp 2019-2020" />
             <SideWidget />
           </div>
           <SideSpace />

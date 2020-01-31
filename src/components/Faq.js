@@ -116,6 +116,21 @@ class Faq extends Component {
             </a>{" "}
             ziektefonds.
           </div>
+          <div className="faqQuestion">
+            Zoekt u de privacyverklaring van Scouts Mollem?
+          </div>
+          <div className="faqAnswer">
+            Bent u geïnteresseerd in de privacyverklaring waarin wordt uitgelegd
+            hoe wij persoonsgegevens verzamelen en verwerken? Deze kan u{" "}
+            <a href="/downloads/privacyverklaring-25-01-2020.pdf">hier</a>{" "}
+            vinden.
+            <br />
+            <br />
+            Als u nog bijkomende vragen heeft, kan u steeds een mail sturen naar{" "}
+            <a href="mailto:groepsleiding@kramaai.be">
+              groepsleiding@kramaai.be
+            </a>{" "}
+          </div>
         </section>
         <SideWidget />
         <SideSpace />

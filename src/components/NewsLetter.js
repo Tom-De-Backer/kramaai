@@ -20,8 +20,8 @@ class NewsLetter extends Component {
           </div>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdsNBs8DNN1oAodHsAqJC9DX7Xs6EJfGiYv9UFxCXRa4ruQnQ/viewform?embedded=true"
-            width="640"
-            height="1445"
+            width="95%"
+            height="1745"
             frameborder="0"
             marginheight="0"
             marginwidth="0"
