@@ -23,6 +23,14 @@ class Photos extends Component {
           <NavLink to="/fotos/album2008" className="button">
             Album 2008
           </NavLink>
+          <NavLink to="/fotos/albumKamp2016" className="button">
+            Album kamp 2016
+          </NavLink>
+        </div>
+        <div className="photosButtonsDiv">
+          <NavLink to="/fotos/albumLaatsteVergadering2017" className="button">
+            Laatste vergadering 2017
+          </NavLink>
           <NavLink to="/fotos/album2019" className="button">
             Album 2019
           </NavLink>

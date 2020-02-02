@@ -7,9 +7,23 @@
   text-align: center;
 }
 
+.albumDivNoClick {
+  width: auto;
+  margin: 5px;
+  background-color: rgb(48, 135, 50);
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  pointer-events: none;
+}
 .albumImage {
   width: 25%;
   height: auto;
+  padding: 10px;
+}
+
+.albumImageIFrame {
+  width: 95%;
   padding: 10px;
 }
 
