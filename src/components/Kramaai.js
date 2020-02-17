@@ -26,6 +26,16 @@ class Kramaai extends Component {
                 className="kramaaiA"
                 target="_blank"
                 rel="noopener noreferrer"
+                href="https://kramaaiblog.files.wordpress.com/2020/02/kramaai-maa-apr-mei-2019-2020-2.pdf"
+              >
+                Maart-April-Mei
+              </a>
+            </div>
+            <div className="kramaaiLink">
+              <a
+                className="kramaaiA"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://kramaaiblog.files.wordpress.com/2019/11/kramaai-dec-jan-feb-2019-2020.pdf"
               >
                 December-Januari-Februari

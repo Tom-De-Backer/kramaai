@@ -9,6 +9,7 @@ import NewsItem from "./NewsItem";
 import "../styles/Home.css";
 import SideWidget from "./SideWidget";
 import SideSpace from "./SideSpace";
+import WidgetSlideshow from "./slideShow/WidgetSlideshow";
 
 class Home extends Component {
   render() {
@@ -29,17 +30,15 @@ class Home extends Component {
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem
-              date="16 feb"
-              event="Geen vergadering (Kampverkenning voor leiding)"
-            />
-            <CalendarItem date="21 maa" event="KramaaiQuiz" />
+            <CalendarItem date="21 maa" event="Kramaaikwis" />
             <CalendarItem date="11 apr" event="Santé op onze Jubilé" />
             <CalendarItem
               date="17 mei"
               event="Laatste vergadering van scoutsjaar 2019-2020"
             />
-            <CalendarItem date="4 tot 14 augustus" event="Kamp 2019-2020" />
+            <CalendarItem date="4 aug" event="Start kamp 2019-2020" />
+            <br />
+            <WidgetSlideshow />
             <SideWidget />
           </div>
           <SideSpace />
