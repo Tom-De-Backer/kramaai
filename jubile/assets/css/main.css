@@ -144,6 +144,16 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+.maps {
+  width: 100%;
+}
+
+.imageInfo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Box Model */
 
 *,
@@ -2659,8 +2669,8 @@ input[type="radio"]:focus + label:before {
 
 .image.fit {
   display: block;
-  margin: 0 0 2em 0;
-  width: 100%;
+  margin: 0 0 2em 2em;
+  width: 80%;
 }
 
 .image.fit img {
@@ -3285,7 +3295,7 @@ table.alt tbody tr td {
 
 .wrapper.style2 {
   background-color: #d28444;
-  color: #aed6f1;
+  color: #fff;
 }
 
 .wrapper.style2 input,
