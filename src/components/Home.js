@@ -22,10 +22,19 @@ class Home extends Component {
           <div className="news">
             {" "}
             <NewsItem
+              title="Kampelijkse Kost: Delivery"
+              text=" "
+              imageUrl=" https://kramaaiblog.files.wordpress.com/2020/06/kampelijksekost.jpg"
+            />
+            <NewsItem
               title="Santé op onze jubilé: 45 jarig bestaan Scouts Mollem"
               text=" "
               imageUrl="https://kramaaiblog.files.wordpress.com/2020/01/jubilee40jaarscouts.jpg"
             />
+            <h2>
+              <center><a href="http://jubile.kramaai.be" target="_blank" rel="noopener noreferrer">Meer info op jubile.kramaai.be</a></center>
+            </h2>
+            <br />
           </div>
 
           <div className="calender">
