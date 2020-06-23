@@ -5,14 +5,15 @@ import "./WidgetSlideshow.css";
 import image0 from "../../images/sponsors/cornet_logo_black.png";
 import image1 from "../../images/sponsors/goudenfritje.jpg";
 import image2 from "../../images/sponsors/ki-music.jpg";
+import image3 from "../../images/sponsors/elbo.jpg";
 
-const slideImages = [image0, image1, image2];
+const slideImages = [image0, image1, image2, image3];
 
 const properties = {
-  duration: 2000,
-  transitionDuration: 500,
+  duration: 0,
+  transitionDuration: 3500,
   infinite: true,
-  indicators: true,
+  indicators: false,
   arrows: false,
   onChange: (oldIndex, newIndex) => {
     // console.log(`slide transition from ${oldIndex} to ${newIndex}`);
