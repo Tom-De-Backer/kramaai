@@ -6,7 +6,7 @@ const NewsItem = props => {
   return (
     <div className="newsBox">
       <h2 className="titleNews">{props.title}</h2>
-      <p>{props.text}</p>
+      <div dangerouslySetInnerHTML={{ __html: props.text }} />
       {props.imageUrl !== " " && (
         <img src={props.imageUrl} alt="NewsImage" className="newsImg" />
       )}

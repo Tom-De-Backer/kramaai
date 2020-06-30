@@ -22,9 +22,29 @@ class Home extends Component {
           <div className="news">
             {" "}
             <NewsItem
+              title="Vakesweekend 2020"
+              text='<p 
+                      style=" padding-left: 10px;
+                              padding-right: 20px;
+                              padding-bottom: 20px;
+                              padding-top: 20px;
+                              font-size: 1.17em;
+                              ">
+                              
+                    Dag papa&rsquo;s en mannelijke vrijwilligers,
+                    <br /><br />
+                    Hopelijk staat het weekend van 16-18 oktober al aangeduid in jullie agenda want dan gaan wij op vakesweekend! 
+                    We weten dat het in deze tijden geen garantie is dat dit weekend zal mogen doorgaan maar we hopen op voldoende versoepelde maatregelen. 
+                    Indien we dit alsnog moeten uitstellen worden jullie volledig terugbetaald.
+                    <br /><br />
+                    Voor je offici&euml;le inschrijving en voor meer info: <a href="mailto:vakesweekend@kramaai.be">vakesweekend@kramaai.be</a>
+                    </p>'
+              imageUrl="https://kramaaiblog.files.wordpress.com/2020/06/vakesweekend.jpg"
+            />
+            <NewsItem
               title="Kampelijkse Kost: Delivery"
-              text=" "
-              imageUrl=" https://kramaaiblog.files.wordpress.com/2020/06/kampelijksekost.jpg"
+              text= " "
+              imageUrl="https://kramaaiblog.files.wordpress.com/2020/06/kampelijksekost.jpg"
             />
             <NewsItem
               title="Santé op onze jubilé: 45 jarig bestaan Scouts Mollem"
