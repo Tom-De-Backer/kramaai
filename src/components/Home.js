@@ -59,13 +59,7 @@ class Home extends Component {
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="21 maa" event="Kramaaikwis" />
-            <CalendarItem date="11 apr" event="Santé op onze Jubilé" />
-            <CalendarItem
-              date="17 mei"
-              event="Laatste vergadering van scoutsjaar 2019-2020"
-            />
-            <CalendarItem date="4 aug" event="Start kamp 2019-2020" />
+            <CalendarItem date="20 sep" event="Eerste vergadering scoutsjaar 2020-2021" />
             <br />
             <WidgetSlideshow />
             <SideWidget />

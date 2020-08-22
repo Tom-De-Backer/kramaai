@@ -18,6 +18,22 @@ class Kramaai extends Component {
           </div>
           <br />
           {/* titleTable is zelfde css als bij LeidingTable.css */}
+          <div className="titleTable">2020 - 2021</div>
+          <div>
+            <br />
+            <div className="kramaaiLink">
+              <a
+                className="kramaaiA"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="kramaai.be"
+              >
+                September-Oktober-November (Nog even geduld)
+              </a>
+            </div>
+            <br />
+          </div>
+          {/* titleTable is zelfde css als bij LeidingTable.css */}
           <div className="titleTable">2019 - 2020</div>
           <div>
             <br />
