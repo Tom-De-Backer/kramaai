@@ -24,6 +24,7 @@ import JongGivers from "./components/takken/JongGivers";
 import Givers from "./components/takken/Givers.js";
 import Jins from "./components/takken/Jins.js";
 import Groepsleiding from "./components/takken/Groepsleiding.js";
+import DiaAvond from "./components/DiaAvond.js";
 
 function App() {
   ReactGA.initialize("UA-147726960-1");
@@ -52,6 +53,7 @@ function App() {
         <Route path="/givers" component={Givers} />
         <Route path="/jins" component={Jins} />
         <Route path="/groepsleiding" component={Groepsleiding} />
+        <Route path="/diaavond" component={DiaAvond} />
         {/* Dit is voor een pad dat niet bestaat. Hier kan een speciale Error component voor gemaakt worden */}
         <Route component={Home} exact />
       </Switch>
@@ -59,7 +61,7 @@ function App() {
         <div className="data">
           <Navlinks />
           <p>
-            © Website made by{" "}
+            © Website gemaakt door{" "}
             <a href="mailto: tom_debacker@msn.com">Tom De Backer</a>
           </p>
         </div>

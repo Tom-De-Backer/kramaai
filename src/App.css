@@ -34,7 +34,7 @@ a {
 
 @media (min-width: 0px) and (max-width: 650px) {
   footer {
-    padding: 40px 0;
+    padding: 20px 0;
   }
   footer div {
     display: block;

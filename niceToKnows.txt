@@ -1,0 +1,2 @@
+1) Aanpassen van de breedte tussen mobiel en desktop versie => In src/components/navigation/DesktopNavbar twee waarden gelijk aanpassen
+2) Toevoegen van pagina: - In navlinks toevoegen + Route toevoegen in src/App.js met de juiste component

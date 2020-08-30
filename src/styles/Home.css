@@ -2,7 +2,7 @@
   width: auto;
   margin: 5px;
   background-color: rgb(48, 135, 50);
-  padding: 5px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
@@ -31,14 +31,20 @@
 }
 
 @media (max-width: 768px) {
+  .news {
+    width: 100%,
+  }
+
   .info {
-    width: 95%;
-    margin: 0;
+    width: 100%;
     display: block;
   }
 
   .info div {
     width: 95%;
-    padding: 5px;
+  }
+
+  .home {
+    width:100%;
   }
 }
