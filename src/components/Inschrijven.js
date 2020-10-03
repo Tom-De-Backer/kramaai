@@ -10,16 +10,23 @@ import SideSpace from "./SideSpace";
 
 class Inschrijven extends Component {
   render() {
+    console.log(new Date(2020, 8, 6, 10, 0, 0, 0));
     ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div className="inschrijven">
         <SideSpace />
         <div className="uitlegDiv">
+          
+          <center>
+            <h1>
+            Inschrijven voor scoutsjaar 2020 - 2021 is niet meer mogelijk.
+          </h1> 
+          </center>
           {/* <h3>
             Meer info over de inschrijvingen van scoutsjaar 2020 - 2021 volgt binnenkort. Houd deze pagina zeker in de gaten!
           </h3> */}
 
-          <p>
+          {/* <p>
             Beste ouders
             <br />
             <br />
@@ -39,10 +46,10 @@ class Inschrijven extends Component {
             <u>Wanneer starten de inschrijvingen voor nieuwe leden?</u>
             <br />
             <br />
-            <b>Voor kinderen die in Mollem wonen of die reeds een broer of zus in onze Scouts hebben,</b> start de inschrijving op zondag 6 september om 10u ’s ochtends, de dag na de leidersvoorstelling. De inschrijving zal online gebeuren via onze website op deze pagina via Google Forms.
+            <b>Voor kinderen die in Mollem wonen of die reeds een broer of zus in onze Scouts hebben,</b> start de inschrijving op zondag 6 september om 10u ’s ochtends, de dag na de leidersvoorstelling. De inschrijving zal online gebeuren via een inschrijvingsformulier onderaan deze pagina.
             <br />
             <br />
-            <b>Voor niet-Mollemnaren </b>starten de inschrijvingen op zondag 13 september om 10u ’s ochtends, ook via een Google Forms op onze website (<a href="www.kramaai.be/#/inschrijven">Klik hier</a>).
+            <b>Voor niet-Mollemnaren </b>starten de inschrijvingen op zondag 13 september om 10u ’s ochtends, vanaf dan zal onderaan deze pagina een inschrijvingsformulier voor niet-Mollemnaren te vinden zijn.
             <br />
             <br />
             <u>Hoeveel nieuwe leden kunnen er nog worden ingeschreven?</u>
@@ -81,13 +88,17 @@ class Inschrijven extends Component {
             <br />
             De Leiding
           </p>
-
-          {/*         Dit gedeeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  
-          {new Date(2019, 8, 22, 17, 0, 0, 0) < new Date() && (
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeTxcgXks937_JWOsCJvcQxcbhSuYi-3TnKSRupQW8NQg7J6A/viewform?embedded=true"
-              width="640"
-              height="1166"
+          <br />
+          <br />
+          <br />
+          <br />
+          {/*  Dit gedeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  */}       
+          {/* {new Date(2020, 8, 6, 10, 0, 0, 0) < new Date() && (
+            <center>
+              <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfLSVZSjPMlrkSOmz0i4IU4FOpoVY7gPwNqyz47tESK5JpZnA/viewform?embedded=true"
+              width="90%"
+              height="1566"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -95,7 +106,9 @@ class Inschrijven extends Component {
             >
               Laden…
             </iframe>
-          )} */}
+            </center>
+            
+          )}  */}
         </div>
         <SideWidget />
         <SideSpace />

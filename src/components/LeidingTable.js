@@ -43,24 +43,29 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Inne Van Lil</td>
-                <td>XXXXXX</td>
+                <td>Enthousiaste Toekan</td>
                 <td>Inne@kramaai.be</td>
               </tr>
               <tr>
                 <td>Lorraine Wouters</td>
-                <td>XXXXX</td>
+                <td>Goedhartig Sikahert</td>
                 <td>Lorraine@kramaai.be</td>
               </tr>
               <tr>
                 <td>Matisse Eeman</td>
-                <td>XXXXXX</td>
+                <td>Dromerige Spreeuw</td>
                 <td>Matisse@kramaai.be</td>
               </tr>
             </tbody>
           </table>
           <br />
           <br />
-          <div className="titleTable">Welpen</div>
+          <div className="titleTable">
+            <div>Welpen</div>
+            <a className="emailTable" href="mailto:welpen@kramaai.be">
+              welpen@kramaai.be
+            </a>
+          </div>
           <table className="table">
             <tbody>
               <tr>
@@ -86,19 +91,24 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Mats Verdoodt</td>
-                <td>XXXX</td>
+                <td>Verrassende Jabiroe</td>
                 <td>Mats@kramaai.be</td>
               </tr>
               <tr>
                 <td>Gilles Van Den Cruyce</td>
-                <td>XXXX</td>
+                <td>Artistieke Sifaka</td>
                 <td>Gilles@kramaai.be</td>
               </tr>
             </tbody>
           </table>
           <br />
           <br />
-          <div className="titleTable">Bevers</div>
+          <div className="titleTable">
+            <div>Bevers</div>
+            <a className="emailTable" href="mailto:bevers@kramaai.be">
+              bevers@kramaai.be
+            </a>
+          </div>
           <table className="table">
             <tbody>
               <tr>
@@ -106,7 +116,7 @@ const LeidingTable = () => {
                   <b>Frederic Van Praet</b>
                 </td>
                 <td>
-                  <b>XXX</b>
+                  <b>Genereuze Haan</b>
                 </td>
                 <td>
                   <b>Frederic@kramaai.be</b>
@@ -118,20 +128,30 @@ const LeidingTable = () => {
                 <td>Anse@kramaai.be</td>
               </tr>
               <tr>
+                <td>Bram Esselens</td>
+                <td>Avontuurlijke Stokstaart</td>
+                <td>Bram@kramaai.be</td>
+              </tr>
+              <tr>
                 <td>Manse Bouckaert</td>
-                <td>XXXXX</td>
+                <td>Onstuimige Streepmuis</td>
                 <td>Manse@kramaai.be</td>
               </tr>
               <tr>
                 <td>David De Knop</td>
-                <td>XXX</td>
+                <td>Ijverige Alpaca</td>
                 <td>David@kramaai.be</td>
               </tr>
             </tbody>
           </table>
           <br />
           <br />
-          <div className="titleTable">jong-Givers</div>
+          <div className="titleTable">
+            <div>Jong-Givers</div>
+            <a className="emailTable" href="mailto:jonggivers@kramaai.be">
+              jonggivers@kramaai.be
+            </a>
+          </div>
           <table className="table">
             <tbody>
               <tr>
@@ -157,14 +177,19 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Arthur Van der Smissen</td>
-                <td>XXXXX</td>
+                <td>Onverschrokken Lori</td>
                 <td>Arthur@kramaai.be</td>
               </tr>
             </tbody>
           </table>
           <br />
           <br />
-          <div className="titleTable">Givers</div>
+          <div className="titleTable">
+            <div>Givers</div>
+            <a className="emailTable" href="mailto:givers@kramaai.be">
+              givers@kramaai.be
+            </a>
+          </div>
           <table className="table">
             <tbody>
               <tr>
@@ -192,7 +217,12 @@ const LeidingTable = () => {
           </table>
           <br />
           <br />
-          <div className="titleTable">Jins</div>
+          <div className="titleTable">
+            <div>Jins</div>
+            <a className="emailTable" href="mailto:jins@kramaai.be">
+              jins@kramaai.be
+            </a>
+          </div>
           <table className="table">
             <tbody>
               <tr>
@@ -237,7 +267,7 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Bram Esselens</td>
-                <td>Avontuurlijke stokstaart</td>
+                <td>Avontuurlijke Stokstaart</td>
                 <td>Bram@kramaai.be</td>
                 <td>+32 468 15 25 19</td>
               </tr>

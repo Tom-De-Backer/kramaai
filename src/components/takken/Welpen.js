@@ -29,8 +29,7 @@ class Welpen extends Component {
               <br />
               <br />
               <br />
-              De welpen worden dit jaar in toom gehouden door Joke C., Sander,
-              Bram en Tom.
+              Door wie de welpen dit jaar in toom worden gehouden, kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
               <br />
               <br />
               Bekijk de leidersvoorstelling van de welpen hieronder:
@@ -38,7 +37,7 @@ class Welpen extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai.be/images/videos/2019-2020/welpenLeiding2019-2020.mp4" />
+                <source src="https://www.kramaai.be/images/videos/2020-2021/Welpen.mp4" />
               </Player>
             </div>
             <br />

@@ -32,7 +32,7 @@ class Groepsleiding extends Component {
               <br />
               <br />
               <br />
-              De groep wordt dit jaar geleid door Lennart, Thomas en Anse.
+              Wie dit jaar groepsleiding is, kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
               <br />
               <br />
               Bekijk de leidersvoorstelling van de groepsleiding hieronder:
@@ -40,7 +40,7 @@ class Groepsleiding extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai.be/images/videos/2019-2020/Groepsleiding.mp4" />
+                <source src="https://www.kramaai.be/images/videos/2020-2021/Groepsleiding.mp4" />
               </Player>
             </div>
             <br />

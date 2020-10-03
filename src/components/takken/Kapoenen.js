@@ -27,8 +27,7 @@ class Kapoenen extends Component {
               <br />
               <br />
               <br />
-              De fantasie van de kapoenen worden dit jaar aangewakkerd door
-              Lise, Anke, Thomas, Amber en Liesa
+              Door wie de fantasie van de kapoenen dit jaar wordt aangewakkerd kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
               <br />
               <br />
               Bekijk de leidersvoorstelling van de kapoenen hieronder:
@@ -36,7 +35,7 @@ class Kapoenen extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai.be/images/videos/2019-2020/Kapoenen.mp4" />
+                <source src="https://www.kramaai.be/images/videos/2020-2021/Kapoen.mp4" />
               </Player>
             </div>
             <br />

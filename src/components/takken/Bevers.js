@@ -30,7 +30,7 @@ class Bevers extends Component {
               <br />
               <br />
               <br />
-              De leiding van de bevers zijn Anse, Joke VH, Chloé en Karo.
+              De leiding van de bevers kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
               <br />
               <br />
               Bekijk de leidersvoorstelling van de bevers hieronder:
@@ -38,7 +38,7 @@ class Bevers extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai.be/images/videos/2019-2020/Bevers.mp4" />
+                <source src="https://www.kramaai.be/images/videos/2020-2021/Bevers.mp4" />
               </Player>
             </div>
             <br />

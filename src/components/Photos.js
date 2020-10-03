@@ -16,7 +16,7 @@ class Photos extends Component {
         <div className="photosTextDiv">
           <div className="titlePhotos">Foto's van de afgelopen kampen:</div>
           <div className="photosTextDiv2">
-            <div className="yearPhotos"> <a href="kramaai.be" target="_blank" rel="noopener noreferrer">Kamp 2020 (Nog even geduld)</a>  </div>
+            <div className="yearPhotos"> <a href="https://photos.app.goo.gl/Y2YRduK9mKTBF66L6" target="_blank" rel="noopener noreferrer">Kamp 2020</a>  </div>
             <div className="yearPhotos"> <a href="https://photos.app.goo.gl/bJoayEJ1DuZJqZmP7" target="_blank" rel="noopener noreferrer">Kamp 2019</a>  </div>
             <div className="yearPhotos"> <a href="https://photos.app.goo.gl/1DeTtBUqbpsZUCd36" target="_blank" rel="noopener noreferrer">Kamp 2018</a>  </div>
             <div className="yearPhotos"> <a href="https://goo.gl/photos/TwQUEufTCw4YvBmJ8" target="_blank" rel="noopener noreferrer">Kamp 2017</a>  </div>

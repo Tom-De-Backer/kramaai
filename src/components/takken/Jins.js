@@ -31,7 +31,7 @@ class Jins extends Component {
               <br />
               <br />
               <br />
-              De JIN’s worden dit jaar bijgestaan door Joris en Dries.
+              Door wie de JIN's dit jaar worden bijgestaan kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
               <br />
               <br />
               Bekijk de leidersvoorstelling van de jins hieronder:
@@ -39,7 +39,7 @@ class Jins extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai.be/images/videos/2019-2020/Jins.mp4" />
+                <source src="https://www.kramaai.be/images/videos/2020-2021/Jins.mp4" />
               </Player>
             </div>
             <br />

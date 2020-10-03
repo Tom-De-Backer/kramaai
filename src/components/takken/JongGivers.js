@@ -32,7 +32,7 @@ class JongGivers extends Component {
               <br />
               <br />
               <br />
-              De leiding van de Jong-Givers zijn Hanne, Seppe en Daan.
+              De leiding van de Jong-Givers kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
               <br />
               <br />
               Bekijk de leidersvoorstelling van de jong-givers hieronder:
@@ -40,7 +40,7 @@ class JongGivers extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai.be/images/videos/2019-2020/Jong-givers.mp4" />
+                <source src="https://www.kramaai.be/images/videos/2020-2021/Jong-givers.mp4" />
               </Player>
             </div>
             <br />

@@ -30,7 +30,7 @@ class Givers extends Component {
               <br />
               <br />
               <br />
-              De givers worden dit jaar begeleid door Hannah, Viktor en Lennart.
+              Door wie de givers dit jaar begeleid worden, kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
               <br />
               <br />
               Bekijk de leidersvoorstelling van de givers hieronder:
@@ -38,7 +38,7 @@ class Givers extends Component {
 
             <div className="videosDiv">
               <Player>
-                <source src="http://kramaai.be/images/videos/2019-2020/Givers.mp4" />
+                <source src="https://www.kramaai.be/images/videos/2020-2021/Givers.mp4" />
               </Player>
             </div>
             <br />

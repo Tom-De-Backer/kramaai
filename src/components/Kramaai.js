@@ -26,9 +26,9 @@ class Kramaai extends Component {
                 className="kramaaiA"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="kramaai.be"
+                href="https://kramaaiblog.files.wordpress.com/2020/09/kramaaisepoktnov2020.pdf"
               >
-                September-Oktober-November (Nog even geduld)
+                September-Oktober-November
               </a>
             </div>
             <br />

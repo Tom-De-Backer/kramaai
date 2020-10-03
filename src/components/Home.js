@@ -20,21 +20,9 @@ class Home extends Component {
         <section className="info">
           <SideSpace />
           <div className="news">
-            {" "}
-            <NewsItem
-              title="Dia-avond"
-              text='<p 
-                      style=" padding-left: 10px;
-                              padding-right: 20px;
-                              padding-bottom: 20px;
-                              padding-top: 20px;
-                              font-size: 1.17em;
-                              ">
-                              
-                    Reserveer uw plaats op <a href="/#/diaavond">deze</a> pagina.'
-              imageUrl="https://kramaaiblog.files.wordpress.com/2020/08/leidersvoorstelling-en-dia-avond.jpg"
-            />
-            <NewsItem
+
+
+            {/* <NewsItem
               title="Vakesweekend 2020"
               text='<p 
                       style=" padding-left: 10px;
@@ -53,9 +41,9 @@ class Home extends Component {
                     Voor je offici&euml;le inschrijving en voor meer info: <a href="mailto:vakesweekend@kramaai.be">vakesweekend@kramaai.be</a>
                     </p>'
               imageUrl="https://kramaaiblog.files.wordpress.com/2020/06/vakesweekend.jpg"
-            />
+            /> */}
             <NewsItem
-              title="Santé op onze jubilé: 45 jarig bestaan Scouts Mollem"
+              title="Santé op onze jubilé: 45 jarig bestaan Scouts Mollem (Uitgesteld)"
               text=" "
               imageUrl="https://kramaaiblog.files.wordpress.com/2020/01/jubilee40jaarscouts.jpg"
             />
@@ -67,9 +55,9 @@ class Home extends Component {
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="5 sep" event="Dia-avond" />
-            <CalendarItem date="20 sep" event="Eerste vergadering scoutsjaar 2020-2021" />
-            <CalendarItem date="11 okt" event="Geen vergadering" />
+            <CalendarItem date="11 okt" event="Geen vergadering (leidersweekend)" />
+            <CalendarItem date="1 november" event="Geen vergadering (Allerheiligen)" />
+            <CalendarItem date="8 november" event="Geen vergadering (Italiaans etentje)" />
             <br />
             <WidgetSlideshow />
             <SideWidget />
