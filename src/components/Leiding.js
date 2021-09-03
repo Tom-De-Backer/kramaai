@@ -14,8 +14,8 @@ class Leiding extends Component {
       <section className="infoLeiding">
         <SideSpace />
         <div className="leidingTable">
-        {new Date(2020, 8, 5, 22, 0, 0, 0) > new Date() && <div className="title">Leiding 2019-2020</div>}
-        {new Date(2020, 8, 5, 22, 0, 0, 0) < new Date() && <div className="title">Leiding 2020-2021</div>}
+        {new Date(2021, 8, 6, 22, 0, 0, 0) > new Date() && <div className="title">Leiding 2020-2021</div>}
+        {new Date(2021, 8, 6, 22, 0, 0, 0) < new Date() && <div className="title">Leiding 2021-2022</div>}
           <p>
             De vetgedrukte namen zijn de <b>takverantwoordelijken</b>, aarzel
             niet om hen te contacteren. Je kan ook altijd een mailtje sturen

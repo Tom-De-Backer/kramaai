@@ -10,7 +10,8 @@ import SideSpace from "./SideSpace";
 
 class Inschrijven extends Component {
   render() {
-    console.log(new Date(2020, 8, 6, 10, 0, 0, 0));
+    console.log(new Date(2021, 8, 7, 19, 0, 0, 0));
+    console.log(new Date(2021, 8, 12, 10, 0, 0, 0));
     ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div className="inschrijven">
@@ -18,15 +19,16 @@ class Inschrijven extends Component {
         <div className="uitlegDiv">
           
           <center>
-            <h1>
-            Inschrijven voor scoutsjaar 2020 - 2021 is niet meer mogelijk.
-          </h1> 
-          </center>
-          {/* <h3>
+            {/* <h1>
+              Inschrijven voor scoutsjaar 2020 - 2021 is niet meer mogelijk.
+            </h1>  */}
+             {/* <h1>
             Meer info over de inschrijvingen van scoutsjaar 2020 - 2021 volgt binnenkort. Houd deze pagina zeker in de gaten!
-          </h3> */}
+          </h1> */}
+          </center>
+         
 
-          {/* <p>
+          <p>
             Beste ouders
             <br />
             <br />
@@ -37,7 +39,7 @@ class Inschrijven extends Component {
             <u>Wat wil dit concreet zeggen?</u>
             <br />
             <br />
-            <b>Alle leden die reeds lid zijn, zijn zeker dat ze hun scoutscarrière kunnen verder zetten.</b> De stop slaat enkel op nieuwe leden. Alle leden zijn echter wel verplicht om zich in te schrijven, dit via een Google Forms dat op onze site komt op 6 september om 10u ’s ochtends, de dag na leidersvoorstelling. 
+            <b>Alle leden die reeds lid zijn, zijn zeker dat ze hun scoutscarrière kunnen verder zetten.</b> De stop slaat enkel op nieuwe leden. Alle leden zijn echter wel verplicht om zich in te schrijven, dit via een Google Forms dat op onze site komt op 7 september om 19u, de dag na leidersvoorstelling. 
             <br />
             <br />
             Van ingeschreven leden verwachten we wel dat ze actief lid zijn doorheen het hele scoutsjaar <b>(minstens 10 aanwezigheden)</b>, om mee te mogen op kamp en voorrang te krijgen om zich het jaar nadien in te schrijven. De aanwezigheden worden doorheen het jaar dan ook goed bijhouden.
@@ -46,10 +48,10 @@ class Inschrijven extends Component {
             <u>Wanneer starten de inschrijvingen voor nieuwe leden?</u>
             <br />
             <br />
-            <b>Voor kinderen die in Mollem wonen of die reeds een broer of zus in onze Scouts hebben,</b> start de inschrijving op zondag 6 september om 10u ’s ochtends, de dag na de leidersvoorstelling. De inschrijving zal online gebeuren via een inschrijvingsformulier onderaan deze pagina.
+            <b>Voor kinderen die in Mollem wonen of die reeds een broer of zus in onze Scouts hebben,</b> start de inschrijving op dinsdag 7 september om 19u, de dag na de leidersvoorstelling. De inschrijving zal online gebeuren via een inschrijvingsformulier onderaan deze pagina.
             <br />
             <br />
-            <b>Voor niet-Mollemnaren </b>starten de inschrijvingen op zondag 13 september om 10u ’s ochtends, vanaf dan zal onderaan deze pagina een inschrijvingsformulier voor niet-Mollemnaren te vinden zijn.
+            <b>Voor niet-Mollemnaren </b>starten de inschrijvingen op zondag 12 september om 10u, vanaf dan zal onderaan deze pagina een inschrijvingsformulier voor niet-Mollemnaren te vinden zijn.
             <br />
             <br />
             <u>Hoeveel nieuwe leden kunnen er nog worden ingeschreven?</u>
@@ -60,20 +62,28 @@ class Inschrijven extends Component {
             <br />
             <br />
             <center>
-              <ul class="noBull">
-                <li>Kapoenen (2013-2014): 40</li>
+              <ul className="noBull">
+                <li>Kapoenen (2014-2015): 40 - <i>Aantal vrije plaatsen*: 20</i></li>
                 <br />
-                <li>Welpen (2011-2012): 40</li>
+                <li>Welpen (2012-2013): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
                 <br />
-                <li>Bevers (2009-2010): 40</li>
+                <li>Bevers (2010-2011): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
                 <br />
-                <li>Jong-Givers (2007-2008): 40</li>
+                <li>Jong-Givers (2008-2009): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
                 <br />
-                <li>Givers (2004-2006): 40</li>
+                <li>Givers (2005-2007): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
               </ul>
+              <br />
+              <i>* Er vanuit gaande dat al onze leden die reeds lid zijn zich opnieuw inschrijven.</i>
             </center>
 
 
+            <br />
+            <br />
+            <u>Wanneer krijgen nieuwe leden bevestiging van inschrijving?</u>
+            <br />
+            <br />
+            Wij laten jullie ten laatste iets weten via mail voor onze eerste vergadering op zondag 19 september.
             <br />
             <br />
             <u>Kan ik op een wachtlijst komen?</u>
@@ -92,23 +102,62 @@ class Inschrijven extends Component {
           <br />
           <br />
           <br />
-          {/*  Dit gedeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  */}       
-          {/* {new Date(2020, 8, 6, 10, 0, 0, 0) < new Date() && (
+          {/*  Dit gedeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  */}  
+          {/* 12 september 2021 om 10 uur  */}
+          {new Date(2021, 8, 12, 10, 0, 0, 0) < new Date() && (
+             
+             <center>
+               <h1>Nieuw lid (zonder voorrang): </h1>
+               <iframe
+               src="https://docs.google.com/forms/d/e/1FAIpQLSd4weksRCFwSuFfkZUXp80XZqMo3esL5Dc7-iCC41dAMiF8Ug/viewform?embedded=true"
+               width="90%"
+               height="1630"
+               frameBorder="0"
+               marginHeight="0"
+               marginWidth="0"
+               title="inschrijven form"
+             >
+               Laden…
+             </iframe>
+             </center>
+             
+           )} 
+
+           {new Date(2021, 8, 7, 19, 0, 0, 0) < new Date() && (
+             
             <center>
+              <h1>Reeds lid: </h1>
               <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfLSVZSjPMlrkSOmz0i4IU4FOpoVY7gPwNqyz47tESK5JpZnA/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLScAMPePmWLnihpWuMLQJrAAcuMBx0zdFirRVo0IvnNUKMRi7A/viewform?embedded=true"
               width="90%"
-              height="1566"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
+              height="1630"
+              frameBorder="0"
+              marginHeight="0"
+              marginWidth="0"
               title="inschrijven form"
             >
               Laden…
             </iframe>
             </center>
             
-          )}  */}
+          )} 
+          {new Date(2021, 8, 7, 19, 0, 0, 0) < new Date() && (
+             <center>
+               <h1>Nieuw lid (met voorrang): </h1>
+               <iframe
+               src="https://docs.google.com/forms/d/e/1FAIpQLSflSaqcf6ojd7qJgIMAD5lnPvxY7uDWNVWt-FyrgW7zwoutgA/viewform?embedded=true"
+               width="90%"
+               height="1630"
+               frameBorder="0"
+               marginHeight="0"
+               marginWidth="0"
+               title="inschrijven form"
+             >
+               Laden…
+             </iframe>
+             </center>
+             
+           )}  
         </div>
         <SideWidget />
         <SideSpace />

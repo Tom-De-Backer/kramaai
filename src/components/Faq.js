@@ -54,15 +54,14 @@ class Faq extends Component {
           </div>
           <div className="faqQuestion">Wanneer valt het kamp dit jaar?</div>
           <div className="faqAnswer">
-            Welpen, Bevers en Jong-Givers trekken van zondag 4 augustus tot
-            woensdag 14 augustus 2019 op kamp. Kapoenen gaan van 4 tot 8
-            augustus 2019. Givers vertrekken voor 12 dagen op kamp en vertrekken
+            Welpen, Bevers en Jong-Givers trekken van 4 augustus tot
+            14 augustus op kamp. Kapoenen gaan van 4 tot 8
+            augustus. Givers vertrekken voor 11 dagen op kamp en vertrekken
             al 3 augustus. De Jins vertrekken traditiegetrouw naar het
-            buitenland. Dit jaar trekken ze van 27 tot 10 augustus naar
-            Oost-Europa. Na hun buitenlands avontuur zullen ze de andere takken
-            vergezellen in de Ardennen.
+            buitenland. Na hun buitenlands avontuur is het de gewoonte dat ze samen
+             met de andere takken het gewone kamp in de Ardennen afsluiten.
           </div>
-          <div className="faqQuestion">Waar kan ik Scouts Mollem vinden ? </div>
+          <div className="faqQuestion">Waar kan ik Scouts Mollem vinden? </div>
           <div className="faqAnswer">
             Ons adres is: Kasteelstraat 47a, 1730 Mollem. Ons gebouw (met houten
             latjes) bevindt zich naast de gemeentelijke basisschool in Mollem.
@@ -122,7 +121,13 @@ class Faq extends Component {
           <div className="faqAnswer">
             Bent u geïnteresseerd in de privacyverklaring waarin wordt uitgelegd
             hoe wij persoonsgegevens verzamelen en verwerken? Deze kan u{" "}
-            <a href="/downloads/privacyverklaring-25-01-2020.pdf">hier</a>{" "}
+            <a 
+              target="_blank"
+              rel="noopener noreferrer"
+              href="/downloads/privacyverklaring-02-02-2021.pdf"
+              >
+                hier
+              </a>{" "}
             vinden.
             <br />
             <br />

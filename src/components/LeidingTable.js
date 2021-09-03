@@ -8,11 +8,11 @@ const LeidingTable = () => {
   console.log(new Date(2020, 8, 5, 22, 0, 0, 0) < new Date());
   return (
     <div>
-      {new Date(2020, 8, 5, 22, 0, 0, 0) < new Date() && (
+      {new Date(2021, 8, 6, 22, 0, 0, 0) > new Date() && (
         <div>
           {/* <p>
             <b>
-              De nieuwe leiding wordt aangepast na leidersvoorstelling op 17
+              De nieuwe leiding wordt aangepast na leidersvoorstelling op 6
               september!!
             </b>
           </p> */}
@@ -277,14 +277,8 @@ const LeidingTable = () => {
       )}
 
       {/* new Date(2020, 8, 5, 22, 0, 0, 0) = Sat Sep 05 2020 22:00:00 GMT+0200 (Central European Summer Time) */}
-      {new Date(2020, 8, 5, 22, 0, 0, 0) > new Date() && (
+      {new Date(2021, 8, 6, 22, 0, 0, 0) < new Date() && (
         <div>
-          <p>
-            <b>
-              De nieuwe leiding voor 2020-2021 wordt aangepast na leidersvoorstelling op 5
-              september!!
-            </b>
-          </p>
           <br />
           <div className="titleTable">
             <div>Kapoenen</div>
@@ -296,40 +290,50 @@ const LeidingTable = () => {
             <tbody>
               <tr>
                 <td>
-                  <b>Lise Michiels</b>
+                  <b>Lorraine Wouters</b>
                 </td>
                 <td>
-                  <b>Opmerkelijke mus</b>
+                  <b>Goedhartig Sikahert</b>
                 </td>
                 <td>
-                  <b>Lise@kramaai.be</b>
+                  <b>Lorraine@kramaai.be</b>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <b>Anke Van Mulders</b>
+                  <b>Gilles Van Den Cruyce</b>
                 </td>
                 <td>
-                  <b>Joviale Merlin</b>
+                  <b>Artistieke Sifaka</b>
                 </td>
                 <td>
-                  <b>Anke@kramaai.be</b>
+                  <b>Gilles@kramaai.be</b>
                 </td>
-              </tr>
-              <tr>
-                <td>Amber Lauwers</td>
-                <td>Vrijmoedige Palmtortel</td>
-                <td>Amber@kramaai.be</td>
-              </tr>
-              <tr>
-                <td>Liesa Heyvaert</td>
-                <td>Jolige Tijger</td>
-                <td>Liesa@kramaai.be</td>
               </tr>
               <tr>
                 <td>Thomas Vitry</td>
                 <td>Merkwaardige Cholo</td>
                 <td>Thomas@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Joke Van Houcke</td>
+                <td>Vlotte Hinde</td>
+                <td>JokeVanHoucke@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Fien vermeir</td>
+                <td> </td>
+                <td>FienVermeir@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Senne Lauwers</td>
+                <td> </td>
+                <td>Senne@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Andreas Verhoeven</td>
+                <td>Oprechte Newfoundlander</td>
+                <td>Andreas@kramaai.be</td>
               </tr>
             </tbody>
           </table>
@@ -343,31 +347,52 @@ const LeidingTable = () => {
           </div>
           <table className="table">
             <tbody>
-              <tr>
+            <tr>
                 <td>
-                  <b>Sander Bettens</b>
+                  <b>Inne Van Lil</b>
                 </td>
                 <td>
-                  <b>Standvastige Bergduivel</b>
+                  <b>Enthousiaste Toekan</b>
                 </td>
                 <td>
-                  <b>Sander@kramaai.be</b>
+                  <b>Inne@kramaai.be</b>
                 </td>
               </tr>
               <tr>
-                <td>Tom De Backer</td>
-                <td>Gezellige Wasbeer</td>
-                <td>Tom@kramaai.be</td>
+                <td>
+                  <b>Mats Verdoodt</b>
+                </td>
+                <td>
+                  <b>Verrassende Jabiroe</b>
+                </td>
+                <td>
+                  <b>Mats@kramaai.be</b>
+                </td>
               </tr>
               <tr>
-                <td>Joke Clynhens</td>
-                <td>Vlotte Hinde</td>
-                <td>JokeClynhens@kramaai.be</td>
+                <td>Matisse Eeman</td>
+                <td>Dromerige Spreeuw</td>
+                <td>Matisse@kramaai.be</td>
               </tr>
               <tr>
-                <td>Bram Esselens</td>
-                <td>Avontuurlijke stokstaart</td>
-                <td>Bram@kramaai.be</td>
+                <td>Kobe Gysens</td>
+                <td>Ondeugende Ekster</td>
+                <td>KobeGysens@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Flore Esselens</td>
+                <td> </td>
+                <td>Flore@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Roxanne Hoornaert</td>
+                <td> </td>
+                <td>Roxanne@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Merlijn Devroede</td>
+                <td> </td>
+                <td>Merlijn@kramaai.be</td>
               </tr>
             </tbody>
           </table>
@@ -377,6 +402,102 @@ const LeidingTable = () => {
             <div>Bevers</div>
             <a className="emailTable" href="mailto:bevers@kramaai.be">
               Bevers@kramaai.be
+            </a>
+          </div>
+          <table className="table">
+            <tbody>
+              <tr>
+                <td>
+                  <b>Frederic Van Praet</b>
+                </td>
+                <td>
+                  <b>Genereuze Haan</b>
+                </td>
+                <td>
+                  <b>Frederic@kramaai.be</b>
+                </td>
+              </tr>
+              <tr>
+                <td>Manse Bouckaert</td>
+                <td>Onstuimige Streepmuis</td>
+                <td>Manse@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Arthur Van der Smissen</td>
+                <td>Onverschrokken Lori</td>
+                <td>Arthur@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Fien De Jonge</td>
+                <td> </td>
+                <td>FienDeJonge@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Jasper Beeckman</td>
+                <td> </td>
+                <td>Jasper@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Jules Eeman</td>
+                <td>Nonchalante Lepelaar</td>
+                <td>Jules@kramaai.be</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <br />
+          <div className="titleTable">
+            <div>Jong-Givers</div>
+            <a className="emailTable" href="mailto:jonggivers@kramaai.be">
+              Jonggivers@kramaai.be
+            </a>
+          </div>
+          <table className="table">
+            <tbody>
+              <tr>
+                <td>
+                  <b>Joke Clynhens</b>
+                </td>
+                <td>
+                  <b>Vlotte Hinde</b>
+                </td>
+                <td>
+                  <b>JokeClynhens@kramaai.be</b>
+                </td>
+              </tr>
+              <tr>
+                <td>Hannah Van Rampelbergh</td>
+                <td>Zorgzaam Winterkoninkje</td>
+                <td>Hannah@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>David De Knop</td>
+                <td>Ijverige Alpaca</td>
+                <td>David@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Robin Van Huyck</td>
+                <td>Competitieve Streepmuis</td>
+                <td>Robin@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Kobe Bogaert</td>
+                <td>Stoutmoedige Walrus</td>
+                <td>Kobe@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Ferre Luppens</td>
+                <td> </td>
+                <td>Ferre@kramaai.be</td>
+              </tr>
+            </tbody>
+          </table>
+          <br />
+          <br />
+          <div className="titleTable">
+            <div>Givers</div>
+            <a className="emailTable" href="mailto:givers@kramaai.be">
+              Givers@kramaai.be
             </a>
           </div>
           <table className="table">
@@ -393,85 +514,34 @@ const LeidingTable = () => {
                 </td>
               </tr>
               <tr>
+                <td>Sander Bettens</td>
+                <td>Standvastige Bergduivel</td>
+                <td>Sander@kramaai.be</td>
+              </tr>
+              <tr>
+                <td>Tom De Backer</td>
+                <td>Gezellige Wasbeer</td>
+                <td>Tom@kramaai.be</td>
+              </tr>
+              <tr>
                 <td>Anse Beeckman</td>
                 <td>Speelse Slechtvalk</td>
                 <td>Anse@kramaai.be</td>
               </tr>
               <tr>
-                <td>Chloe Fransman</td>
-                <td>Begane Kwikstaart</td>
-                <td>Chloe@kramaai.be</td>
+                <td>Liesa Heyvaert</td>
+                <td>Jolige Tijger</td>
+                <td>Liesa@kramaai.be</td>
               </tr>
               <tr>
-                <td>Joke Van Houcke</td>
-                <td>Leutige Coendou</td>
-                <td>JokeVanHoucke@kramaai.be</td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-          <br />
-          <div className="titleTable">
-            <div>Jong-Givers</div>
-            <a className="emailTable" href="mailto:jonggivers@kramaai.be">
-              Jonggivers@kramaai.be
-            </a>
-          </div>
-          <table className="table">
-            <tbody>
-              <tr>
-                <td>
-                  <b>Hanne Esselens</b>
-                </td>
-                <td>
-                  <b>Ijverige Otter</b>
-                </td>
-                <td>
-                  <b>Hanne@kramaai.be</b>
-                </td>
+                <td>Hanne Esselens</td>
+                <td>Ijverige Otter</td>
+                <td>Hanne@kramaai.be</td>
               </tr>
               <tr>
-                <td>Daan Capitaine</td>
-                <td>Fiere Jan-van-Gent</td>
-                <td>Daan@kramaai.be</td>
-              </tr>
-              <tr>
-                <td>Seppe Van Rampelbergh</td>
-                <td>Zachtmoedige Bergbever</td>
-                <td>Seppe@kramaai.be</td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-          <br />
-          <div className="titleTable">
-            <div>Givers</div>
-            <a className="emailTable" href="mailto:givers@kramaai.be">
-              Givers@kramaai.be
-            </a>
-          </div>
-          <table className="table">
-            <tbody>
-              <tr>
-                <td>
-                  <b>Hannah Van Rampelbergh</b>
-                </td>
-                <td>
-                  <b>Zorgzaam Winterkoninkje</b>
-                </td>
-                <td>
-                  <b>Hannah@kramaai.be</b>
-                </td>
-              </tr>
-              <tr>
-                <td>Lennart Beeckman</td>
-                <td>Toegewijde Steltral</td>
-                <td>Lennart@kramaai.be</td>
-              </tr>
-              <tr>
-                <td>Viktor van den Houte</td>
-                <td>Impulsieve Kuifmees</td>
-                <td>Viktor@kramaai.be</td>
+                <td>Bram Esselens</td>
+                <td>Avontuurlijke stokstaart</td>
+                <td>Bram@kramaai.be</td>
               </tr>
             </tbody>
           </table>

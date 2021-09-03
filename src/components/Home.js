@@ -21,7 +21,6 @@ class Home extends Component {
           <SideSpace />
           <div className="news">
 
-
             {/* <NewsItem
               title="Vakesweekend 2020"
               text='<p 
@@ -42,6 +41,43 @@ class Home extends Component {
                     </p>'
               imageUrl="https://kramaaiblog.files.wordpress.com/2020/06/vakesweekend.jpg"
             /> */}
+
+            <NewsItem
+              title="Inschrijvingen scoutsjaar 2021-2022 "
+              text='<p 
+              style=" padding-left: 10px;
+                      padding-right: 20px;
+                      padding-bottom: 20px;
+                      padding-top: 20px;
+                      font-size: 1.17em;
+                      ">
+                      Beste ouders en leden, 
+                      <br /><br />
+                      Via <a href="https://kramaai.be/#/inschrijven" target="_blank" rel="noopener noreferrer">deze link</a> kunnen jullie je inschrijven voor het komend scoutsjaar.<br />
+                      Tot snel!
+                      </p>'
+              imageUrl="https://kramaaiblog.files.wordpress.com/2021/08/diaavond2021.jpg"
+            />
+            
+            {/* <NewsItem
+              title="Italiaans etentje 2020 (AFGELAST)"
+              text='<p 
+              style=" padding-left: 10px;
+                      padding-right: 20px;
+                      padding-bottom: 20px;
+                      padding-top: 20px;
+                      font-size: 1.17em;
+                      ">
+                      Beste ouders en leden, 
+                      <br /><br />
+                      We hebben besloten om ons Italiaans etentje te annuleren. Gezien de huidige situatie vinden we het niet meer verantwoord om op dit moment een evenement te organiseren. Maar uitstel is geen afstel. 
+                      Zorg goed voor jezelf en voor elkaar!<br /><br />
+                      Een stevige linkerelleboog<br />
+                      Leiding en kookploeg van Scouts Kramaai Mollem
+                      </p>'
+              imageUrl=" "
+            />
+
             <NewsItem
               title="Santé op onze jubilé: 45 jarig bestaan Scouts Mollem (Uitgesteld)"
               text=" "
@@ -50,14 +86,14 @@ class Home extends Component {
             <h2>
               <center><a href="http://jubile.kramaai.be" target="_blank" rel="noopener noreferrer">Meer info op jubile.kramaai.be</a></center>
             </h2>
-            <br />
+            <br /> */}
+
           </div>
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="11 okt" event="Geen vergadering (leidersweekend)" />
-            <CalendarItem date="1 november" event="Geen vergadering (Allerheiligen)" />
-            <CalendarItem date="8 november" event="Geen vergadering (Italiaans etentje)" />
+            <CalendarItem date="19 sep" event="Eerste vergadering" />
+            <CalendarItem date="6 nov" event="Italiaans etentje" />
             <br />
             <WidgetSlideshow />
             <SideWidget />

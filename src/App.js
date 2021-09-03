@@ -25,6 +25,7 @@ import Givers from "./components/takken/Givers.js";
 import Jins from "./components/takken/Jins.js";
 import Groepsleiding from "./components/takken/Groepsleiding.js";
 import DiaAvond from "./components/DiaAvond.js";
+// import Etentje from "./components/Etentje.js";
 
 function App() {
   ReactGA.initialize("UA-147726960-1");
@@ -54,6 +55,7 @@ function App() {
         <Route path="/jins" component={Jins} />
         <Route path="/groepsleiding" component={Groepsleiding} />
         <Route path="/diaavond" component={DiaAvond} />
+        {/* <Route path="/etentje" component={Etentje} /> */}
         {/* Dit is voor een pad dat niet bestaat. Hier kan een speciale Error component voor gemaakt worden */}
         <Route component={Home} exact />
       </Switch>

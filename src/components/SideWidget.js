@@ -26,7 +26,7 @@ const SideWidget = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.bol.com/nl/index.html?Referrer=ADVNLPPcefc5f00cdbf929700828d3415160039069&utm_source=39069&utm_medium=Affiliates&utm_campaign=CPS&utm_content=btn"
+            href="https://partner.bol.com/click/click?p=2&t=url&s=39069&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2F&name=de%20winkel%20van%20ons%20allemaal"
           >
             link
           </a>{" "}
@@ -35,7 +35,7 @@ const SideWidget = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.bol.com/nl/index.html?Referrer=ADVNLPPcefc5f00cdbf929700828d3415160039069&utm_source=39069&utm_medium=Affiliates&utm_campaign=CPS&utm_content=btn"
+          href="https://partner.bol.com/click/click?p=2&t=url&s=39069&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2F&name=de%20winkel%20van%20ons%20allemaal"
         >
           <img src={Bol} alt="Bol.com affiliate" className="widgetLogo" />
         </a>
@@ -43,7 +43,7 @@ const SideWidget = () => {
 
       <div className="widget">
         <div className="widgetText">
-          Maak u online bestellingen via deze{" "}
+          Maak uw online bestellingen via deze{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"

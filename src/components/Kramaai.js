@@ -18,8 +18,13 @@ class Kramaai extends Component {
           </div>
           <br />
           {/* titleTable is zelfde css als bij LeidingTable.css */}
+          <div className="titleTable">2021 - 2022</div>
+          <br />
+          <h3>Nog even geduld voor de nieuwste Kramaai</h3> 
           <div className="titleTable">2020 - 2021</div>
-          <div>
+          <br />
+          <h3>Door de onzekerheid dat het coronavirus met zich meebrengt, maken we (voorlopig) geen maandschorsen meer.</h3> 
+          {/* <div>
             <br />
             <div className="kramaaiLink">
               <a
@@ -33,7 +38,7 @@ class Kramaai extends Component {
             </div>
             <br />
           </div>
-          {/* titleTable is zelfde css als bij LeidingTable.css */}
+          // titleTable is zelfde css als bij LeidingTable.css 
           <div className="titleTable">2019 - 2020</div>
           <div>
             <br />
@@ -253,7 +258,7 @@ class Kramaai extends Component {
               </a>
             </div>
             <br />
-          </div>
+          </div> */}
         </section>
         <SideWidget />
         <SideSpace />
