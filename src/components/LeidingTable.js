@@ -317,17 +317,17 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Joke Van Houcke</td>
-                <td>Vlotte Hinde</td>
+                <td>Leutige Coendu</td>
                 <td>JokeVanHoucke@kramaai.be</td>
               </tr>
               <tr>
-                <td>Fien vermeir</td>
-                <td> </td>
+                <td>Fien Vermeir</td>
+                <td>Nieuwsgierige Kraanvogel</td>
                 <td>FienVermeir@kramaai.be</td>
               </tr>
               <tr>
                 <td>Senne Lauwers</td>
-                <td> </td>
+                <td>Schalkse Brulaap</td>
                 <td>Senne@kramaai.be</td>
               </tr>
               <tr>
@@ -381,12 +381,12 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Flore Esselens</td>
-                <td> </td>
+                <td>Goedlachse Springbok</td>
                 <td>Flore@kramaai.be</td>
               </tr>
               <tr>
                 <td>Roxanne Hoornaert</td>
-                <td> </td>
+                <td>Unieke Fazant</td>
                 <td>Roxanne@kramaai.be</td>
               </tr>
               <tr>
@@ -434,7 +434,7 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Jasper Beeckman</td>
-                <td> </td>
+                <td>Sympathieke Spitsvogel</td>
                 <td>Jasper@kramaai.be</td>
               </tr>
               <tr>
@@ -487,7 +487,7 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Ferre Luppens</td>
-                <td> </td>
+                <td>Ingetogen Kameel</td>
                 <td>Ferre@kramaai.be</td>
               </tr>
             </tbody>
@@ -540,7 +540,7 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Bram Esselens</td>
-                <td>Avontuurlijke stokstaart</td>
+                <td>Avontuurlijke Stokstaart</td>
                 <td>Bram@kramaai.be</td>
               </tr>
             </tbody>
@@ -557,19 +557,19 @@ const LeidingTable = () => {
             <tbody>
               <tr>
                 <td>
-                  <b>Dries Verdoodt</b>
+                  <b>Daan Capitaine</b>
                 </td>
                 <td>
-                  <b>Bourgondische Saterhoen</b>
+                  <b>Fiere Jan-van-Gent</b>
                 </td>
                 <td>
-                  <b>Dries@kramaai.be</b>
+                  <b>Daan@kramaai.be</b>
                 </td>
               </tr>
               <tr>
-                <td>Joris Van Houcke</td>
-                <td>Trotse Saki</td>
-                <td>Joris@kramaai.be</td>
+                <td>Lennart Beeckman</td>
+                <td>Toegewijde Steltral</td>
+                <td>Lennart@kramaai.be</td>
               </tr>
             </tbody>
           </table>
@@ -583,17 +583,17 @@ const LeidingTable = () => {
           </div>
           <table className="table">
             <tbody>
-              <tr>
-                <td>Thomas Vitry</td>
-                <td>Merkwaardige Cholo</td>
-                <td>Thomas@kramaai.be</td>
-                <td>+32 479 38 18 08</td>
-              </tr>
-              <tr>
+            <tr>
                 <td>Lennart Beeckman</td>
                 <td>Toegewijde Steltral</td>
                 <td>Lennart@kramaai.be</td>
                 <td>+32 479 18 51 30</td>
+            </tr>
+            <tr>
+                <td>Bram Esselens</td>
+                <td>Avontuurlijke Stokstaart</td>
+                <td>Bram@kramaai.be</td>
+                <td>+32 468 15 25 19</td>
               </tr>
               <tr>
                 <td>Anse Beeckman</td>
