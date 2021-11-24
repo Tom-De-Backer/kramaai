@@ -21,7 +21,7 @@ class Etentje extends Component {
             {date > new Date() && (
             <center>
                 <h1>
-                    Hier kan u binnenkort reserveren voor ons Italiaans Etentje 2020!
+                    Hier kan u binnenkort reserveren voor ons Italiaans Etentje 2021!
                 </h1> 
             </center> )}
 
@@ -29,12 +29,12 @@ class Etentje extends Component {
             {date < new Date() && (
                 <div>
                     <h1>
-                        Maak hier uw bestelling voor Italiaans etentje 2020:
+                        Maak hier uw bestelling voor take away Italiaans etentje 2021:
                     </h1>
                     <br />
                     <center>
                         <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSe3pF5Dl2Dk9qvIn9Qm2zrmW89ROy8weR64C87U3XyzwCWwIg/viewform?usp=sf_link"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSeC8VwU377HHJ1zEyj4KYLKId-Srauma9VsSf-KFcAKgV1eBw/viewform"
                         width="90%"
                         height="2100"
                         frameBorder="0"

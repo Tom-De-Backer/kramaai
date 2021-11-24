@@ -43,7 +43,7 @@ class Home extends Component {
             /> */}
 
             <NewsItem
-              title="Inschrijvingen scoutsjaar 2021-2022 "
+              title="Italiaans Etentje 2021"
               text='<p 
               style=" padding-left: 10px;
                       padding-right: 20px;
@@ -51,10 +51,19 @@ class Home extends Component {
                       padding-top: 20px;
                       font-size: 1.17em;
                       ">
-                      Beste ouders en leden, 
-                      <br /><br />
-                      Via <a href="https://kramaai.be/#/inschrijven" target="_blank" rel="noopener noreferrer">deze link</a> kunnen jullie je inschrijven voor het komend scoutsjaar.<br />
-                      Tot snel!
+                      </p>'
+              imageUrl="https://kramaaiblog.files.wordpress.com/2021/10/italiaans-etentje-2021_compressed-1.jpg"
+            />
+
+            <NewsItem
+              title="Scoutsjaar 2021-2022 "
+              text='<p 
+              style=" padding-left: 10px;
+                      padding-right: 20px;
+                      padding-bottom: 20px;
+                      padding-top: 20px;
+                      font-size: 1.17em;
+                      ">
                       </p>'
               imageUrl="https://kramaaiblog.files.wordpress.com/2021/08/diaavond2021.jpg"
             />
@@ -92,8 +101,10 @@ class Home extends Component {
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="19 sep" event="Eerste vergadering" />
-            <CalendarItem date="6 nov" event="Italiaans etentje" />
+            <CalendarItem date="6 - 7 nov" event="Italiaans etentje" />
+            <CalendarItem date="19-20-21 nov" event="Giverweekend" />
+            <CalendarItem date="24 dec" event="Jeneveravond" />
+            <CalendarItem date="3 - 13 aug 2022" event="Scoutskamp" />
             <br />
             <WidgetSlideshow />
             <SideWidget />

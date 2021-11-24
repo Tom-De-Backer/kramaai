@@ -20,10 +20,21 @@ class Kramaai extends Component {
           {/* titleTable is zelfde css als bij LeidingTable.css */}
           <div className="titleTable">2021 - 2022</div>
           <br />
-          <h3>Nog even geduld voor de nieuwste Kramaai</h3> 
-          <div className="titleTable">2020 - 2021</div>
+          <div>
+            <div className="kramaaiLink">
+              <a
+                className="kramaaiA"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://kramaaiblog.files.wordpress.com/2021/09/kramaai-sept-okt-nov-2021-definitive.pdf"
+              >
+                September-Oktober-November
+              </a>
+            </div>
+            <br />
+          </div>
           <br />
-          <h3>Door de onzekerheid dat het coronavirus met zich meebrengt, maken we (voorlopig) geen maandschorsen meer.</h3> 
+          {/* <h3>Nog even geduld voor de nieuwste Kramaai</h3>  */}
           {/* <div>
             <br />
             <div className="kramaaiLink">

@@ -19,16 +19,16 @@ class Inschrijven extends Component {
         <div className="uitlegDiv">
           
           <center>
+            <h1>
+              Inschrijven voor scoutsjaar 2021 - 2022 is niet meer mogelijk.
+            </h1>
             {/* <h1>
-              Inschrijven voor scoutsjaar 2020 - 2021 is niet meer mogelijk.
-            </h1>  */}
-             {/* <h1>
-            Meer info over de inschrijvingen van scoutsjaar 2020 - 2021 volgt binnenkort. Houd deze pagina zeker in de gaten!
-          </h1> */}
+              Meer info over de inschrijvingen van scoutsjaar 2020 - 2021 volgt binnenkort. Houd deze pagina zeker in de gaten!
+            </h1> */}
           </center>
          
 
-          <p>
+          {/* <p>
             Beste ouders
             <br />
             <br />
@@ -63,15 +63,15 @@ class Inschrijven extends Component {
             <br />
             <center>
               <ul className="noBull">
-                <li>Kapoenen (2014-2015): 40 - <i>Aantal vrije plaatsen*: 20</i></li>
+                <li>Kapoenen (2014-2015): 40 - <i>Aantal vrije plaatsen*: 0</i></li>
                 <br />
-                <li>Welpen (2012-2013): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
+                <li>Welpen (2012-2013): 40 - <i>Aantal vrije plaatsen*: 0</i></li>
                 <br />
-                <li>Bevers (2010-2011): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
+                <li>Bevers (2010-2011): 40 - <i>Aantal vrije plaatsen*: 0</i></li>
                 <br />
-                <li>Jong-Givers (2008-2009): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
+                <li>Jong-Givers (2008-2009): 40 - <i>Aantal vrije plaatsen*: 0</i></li>
                 <br />
-                <li>Givers (2005-2007): 40 - <i>Aantal vrije plaatsen*: 2</i></li>
+                <li>Givers (2005-2007): 40 - <i>Aantal vrije plaatsen*: 0</i></li>
               </ul>
               <br />
               <i>* Er vanuit gaande dat al onze leden die reeds lid zijn zich opnieuw inschrijven.</i>
@@ -101,10 +101,11 @@ class Inschrijven extends Component {
           <br />
           <br />
           <br />
-          <br />
+          <br /> 
+        */}
           {/*  Dit gedeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  */}  
           {/* 12 september 2021 om 10 uur  */}
-          {new Date(2021, 8, 12, 10, 0, 0, 0) < new Date() && (
+          {/* {new Date(2021, 8, 12, 10, 0, 0, 0) < new Date() && (
              
              <center>
                <h1>Nieuw lid (zonder voorrang): </h1>
@@ -157,7 +158,7 @@ class Inschrijven extends Component {
              </iframe>
              </center>
              
-           )}  
+           )}   */}
         </div>
         <SideWidget />
         <SideSpace />
