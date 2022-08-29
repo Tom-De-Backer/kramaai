@@ -20,7 +20,6 @@ class Home extends Component {
         <section className="info">
           <SideSpace />
           <div className="news">
-
             {/* <NewsItem
               title="Vakesweekend 2020"
               text='<p 
@@ -43,7 +42,7 @@ class Home extends Component {
             /> */}
 
             <NewsItem
-              title="Italiaans Etentje 2021"
+              title="The White & Grey (K)Night 2022"
               text='<p 
               style=" padding-left: 10px;
                       padding-right: 20px;
@@ -51,11 +50,14 @@ class Home extends Component {
                       padding-top: 20px;
                       font-size: 1.17em;
                       ">
+                      Vrijdag 8 april => The White (K)Night
+                      <br />
+                      Zaterdag 9 april => The Grey (K)Night
                       </p>'
-              imageUrl="https://kramaaiblog.files.wordpress.com/2021/10/italiaans-etentje-2021_compressed-1.jpg"
+              imageUrl="https://kramaaiblog.files.wordpress.com/2022/03/twkfoto.jpg"
             />
 
-            <NewsItem
+            {/* <NewsItem
               title="Scoutsjaar 2021-2022 "
               text='<p 
               style=" padding-left: 10px;
@@ -66,8 +68,8 @@ class Home extends Component {
                       ">
                       </p>'
               imageUrl="https://kramaaiblog.files.wordpress.com/2021/08/diaavond2021.jpg"
-            />
-            
+            /> */}
+
             {/* <NewsItem
               title="Italiaans etentje 2020 (AFGELAST)"
               text='<p 
@@ -96,14 +98,15 @@ class Home extends Component {
               <center><a href="http://jubile.kramaai.be" target="_blank" rel="noopener noreferrer">Meer info op jubile.kramaai.be</a></center>
             </h2>
             <br /> */}
-
           </div>
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="6 - 7 nov" event="Italiaans etentje" />
-            <CalendarItem date="19-20-21 nov" event="Giverweekend" />
-            <CalendarItem date="24 dec" event="Jeneveravond" />
+            <CalendarItem date="27 maa" event="Switchvergadering" />
+            <CalendarItem date="8 apr" event="The White (K)Night" />
+            <CalendarItem date="9 apr" event="The Grey (K)Night" />
+            <CalendarItem date="10 apr" event="Geen vergadering" />
+            <CalendarItem date="22 mei" event="Laatste vergadering" />
             <CalendarItem date="3 - 13 aug 2022" event="Scoutskamp" />
             <br />
             <WidgetSlideshow />

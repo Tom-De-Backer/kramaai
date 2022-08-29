@@ -26,9 +26,29 @@ class Kramaai extends Component {
                 className="kramaaiA"
                 target="_blank"
                 rel="noopener noreferrer"
+                href="https://kramaaiblog.files.wordpress.com/2022/03/kramaai-final-maart-april-mei.pdf"
+              >
+                maart-april-mei
+              </a>
+            </div>
+            <div className="kramaaiLink">
+              <a
+                className="kramaaiA"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://kramaaiblog.files.wordpress.com/2021/12/kramaai-december-februari-20212022-2.pdf"
+              >
+                december-januari-februari
+              </a>
+            </div>
+            <div className="kramaaiLink">
+              <a
+                className="kramaaiA"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://kramaaiblog.files.wordpress.com/2021/09/kramaai-sept-okt-nov-2021-definitive.pdf"
               >
-                September-Oktober-November
+                september-oktober-november
               </a>
             </div>
             <br />

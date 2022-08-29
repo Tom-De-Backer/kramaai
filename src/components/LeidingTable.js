@@ -347,7 +347,7 @@ const LeidingTable = () => {
           </div>
           <table className="table">
             <tbody>
-            <tr>
+              <tr>
                 <td>
                   <b>Inne Van Lil</b>
                 </td>
@@ -391,7 +391,7 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Merlijn Devroede</td>
-                <td> </td>
+                <td>Eigenaardig Penseelaapje</td>
                 <td>Merlijn@kramaai.be</td>
               </tr>
             </tbody>
@@ -429,7 +429,7 @@ const LeidingTable = () => {
               </tr>
               <tr>
                 <td>Fien De Jonge</td>
-                <td> </td>
+                <td>Vlotte Wasbeer</td>
                 <td>FienDeJonge@kramaai.be</td>
               </tr>
               <tr>
@@ -583,13 +583,13 @@ const LeidingTable = () => {
           </div>
           <table className="table">
             <tbody>
-            <tr>
+              <tr>
                 <td>Lennart Beeckman</td>
                 <td>Toegewijde Steltral</td>
                 <td>Lennart@kramaai.be</td>
                 <td>+32 479 18 51 30</td>
-            </tr>
-            <tr>
+              </tr>
+              <tr>
                 <td>Bram Esselens</td>
                 <td>Avontuurlijke Stokstaart</td>
                 <td>Bram@kramaai.be</td>
