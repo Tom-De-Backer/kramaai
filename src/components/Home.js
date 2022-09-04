@@ -41,7 +41,7 @@ class Home extends Component {
               imageUrl="https://kramaaiblog.files.wordpress.com/2020/06/vakesweekend.jpg"
             /> */}
 
-            <NewsItem
+            {/* <NewsItem
               title="The White & Grey (K)Night 2022"
               text='<p 
               style=" padding-left: 10px;
@@ -55,7 +55,7 @@ class Home extends Component {
                       Zaterdag 9 april => The Grey (K)Night
                       </p>'
               imageUrl="https://kramaaiblog.files.wordpress.com/2022/03/twkfoto.jpg"
-            />
+            /> */}
 
             {/* <NewsItem
               title="Scoutsjaar 2021-2022 "
@@ -98,16 +98,40 @@ class Home extends Component {
               <center><a href="http://jubile.kramaai.be" target="_blank" rel="noopener noreferrer">Meer info op jubile.kramaai.be</a></center>
             </h2>
             <br /> */}
+          {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
+            <NewsItem
+            title="Inschrijvingen"
+              text='<p 
+              style=" padding-left: 10px;
+                      padding-right: 20px;
+                      padding-bottom: 20px;
+                      padding-top: 20px;
+                      font-size: 1.17em;
+                      ">
+              Beste ouders en leden,
+              <br/><br/>
+              Vanaf nu kunnen jullie nieuwe leden inschrijven via deze <a href="/#/inschrijven">link</a>.
+              Je kan onderaan de pagina een formulier invullen om je in te schrijven.
+              <br/>
+              Kinderen die vorig jaar al in de scouts zaten hebben al een email gekregen om hun kind opnieuw in te schrijven voor het nieuwe scoutsjaar.
+              <br/>
+              <br/>Een stevige linker
+              <br/>De Leiding
+            <p/>'
+            imageUrl=" "
+            />
+          )}
           </div>
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="27 maa" event="Switchvergadering" />
+            <CalendarItem date="18 Sep" event="Eerste vergadering"></CalendarItem>
+            {/* <CalendarItem date="27 maa" event="Switchvergadering" />
             <CalendarItem date="8 apr" event="The White (K)Night" />
             <CalendarItem date="9 apr" event="The Grey (K)Night" />
             <CalendarItem date="10 apr" event="Geen vergadering" />
             <CalendarItem date="22 mei" event="Laatste vergadering" />
-            <CalendarItem date="3 - 13 aug 2022" event="Scoutskamp" />
+            <CalendarItem date="3 - 13 aug 2022" event="Scoutskamp" /> */}
             <br />
             <WidgetSlideshow />
             <SideWidget />

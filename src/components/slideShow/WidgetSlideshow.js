@@ -1,6 +1,7 @@
 import React from "react";
 import { Slide } from "react-slideshow-image";
 import "./WidgetSlideshow.css";
+import "react-slideshow-image/dist/styles.css";
 
 import image0 from "../../images/sponsors/cornet_logo_black.png";
 import image1 from "../../images/sponsors/goudenfritje.jpg";
@@ -15,9 +16,9 @@ const properties = {
   infinite: true,
   indicators: false,
   arrows: false,
-  onChange: (oldIndex, newIndex) => {
+  // onChange: (oldIndex, newIndex) => {
     // console.log(`slide transition from ${oldIndex} to ${newIndex}`);
-  }
+  // }
 };
 
 const WidgetSlideshow = () => {
