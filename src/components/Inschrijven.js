@@ -19,16 +19,16 @@ class Inschrijven extends Component {
         <div className="uitlegDiv">
 
           <center>
-            {/* <h1>
-              Inschrijven voor scoutsjaar 2021 - 2022 is niet meer mogelijk.
-            </h1> */}
+            <h1>
+              Inschrijven voor scoutsjaar 2022 - 2023 is helaas niet meer mogelijk.
+            </h1>
             {/* <h1>
               Meer info over de inschrijvingen van scoutsjaar 2020 - 2021 volgt binnenkort. Houd deze pagina zeker in de gaten!
             </h1> */}
           </center>
 
 
-          { <><p>
+          {/* { <><p>
             Beste ouders
             <br />
             <br />
@@ -50,11 +50,6 @@ class Inschrijven extends Component {
             <br />
             Voor kinderen die nog niet ingeschreven zijn starten de inschrijvingen op zondag 4 september om 13u, vanaf dan zal er onderaan deze pagina een inschrijvingsformulier te vinden zijn.
             <br/>
-            {/* <b>Voor kinderen die in Mollem wonen of die reeds een broer of zus in onze Scouts hebben,</b> start de inschrijving op dinsdag 7 september om 19u, de dag na de leidersvoorstelling. De inschrijving zal online gebeuren via een inschrijvingsformulier onderaan deze pagina.
-            <br />
-            <br />
-            <b>Voor niet-Mollemnaren </b>starten de inschrijvingen op zondag 12 september om 10u, vanaf dan zal onderaan deze pagina een inschrijvingsformulier voor niet-Mollemnaren te vinden zijn.
-            <br /> */}
             <br />
             <u>Hoeveel nieuwe leden kunnen er nog worden ingeschreven?</u>
             <br />
@@ -65,18 +60,16 @@ class Inschrijven extends Component {
             <br />
             <center>
               <ul className="noBull">
-                <li>Kapoenen (2014-2015): 40 {/* - <i>Aantal vrije plaatsen*: 0</i> */}</li>
+                <li>Kapoenen (2014-2015): 40</li>
                 <br />
-                <li>Welpen (2012-2013): 40 {/* - <i>Aantal vrije plaatsen*: 0</i> */}</li>
+                <li>Welpen (2012-2013): 40</li>
                 <br />
-                <li>Bevers (2010-2011): 40 {/* - <i>Aantal vrije plaatsen*: 0</i> */}</li>
+                <li>Bevers (2010-2011): 40</li>
                 <br />
-                <li>Jong-Givers (2008-2009): 40 {/* - <i>Aantal vrije plaatsen*: 0</i> */}</li>
+                <li>Jong-Givers (2008-2009): 40</li>
                 <br />
-                <li>Givers (2005-2007): 40 {/* - <i>Aantal vrije plaatsen*: 0</i> */}</li>
+                <li>Givers (2005-2007): 40</li>
               </ul>
-              {/* <br /> */}
-              {/* <i>* Er vanuit gaande dat al onze leden die reeds lid zijn zich opnieuw inschrijven.</i> */}
             </center>
 
 
@@ -99,11 +92,10 @@ class Inschrijven extends Component {
             Een stevige linker
             <br />
             De Leiding
-          </p><br /><br /><br /><br /></> 
-        }
+          </p><br /><br /><br /><br /></>  */}
           {/*  Dit gedeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  */}
           {/* 12 september 2021 om 10 uur  */}
-          {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
+          {/* {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
              
              <center>
                <h1>Nieuw lid: </h1>
@@ -120,43 +112,8 @@ class Inschrijven extends Component {
              </iframe>
              </center>
              
-           )} 
+           )}  */}
 
-           {/* {new Date(2021, 8, 7, 19, 0, 0, 0) < new Date() && (
-             
-            <center>
-              <h1>Reeds lid: </h1>
-              <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLScAMPePmWLnihpWuMLQJrAAcuMBx0zdFirRVo0IvnNUKMRi7A/viewform?embedded=true"
-              width="90%"
-              height="1630"
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
-              title="inschrijven form"
-            >
-              Laden…
-            </iframe>
-            </center>
-            
-          )} 
-          {new Date(2021, 8, 7, 19, 0, 0, 0) < new Date() && (
-             <center>
-               <h1>Nieuw lid (met voorrang): </h1>
-               <iframe
-               src="https://docs.google.com/forms/d/e/1FAIpQLSflSaqcf6ojd7qJgIMAD5lnPvxY7uDWNVWt-FyrgW7zwoutgA/viewform?embedded=true"
-               width="90%"
-               height="1630"
-               frameBorder="0"
-               marginHeight="0"
-               marginWidth="0"
-               title="inschrijven form"
-             >
-               Laden…
-             </iframe>
-             </center>
-             
-           )}   */}
         </div>
         <SideWidget />
         <SideSpace />

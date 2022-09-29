@@ -100,7 +100,7 @@ class Home extends Component {
             <br /> */}
           {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
             <NewsItem
-            title="Inschrijvingen"
+            title="Kramaai"
               text='<p 
               style=" padding-left: 10px;
                       padding-right: 20px;
@@ -110,10 +110,7 @@ class Home extends Component {
                       ">
               Beste ouders en leden,
               <br/><br/>
-              Vanaf nu kunnen jullie nieuwe leden inschrijven via deze <a href="/#/inschrijven">link</a>.
-              Je kan onderaan de pagina een formulier invullen om je in te schrijven.
-              <br/>
-              Kinderen die vorig jaar al in de scouts zaten hebben al een email gekregen om hun kind opnieuw in te schrijven voor het nieuwe scoutsjaar.
+              Vanaf nu staat ook de kramaai van september, oktober en november op onze website. Je kunt deze <a href="https://www.kramaai.be/kramaai/2022-2023/kramaai-sep-okt-nov.pdf">hier</a> bekijken.
               <br/>
               <br/>Een stevige linker
               <br/>De Leiding
@@ -121,11 +118,32 @@ class Home extends Component {
             imageUrl=" "
             />
           )}
+          {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
+            <NewsItem
+            title="Kampfoto's"
+              text="<p 
+              style=' padding-left: 10px;
+                      padding-right: 20px;
+                      padding-bottom: 20px;
+                      padding-top: 20px;
+                      font-size: 1.17em;
+                      '>
+              Beste ouders en leden,
+              <br/><br/>
+              Vanaf nu kunnen jullie ook de foto's van het kamp van 2022 bekijken door <a href='https://photos.app.goo.gl/iPpWPCeNvj8Ew8dH6'>hier</a> te klikken.
+              <br/>
+              <br/>Een stevige linker
+              <br/>De Leiding
+            <p/>"
+            imageUrl=" "
+            />
+          )}
           </div>
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="18 Sep" event="Eerste vergadering"></CalendarItem>
+            <CalendarItem date="4 - 6 november" event="Italiaans etentje"></CalendarItem>
+            <CalendarItem date="24 december" event="Jeneveravond"></CalendarItem>
             {/* <CalendarItem date="27 maa" event="Switchvergadering" />
             <CalendarItem date="8 apr" event="The White (K)Night" />
             <CalendarItem date="9 apr" event="The Grey (K)Night" />
