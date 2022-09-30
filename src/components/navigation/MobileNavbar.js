@@ -11,14 +11,8 @@ const MyMobileNavbar = styled.nav`
 
   box-shadow: -10px 10px 5px ${props => props.theme.accent};
 
-  transition: transform 1s;
-  transform: translateY(
-    ${props => (props.displayMobileNavbar ? "0%" : "-155%")}
-  );
-
-  transition: transform 0.7s;
-  transform: height;
   height: ${props => (props.displayMobileNavbar ? "60vh" : "0vh")}
+  transition: height 0.7s ease-out;
 
   .nav-links {
     display: flex;

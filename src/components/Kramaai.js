@@ -17,8 +17,23 @@ class Kramaai extends Component {
             kramaai’s van vroeger en nu.
           </div>
           <br />
+            <div>
+              <div className="titleTable">2022 - 2023</div>
+              <div>
+                <div className="kramaaiLink">
+                  <a
+                    className="kramaaiA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.kramaai.be/kramaai/2022-2023/kramaai-sep-okt-nov.pdf">
+                    september-oktober-november
+                  </a>
+                </div>
+              </div>
+            </div>
+          {/* <h3>Nog even geduld voor de nieuwste Kramaai</h3>) */}
           {/* titleTable is zelfde css als bij LeidingTable.css */}
-          <div className="titleTable">2021 - 2022</div>
+          {/* <div className="titleTable">2021 - 2022</div>
           <br />
           <div>
             <div className="kramaaiLink">
@@ -53,8 +68,7 @@ class Kramaai extends Component {
             </div>
             <br />
           </div>
-          <br />
-          {/* <h3>Nog even geduld voor de nieuwste Kramaai</h3>  */}
+          <br /> */}
           {/* <div>
             <br />
             <div className="kramaaiLink">
