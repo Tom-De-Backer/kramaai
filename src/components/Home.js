@@ -98,6 +98,13 @@ class Home extends Component {
               <center><a href="http://jubile.kramaai.be" target="_blank" rel="noopener noreferrer">Meer info op jubile.kramaai.be</a></center>
             </h2>
             <br /> */}
+          {new Date(2022, 10, 7, 0, 0, 0, 0) > new Date() && (
+            <NewsItem
+            title="Italiaans etentje"
+              text=" "
+            imageUrl="https://www.kramaai.be/images/italiaans_etentje_2022.jpeg"
+            />
+          )}
           {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
             <NewsItem
             title="Kramaai"
@@ -110,7 +117,7 @@ class Home extends Component {
                       ">
               Beste ouders en leden,
               <br/><br/>
-              Vanaf nu staat ook de kramaai van september, oktober en november op onze website. Je kunt deze <a href="https://www.kramaai.be/kramaai/2022-2023/kramaai-sep-okt-nov.pdf">hier</a> bekijken.
+              Vanaf nu staat ook de kramaai van december, januari en fabruari op onze website. Je kunt deze <a href="https://kramaaiblog.files.wordpress.com/2022/12/kramaai-2223-dec-jan-feb.pdf">hier</a> bekijken.
               <br/>
               <br/>Een stevige linker
               <br/>De Leiding
@@ -142,7 +149,7 @@ class Home extends Component {
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="4 - 6 november" event="Italiaans etentje"></CalendarItem>
+            <CalendarItem date="5 - 6 november" event="Italiaans etentje"></CalendarItem>
             <CalendarItem date="24 december" event="Jeneveravond"></CalendarItem>
             {/* <CalendarItem date="27 maa" event="Switchvergadering" />
             <CalendarItem date="8 apr" event="The White (K)Night" />

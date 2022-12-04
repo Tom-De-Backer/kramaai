@@ -28,6 +28,15 @@ class Kramaai extends Component {
                     href="https://www.kramaai.be/kramaai/2022-2023/kramaai-sep-okt-nov.pdf">
                     september-oktober-november
                   </a>
+				</div>
+                <div className="kramaaiLink">
+                  <a
+                    className="kramaaiA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://kramaaiblog.files.wordpress.com/2022/12/kramaai-2223-dec-jan-feb.pdf">
+					december-januari-februari
+                  </a>
                 </div>
               </div>
             </div>
