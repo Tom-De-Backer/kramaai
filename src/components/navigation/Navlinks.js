@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 const Navlinks = props => {
   let tempTabIndex;
@@ -56,11 +56,6 @@ const Navlinks = props => {
       <li>
         <NavLink to="/fotos" className="link" tabIndex={tempTabIndex}>
           Foto's
-        </NavLink>
-      </li>
-      <li>
-        <NavLink to="/nieuwsbrief" className="link" tabIndex={tempTabIndex}>
-          Nieuwsbrief
         </NavLink>
       </li>
       <li>

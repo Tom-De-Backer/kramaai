@@ -1,6 +1,6 @@
-import React from "react";
-
 import "../styles/SideWidget.css";
+
+import React from "react";
 
 import Bol from "../images/bollogo-web_rgb_600x181.png";
 import Trooper from "../images/logo_trooper_small.gif";
@@ -60,20 +60,6 @@ const SideWidget = () => {
         >
           <img src={Trooper} alt="Trooper affiliate" className="widgetLogo" />
         </a>
-      </div>
-
-      <div className="widget">
-        <div className="widgetText">
-          Kom{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="http://scoutsbouwt.genn.be/"
-          >
-            hier
-          </a>{" "}
-          wat meer te weten over de nieuwe lokalen
-        </div>
       </div>
     </div>
   );
