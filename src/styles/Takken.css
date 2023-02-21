@@ -44,8 +44,8 @@
 }
 
 .videosDiv {
-  width: 80%;
-  margin: auto;
+  width: auto;
+  /* margin: auto; */
 }
 
 .titleTakkenGeneral {
