@@ -43,9 +43,8 @@
   padding-bottom: 15px;
 }
 
-.videosDiv {
-  width: auto;
-  /* margin: auto; */
+.videosDivDiv {
+  width: 100%;
 }
 
 .titleTakkenGeneral {
@@ -56,6 +55,10 @@
   margin: 10px;
   border-radius: 10px;
   background-color: rgb(22, 104, 22);
+}
+
+.takkenButtons {
+  margin: auto;
 }
 
 @media (max-width: 768px) {
