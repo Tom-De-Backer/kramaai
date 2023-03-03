@@ -38,6 +38,15 @@ class Kramaai extends Component {
 					december-januari-februari
                   </a>
                 </div>
+				<div className="kramaaiLink">
+                  <a
+                    className="kramaaiA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://kramaaiblog.files.wordpress.com/2023/03/kramaai-2223-maart-april-mei.pdf">
+					maart-april-mei
+                  </a>
+                </div>
               </div>
             </div>
           {/* <h3>Nog even geduld voor de nieuwste Kramaai</h3>) */}

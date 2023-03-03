@@ -117,7 +117,7 @@ class Home extends Component {
                       ">
               Beste ouders en leden,
               <br/><br/>
-              Vanaf nu staat ook de kramaai van december, januari en fabruari op onze website. Je kunt deze <a href="https://kramaaiblog.files.wordpress.com/2022/12/kramaai-2223-dec-jan-feb.pdf">hier</a> bekijken.
+              Vanaf nu staat ook de kramaai van maart, april en mei op onze website. Je kunt deze <a href="https://kramaaiblog.files.wordpress.com/2023/03/kramaai-2223-maart-april-mei.pdf">hier</a> bekijken.
               <br/>
               <br/>Een stevige linker
               <br/>De Leiding
