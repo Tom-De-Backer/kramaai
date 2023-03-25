@@ -30,6 +30,11 @@
   margin: 10px;
 }
 
+.newsImg {
+	width: auto;
+	height: auto;
+}
+
 @media (max-width: 768px) {
   .news {
     width: 100%,
