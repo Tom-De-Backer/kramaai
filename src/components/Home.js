@@ -98,13 +98,30 @@ class Home extends Component {
               <center><a href="http://jubile.kramaai.be" target="_blank" rel="noopener noreferrer">Meer info op jubile.kramaai.be</a></center>
             </h2>
             <br /> */}
-          {new Date(2022, 10, 7, 0, 0, 0, 0) > new Date() && (
+          {/* new Date(2022, 10, 7, 0, 0, 0, 0) > new Date() && (
             <NewsItem
             title="Italiaans etentje"
               text=" "
             imageUrl="https://www.kramaai.be/images/italiaans_etentje_2022.jpeg"
             />
-          )}
+          )*/}
+		{ <NewsItem
+		  title="The White, Little & Grey (K)Night 2022"
+		  text='<p 
+		  style=" padding-left: 10px;
+				  padding-right: 20px;
+				  padding-bottom: 20px;
+				  padding-top: 20px;
+				  font-size: 1.17em;
+				  ">
+				  Vrijdag 8 april => <a href="https://www.facebook.com/TheWhiteKnight1730">The White (K)Night</a>
+				  <br />
+				  Zaterdag 9 april => <a href="https://www.facebook.com/events/949279902741165/">The Little (K)Night</a>
+				  <br />
+				  Zaterdag 9 april => <a href="https://www.facebook.com/events/s/the-grey-knight-2023/1263880664485667/">The Grey (K)Night</a>
+				  </p>'
+		  imageUrl="https://kramaaiblog.files.wordpress.com/2022/03/twkfoto.jpg"
+		/> }
           {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
             <NewsItem
             title="Kramaai"
@@ -149,12 +166,13 @@ class Home extends Component {
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="5 - 6 november" event="Italiaans etentje"></CalendarItem>
+			{/*<CalendarItem date="5 - 6 november" event="Italiaans etentje"></CalendarItem>
             <CalendarItem date="24 december" event="Jeneveravond"></CalendarItem>
-            {/* <CalendarItem date="27 maa" event="Switchvergadering" />
+            <CalendarItem date="27 maa" event="Switchvergadering" />*/}
             <CalendarItem date="8 apr" event="The White (K)Night" />
+            <CalendarItem date="9 apr" event="The Little (K)Night" />
             <CalendarItem date="9 apr" event="The Grey (K)Night" />
-            <CalendarItem date="10 apr" event="Geen vergadering" />
+			{/*<CalendarItem date="10 apr" event="Geen vergadering" />
             <CalendarItem date="22 mei" event="Laatste vergadering" />
             <CalendarItem date="3 - 13 aug 2022" event="Scoutskamp" /> */}
             <br />
