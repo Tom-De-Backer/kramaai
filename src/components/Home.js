@@ -89,7 +89,7 @@ class Home extends Component {
             imageUrl="https://www.kramaai.be/images/italiaans_etentje_2022.jpeg"
             />
           )*/}
-		{ <NewsItem
+		{/* <NewsItem
 		  title="The White, Little & Grey (K)Night 2023"
 		  text='<p 
 		  style=" padding-left: 10px;
@@ -106,7 +106,7 @@ class Home extends Component {
 				  </p>'
 		  imageUrl="https://kramaai.be/images/TWK.jpg"
 		  imageLink="https://www.facebook.com/TheWhiteKnight1730"
-		/> }
+		/> */}
           {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
             <NewsItem
             title="Kramaai"
@@ -127,8 +127,7 @@ class Home extends Component {
             imageUrl=" "
             />
           )}
-          {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
-            <NewsItem
+          { <NewsItem
             title="Kampfoto's"
               text="<p 
               style=' padding-left: 10px;
@@ -145,21 +144,13 @@ class Home extends Component {
               <br/>De Leiding
             <p/>"
             imageUrl=" "
-            />
-          )}
+            /> }
           </div>
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-			{/*<CalendarItem date="5 - 6 november" event="Italiaans etentje"></CalendarItem>
-            <CalendarItem date="24 december" event="Jeneveravond"></CalendarItem>
-            <CalendarItem date="27 maa" event="Switchvergadering" />*/}
-            <CalendarItem date="7 apr" event="The White (K)Night" />
-            <CalendarItem date="8 apr" event="The Little (K)Night" />
-            <CalendarItem date="8 apr" event="The Grey (K)Night" />
-			{/*<CalendarItem date="10 apr" event="Geen vergadering" /> */}
-            <CalendarItem date="21 mei" event="Laatste vergadering &#x1F622;" />
-			{/*<CalendarItem date="3 - 13 aug 2022" event="Scoutskamp" /> */}
+            <CalendarItem date="21 mei" event="Laatste vergadering &#x1F622;" until={new Date(2023, 4, 21, 17)} />
+			<CalendarItem date="4 - 14 aug 2023" event="Scoutskamp" until={new Date(2023, 7, 15)}/>
             <br />
             <WidgetSlideshow />
             <SideWidget />
