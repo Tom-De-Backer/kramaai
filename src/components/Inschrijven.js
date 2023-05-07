@@ -10,8 +10,6 @@ import SideSpace from "./SideSpace";
 
 class Inschrijven extends Component {
   render() {
-    console.log(new Date(2021, 8, 7, 19, 0, 0, 0));
-    console.log(new Date(2021, 8, 12, 10, 0, 0, 0));
     ReactGA.pageview(window.location.pathname + window.location.search);
     return (
       <div className="inschrijven">
