@@ -17,16 +17,50 @@ class Inschrijven extends Component {
       <div className="inschrijven">
         <SideSpace />
         <div className="uitlegDiv">
-
           <center>
-            <h1>
-              Inschrijven voor scoutsjaar 2022 - 2023 is helaas niet meer mogelijk.
-            </h1>
+            {<h1>Inschrijvingen</h1>}
             {/* <h1>
-              Meer info over de inschrijvingen van scoutsjaar 2020 - 2021 volgt binnenkort. Houd deze pagina zeker in de gaten!
+              Inschrijven voor scoutsjaar 2022 - 2023 is helaas niet meer mogelijk.
             </h1> */}
           </center>
+          <br />
 
+          <p>
+            Wat fijn dat je interesse toont in onze jeugdbeweging! Hoewel Scouts
+            Mollem graag iedereen zou verwelkomen, stuiten ook wij op onze
+            limieten. Daarom zijn we genoodzaakt sinds enkele jaren een
+            ledenstop in te stellen. Doorheen het jaar is het spijtig genoeg
+            niet mogelijk om nog aan te sluiten.
+            <br />
+            <br />
+            De inschrijvingen voor het volgende scoutsjaar gaan steeds door
+            begin september. Dan stellen wij onze jeugdwerking en de nieuwe
+            leidersploegen voor op de dia-avond. Het is het perfecte moment om
+            kennis te maken met Scouts Mollem! Met een hapje en een drankje
+            beantwoordt onze (groeps)leiding al jouw vragen. Sluit je gerust aan
+            bij de facebookgroep “Scouts en Gidsen Kramaai Mollem” of hou onze
+            website in de gaten voor verdere informatie over deze dia-avond.
+            <br />
+            <br />
+            Bestaande leden krijgen enkele dagen voor de dia-avond een link
+            toegestuurd om hun opnieuw in te schrijven. Enkele dagen na het
+            evenement komt er dan een link op onze website (
+            <a href="www.kramaai.be">www.kramaai.be</a>) waarmee nieuwe leden
+            zich kunnen inschrijven.
+            <br />
+            <br />
+            Bij de inschrijving van nieuwe leden hanteren we 2 richtlijnen.
+            Broers & zussen van bestaande leden genieten voorrang. Daarnaast
+            krijgen ook inwoners van Mollem voorrang. Het is voor ons belangrijk
+            dat je binnen je eigen dorp terecht kan bij de enige jeugdbeweging
+            die er is en dat met je hele gezin. Per geboortejaar laten we
+            ongeveer 20 leden toe. Hierbij baseren we ons op de regel “First
+            come, first served”. Hoewel er bij sommige groepen enkele plaatsjes
+            open blijven, zijn andere groepen binnen enkele dagen volzet. We
+            kunnen jullie enkel aanraden niet te lang te wachten met de
+            inschrijving en hopen jullie zo volgend jaar ook bij onze scouts te
+            mogen verwelkomen!
+          </p>
 
           {/* { <><p>
             Beste ouders
@@ -113,7 +147,6 @@ class Inschrijven extends Component {
              </center>
              
            )}  */}
-
         </div>
         <SideWidget />
         <SideSpace />
