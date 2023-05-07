@@ -1,25 +1,13 @@
 import React, { Component } from "react";
 
-import "../../styles/Takken.css";
-import SideWidget from "../SideWidget";
-import SideSpace from "../SideSpace";
-
-import { Player } from "video-react";
-import "../../../node_modules/video-react/dist/video-react.css";
+import Tak from "./Takken.js";
 
 class JongGivers extends Component {
   render() {
     return (
-      <div>
-        <section className="info">
-          <SideSpace />
-          <div className="textDiv">
-            <div className="titleTakken">Jong-Givers</div>
-            <div className="mailadresTakken">
-              <a href="mailto:Jong-Givers@kramaai.be">Jong-Givers@kramaai.be</a>
-            </div>
-            <p className="paragraphTakken">
-              Jonggivers zijn tussen 11 en 13 jaar oud. Jonggivers houden van
+      <Tak
+        name="Jong-givers"
+        explanation=" Jonggivers zijn tussen 11 en 13 jaar oud. Jonggivers houden van
               avontuur en steken graag de handen uit de mouwen. Ze vinden het
               leuk om inspraak te hebben en gaan graag nieuwe uitdagingen aan:
               vlottentocht, koken op houtvuur, slapen in patrouilletenten.
@@ -28,30 +16,8 @@ class JongGivers extends Component {
               leggen hun belofte met trots af. Jonggivers zitten op de wip
               tussen kind en puber. Hun leefwereld verandert razendsnel en wordt
               plots veel complexer. Al die veranderingen zijn soms
-              overweldigend.
-              <br />
-              <br />
-              <br />
-              De leiding van de Jong-Givers kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
-              <br />
-              <br />
-              Bekijk de leidersvoorstelling van de jong-givers hieronder:
-            </p>
-
-            <div className="videosDiv">
-              <Player>
-                <source src="https://www.kramaai.be/images/videos/2020-2021/Jong-givers.mp4" />
-              </Player>
-            </div>
-            <br />
-          </div>
-
-          <div className="sideWidget">
-            <SideWidget />
-          </div>
-          <SideSpace />
-        </section>
-      </div>
+              overweldigend."
+      />
     );
   }
 }

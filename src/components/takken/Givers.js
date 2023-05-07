@@ -1,55 +1,22 @@
 import React, { Component } from "react";
 
-import "../../styles/Takken.css";
-import SideWidget from "../SideWidget";
-import SideSpace from "../SideSpace";
-
-import { Player } from "video-react";
-import "../../../node_modules/video-react/dist/video-react.css";
+import Tak from "./Takken.js";
 
 class Givers extends Component {
   render() {
     return (
-      <div>
-        <section className="info">
-          <SideSpace />
-          <div className="textDiv">
-            <div className="titleTakken">Givers</div>
-            <div className="mailadresTakken">
-              <a href="mailto:Givers@kramaai.be">Givers@kramaai.be</a>
-            </div>
-            <p className="paragraphTakken">
-              Giver staat voor ‘Gidsen – Verkenners’. Hierbij horen de 14 tot
+      <Tak
+        name="Givers"
+        explanation="Giver staat voor ‘Gidsen – Verkenners’. Hierbij horen de 14 tot
               17-jarigen, dus weeral een tak hoger dan bij de jonggivers : meer
               verantwoordelijkheid, ruimte voor grotere projecten, met de groep
               zelf een snuifje avontuur realiseren, of uitgedaagd worden door
               elkaar, … Dit vertaalt zich in onder andere gezellige
               vrijdagavondjes, een toffe fuif, op weekend met de trein, een
               3-daagse met de fiets op kamp, leefweek, in-het-oog-springende
-              constructies, enzoverder.
-              <br />
-              <br />
-              <br />
-              Door wie de givers dit jaar begeleid worden, kan je <a href="https://www.kramaai.be/#/leiding">hier</a> terugvinden.
-              <br />
-              <br />
-              Bekijk de leidersvoorstelling van de givers hieronder:
-            </p>
-
-            <div className="videosDiv">
-              <Player>
-                <source src="https://www.kramaai.be/images/videos/2020-2021/Givers.mp4" />
-              </Player>
-            </div>
-            <br />
-          </div>
-
-          <div className="sideWidget">
-            <SideWidget />
-          </div>
-          <SideSpace />
-        </section>
-      </div>
+              constructies, enzoverder."
+        leiding="Door wie de givers dit jaar begeleid worden, kan je %s terugvinden."
+      />
     );
   }
 }

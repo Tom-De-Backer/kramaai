@@ -3,16 +3,13 @@ import React from "react";
 import "../styles/Leiding.css";
 
 const LeidingTable = () => {
-  console.log(new Date());
-  console.log(new Date(2020, 8, 5, 22, 0, 0, 0));
-  console.log(new Date(2020, 8, 5, 22, 0, 0, 0) < new Date());
   return (
     <div>
       {/* new Date(2020, 8, 5, 22, 0, 0, 0) = Sat Sep 05 2020 22:00:00 GMT+0200 (Central European Summer Time) */}
       {new Date(2021, 8, 6, 22, 0, 0, 0) < new Date() && (
         <div>
           <br />
-          <div className="titleTable">
+          <div className="titleTable" id="kapoenen">
             <div>Kapoenen</div>
             <a className="emailTable" href="mailto:kapoenen@kramaai.be">
               Kapoenen@kramaai.be
@@ -21,9 +18,15 @@ const LeidingTable = () => {
           <table className="table">
             <tbody>
               <tr>
-                <td><b>Hanne Esselens</b></td>
-                <td><b>Ijverige Otter</b></td>
-                <td><b>Hanne@kramaai.be</b></td>
+                <td>
+                  <b>Hanne Esselens</b>
+                </td>
+                <td>
+                  <b>Ijverige Otter</b>
+                </td>
+                <td>
+                  <b>Hanne@kramaai.be</b>
+                </td>
               </tr>
               <tr>
                 <td>Flore Esselens</td>
@@ -59,7 +62,7 @@ const LeidingTable = () => {
           </table>
           <br />
           <br />
-          <div className="titleTable">
+          <div className="titleTable" id="welpen">
             <div>Welpen</div>
             <a className="emailTable" href="mailto:welpen@kramaai.be">
               Welpen@kramaai.be
@@ -68,9 +71,15 @@ const LeidingTable = () => {
           <table className="table">
             <tbody>
               <tr>
-                <td><b>Lennart Beeckman</b></td>
-                <td><b>Toegewijde Steltral</b></td>
-                <td><b>Lennart@kramaai.be</b></td>
+                <td>
+                  <b>Lennart Beeckman</b>
+                </td>
+                <td>
+                  <b>Toegewijde Steltral</b>
+                </td>
+                <td>
+                  <b>Lennart@kramaai.be</b>
+                </td>
               </tr>
               <tr>
                 <td>Delphine Ilsbroux</td>
@@ -96,12 +105,12 @@ const LeidingTable = () => {
                 <td>Kobe Gysens</td>
                 <td>Ondeugende Ekster</td>
                 <td>Kobe@kramaai.be</td>
-              </tr> 
+              </tr>
             </tbody>
           </table>
           <br />
           <br />
-          <div className="titleTable">
+          <div className="titleTable" id="bevers">
             <div>Bevers</div>
             <a className="emailTable" href="mailto:bevers@kramaai.be">
               Bevers@kramaai.be
@@ -110,9 +119,15 @@ const LeidingTable = () => {
           <table className="table">
             <tbody>
               <tr>
-                <td><b>Fien De Jonge</b></td>
-                <td><b>Vlotte Wasbeer</b></td>
-                <td><b>FienDeJonge@kramaai.be</b></td>
+                <td>
+                  <b>Fien De Jonge</b>
+                </td>
+                <td>
+                  <b>Vlotte Wasbeer</b>
+                </td>
+                <td>
+                  <b>FienDeJonge@kramaai.be</b>
+                </td>
               </tr>
               <tr>
                 <td>Jules Eeman</td>
@@ -143,7 +158,7 @@ const LeidingTable = () => {
           </table>
           <br />
           <br />
-          <div className="titleTable">
+          <div className="titleTable" id="jonggivers">
             <div>Jong-Givers</div>
             <a className="emailTable" href="mailto:jonggivers@kramaai.be">
               Jonggivers@kramaai.be
@@ -152,9 +167,15 @@ const LeidingTable = () => {
           <table className="table">
             <tbody>
               <tr>
-                <td><b>Matisse Eeman</b></td>
-                <td><b>Dromerige Spreeuw</b></td>
-                <td><b>Matisse@kramaai.be</b></td>
+                <td>
+                  <b>Matisse Eeman</b>
+                </td>
+                <td>
+                  <b>Dromerige Spreeuw</b>
+                </td>
+                <td>
+                  <b>Matisse@kramaai.be</b>
+                </td>
               </tr>
               <tr>
                 <td>Manse Bouckaert</td>
@@ -185,7 +206,7 @@ const LeidingTable = () => {
           </table>
           <br />
           <br />
-          <div className="titleTable">
+          <div className="titleTable" id="givers">
             <div>Givers</div>
             <a className="emailTable" href="mailto:givers@kramaai.be">
               Givers@kramaai.be
@@ -223,7 +244,7 @@ const LeidingTable = () => {
           </table>
           <br />
           <br />
-          <div className="titleTable">
+          <div className="titleTable" id="jins">
             <div>Jins</div>
             <a className="emailTable" href="mailto:jins@kramaai.be">
               Jins@kramaai.be
@@ -232,9 +253,15 @@ const LeidingTable = () => {
           <table className="table">
             <tbody>
               <tr>
-                <td><b>Liesa Heyvaert</b></td>
-                <td><b>Jolige Tijger</b></td>
-                <td><b>Liesa@kramaai.be</b></td>
+                <td>
+                  <b>Liesa Heyvaert</b>
+                </td>
+                <td>
+                  <b>Jolige Tijger</b>
+                </td>
+                <td>
+                  <b>Liesa@kramaai.be</b>
+                </td>
               </tr>
               <tr>
                 <td> Karo Van Lil </td>
@@ -250,7 +277,7 @@ const LeidingTable = () => {
           </table>
           <br />
           <br />
-          <div className="titleTable">
+          <div className="titleTable" id="groupsleiding">
             <div>Groepsleiding</div>
             <a className="emailTable" href="mailto:groepsleiding@kramaai.be">
               Groepsleiding@kramaai.be
@@ -269,7 +296,7 @@ const LeidingTable = () => {
                 <td>Ondeugende Ekster</td>
                 <td>Kobe@kramaai.be</td>
                 <td>+32 474 67 70 75</td>
-              </tr> 
+              </tr>
               <tr>
                 <td>Jasper Beeckman</td>
                 <td>Sympathieke Spitsvogel</td>
