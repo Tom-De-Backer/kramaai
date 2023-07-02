@@ -107,7 +107,7 @@ class Home extends Component {
 		  imageUrl="https://kramaai.be/images/TWK.jpg"
 		  imageLink="https://www.facebook.com/TheWhiteKnight1730"
 		/> */}
-          {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
+          {/* new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
             <NewsItem
             title="Kramaai"
               text='<p 
@@ -126,7 +126,7 @@ class Home extends Component {
             <p/>'
             imageUrl=" "
             />
-          )}
+          )*/}
           { <NewsItem
             title="Kampfoto's"
               text="<p 

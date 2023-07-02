@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   height: 200px;
-  width: 30%;
+  width: fit-content;
 }
 
 .imageSponsor {
@@ -18,6 +18,17 @@
   width: auto;
   justify-content: center;
   align-items: center;
+}
+
+.slide-containerSponsor .images-wrap {
+  height: 220px;
+}
+
+.slide-containerSponsor .images-wrap > div {
+  margin: 15px;
+  white-space: nowrap !important;
+  width: fit-content !important;
+  height: 200px;
 }
 
 @media (max-width: 768px) {
