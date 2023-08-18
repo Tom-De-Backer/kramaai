@@ -9,58 +9,70 @@ import SideWidget from "./SideWidget";
 import SideSpace from "./SideSpace";
 
 class Inschrijven extends Component {
-  render() {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-    return (
-      <div className="inschrijven">
-        <SideSpace />
-        <div className="uitlegDiv">
-          <center>
-            {<h1>Inschrijvingen</h1>}
-            {/* <h1>
+    render() {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+        return (
+            <div className="inschrijven">
+                <SideSpace />
+                <div className="uitlegDiv">
+                    <center>
+                        {<h1>Inschrijvingen</h1>}
+                        {/* <h1>
               Inschrijven voor scoutsjaar 2022 - 2023 is helaas niet meer mogelijk.
             </h1> */}
-          </center>
-          <br />
+                    </center>
+                    <br />
 
-          <p>
-            Wat fijn dat je interesse toont in onze jeugdbeweging! Hoewel Scouts
-            Mollem graag iedereen zou verwelkomen, stuiten ook wij op onze
-            limieten. Daarom zijn we genoodzaakt sinds enkele jaren een
-            ledenstop in te stellen. Doorheen het jaar is het spijtig genoeg
-            niet mogelijk om nog aan te sluiten.
-            <br />
-            <br />
-            De inschrijvingen voor het volgende scoutsjaar gaan steeds door
-            begin september. Dan stellen wij onze jeugdwerking en de nieuwe
-            leidersploegen voor op de dia-avond. Het is het perfecte moment om
-            kennis te maken met Scouts Mollem! Met een hapje en een drankje
-            beantwoordt onze (groeps)leiding al jouw vragen. Sluit je gerust aan
-            bij de facebookgroep “Scouts en Gidsen Kramaai Mollem” of hou onze
-            website in de gaten voor verdere informatie over deze dia-avond.
-            <br />
-            <br />
-            Bestaande leden krijgen enkele dagen voor de dia-avond een link
-            toegestuurd om hun opnieuw in te schrijven. Enkele dagen na het
-            evenement komt er dan een link op onze website (
-            <a href="www.kramaai.be">www.kramaai.be</a>) waarmee nieuwe leden
-            zich kunnen inschrijven.
-            <br />
-            <br />
-            Bij de inschrijving van nieuwe leden hanteren we 2 richtlijnen.
-            Broers & zussen van bestaande leden genieten voorrang. Daarnaast
-            krijgen ook inwoners van Mollem voorrang. Het is voor ons belangrijk
-            dat je binnen je eigen dorp terecht kan bij de enige jeugdbeweging
-            die er is en dat met je hele gezin. Per geboortejaar laten we
-            ongeveer 20 leden toe. Hierbij baseren we ons op de regel “First
-            come, first served”. Hoewel er bij sommige groepen enkele plaatsjes
-            open blijven, zijn andere groepen binnen enkele dagen volzet. We
-            kunnen jullie enkel aanraden niet te lang te wachten met de
-            inschrijving en hopen jullie zo volgend jaar ook bij onze scouts te
-            mogen verwelkomen!
-          </p>
+                    <p>
+                        Wat fijn dat je interesse toont in onze jeugdbeweging!
+                        Hoewel Scouts Mollem graag iedereen zou verwelkomen,
+                        stuiten ook wij op onze limieten. Daarom zijn we
+                        genoodzaakt sinds enkele jaren een ledenstop in te
+                        stellen. Doorheen het jaar is het spijtig genoeg niet
+                        mogelijk om nog aan te sluiten.
+                        <br />
+                        <br />
+                        De inschrijvingen voor het volgende scoutsjaar gaan
+                        steeds door begin september. Dan stellen wij onze
+                        jeugdwerking en de nieuwe leidersploegen voor op de
+                        dia-avond. Kom op zaterdag 9 september om 19u dus zeker
+                        naar de speelplaats van de lagere school. Het is het
+                        perfecte moment om kennis te maken met Scouts Mollem!
+                        Met een hapje en een drankje beantwoordt onze
+                        (groeps)leiding al jouw vragen. Sluit je gerust aan bij
+                        de facebookgroep “Scouts en Gidsen Kramaai Mollem” of
+                        houd onze website in de gaten voor verdere informatie
+                        over deze dia-avond. De eerste vergadering gaat
+                        traditiegetrouw door op autoloze zondag. Die valt dit
+                        jaar op zondag 17 september.
+                        <br />
+                        <br />
+                        Bestaande leden krijgen al op zondag 27 augustus een
+                        link toegestuurd om hun opnieuw in te schrijven. Op
+                        zondag 10 september, een dag na de dia-avond, komt er
+                        dan om 12u een link op onze website (
+                        <a href="www.kramaai.be">www.kramaai.be</a> ) waarmee
+                        nieuwe leden zich kunnen inschrijven.
+                        <br />
+                        <br />
+                        Bij de inschrijving van nieuwe leden hanteren we 2
+                        richtlijnen. Broers & zussen van bestaande leden
+                        genieten voorrang. Daarnaast krijgen ook inwoners van
+                        Mollem voorrang. Het is voor ons belangrijk dat je
+                        binnen je eigen dorp terecht kan bij de enige
+                        jeugdbeweging die er is en dat met je hele gezin.
+                        <br />
+                        <br />
+                        Per geboortejaar laten we ongeveer 25 leden toe. Hierbij
+                        baseren we ons op de regel “First come, first served”.
+                        Hoewel er bij sommige groepen enkele plaatsjes open
+                        blijven, zijn andere groepen binnen enkele dagen volzet.
+                        We kunnen jullie enkel aanraden niet te lang te wachten
+                        met de inschrijving en hopen jullie zo volgend jaar ook
+                        bij onze scouts te mogen verwelkomen!
+                    </p>
 
-          {/* { <><p>
+                    {/* { <><p>
             Beste ouders
             <br />
             <br />
@@ -125,9 +137,9 @@ class Inschrijven extends Component {
             <br />
             De Leiding
           </p><br /><br /><br /><br /></>  */}
-          {/*  Dit gedeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  */}
-          {/* 12 september 2021 om 10 uur  */}
-          {/* {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
+                    {/*  Dit gedeelte is voor het tonen van de Google form die de ouders toelaat om hun kind(eren) in te schrijven.  */}
+                    {/* 12 september 2021 om 10 uur  */}
+                    {/* {new Date(2022, 8, 4, 13, 0, 0, 0) < new Date() && (
              
              <center>
                <h1>Nieuw lid: </h1>
@@ -145,12 +157,12 @@ class Inschrijven extends Component {
              </center>
              
            )}  */}
-        </div>
-        <SideWidget />
-        <SideSpace />
-      </div>
-    );
-  }
+                </div>
+                <SideWidget />
+                <SideSpace />
+            </div>
+        );
+    }
 }
 
 export default Inschrijven;

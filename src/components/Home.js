@@ -149,8 +149,8 @@ class Home extends Component {
 
           <div className="calender">
             <h2 className="titleCalendar">Kalender</h2>
-            <CalendarItem date="21 mei" event="Laatste vergadering &#x1F622;" until={new Date(2023, 4, 21, 17)} />
-			<CalendarItem date="4 - 14 aug 2023" event="Scoutskamp" until={new Date(2023, 7, 15)}/>
+            <CalendarItem date="9 september" event="Dia-avond" until={new Date(2023, 8, 10)} />
+			<CalendarItem date="17 september" event="Eerste vergadering" until={new Date(2023, 8, 17, 17)}/>
             <br />
             <WidgetSlideshow />
             <SideWidget />
