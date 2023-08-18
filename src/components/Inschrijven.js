@@ -50,7 +50,7 @@ class Inschrijven extends Component {
                         Bestaande leden krijgen al op zondag 27 augustus een
                         link toegestuurd om hun opnieuw in te schrijven. Op
                         zondag 10 september, een dag na de dia-avond, komt er
-                        dan om 12u een link op onze website (
+                        dan om 12u een link op onze website ({" "}
                         <a href="www.kramaai.be">www.kramaai.be</a> ) waarmee
                         nieuwe leden zich kunnen inschrijven.
                         <br />
@@ -63,7 +63,7 @@ class Inschrijven extends Component {
                         jeugdbeweging die er is en dat met je hele gezin.
                         <br />
                         <br />
-                        Per geboortejaar laten we ongeveer 25 leden toe. Hierbij
+                        Per geboortejaar laten we ongeveer 20 leden toe. Hierbij
                         baseren we ons op de regel “First come, first served”.
                         Hoewel er bij sommige groepen enkele plaatsjes open
                         blijven, zijn andere groepen binnen enkele dagen volzet.
