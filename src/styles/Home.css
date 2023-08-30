@@ -31,13 +31,14 @@
 }
 
 .newsImg {
-	width: auto;
-	height: auto;
+  max-width: 98%;
+  width: auto;
+  height: auto;
 }
 
 @media (max-width: 768px) {
   .news {
-    width: 100%,
+    width: 100%;
   }
 
   .info {
@@ -50,6 +51,6 @@
   }
 
   .home {
-    width:100%;
+    width: 100%;
   }
 }
