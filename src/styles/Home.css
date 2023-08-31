@@ -30,6 +30,10 @@ section.info {
   margin-left: 10px;
 }
 
+div.calender {
+  padding-top: 1px;
+}
+
 div.containerWidgets {
   margin: 0px;
   width: 100%;
@@ -58,22 +62,6 @@ div.slideShow {
   max-width: 98%;
   width: auto;
   height: auto;
-}
-
-.scoutnet {
-  width: 90%;
-  margin-left: 22px;
-}
-
-.scoutnet p {
-  margin: 0px;
-}
-
-.scoutnetImg {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 @media (max-width: 768px) {
@@ -106,6 +94,7 @@ div.slideShow {
 
   div.containerWidgets {
     width: 100%;
+    max-width: 800px;
   }
 
   .home {
