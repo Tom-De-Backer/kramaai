@@ -8,7 +8,6 @@ import NewsItem from "./NewsItem";
 
 import "../styles/Home.css";
 import SideWidget from "./SideWidget";
-import SideSpace from "./SideSpace";
 import WidgetSlideshow from "./slideShow/WidgetSlideshow";
 
 let calendarPromise = new Promise((resolve) => {
@@ -54,7 +53,6 @@ class Home extends Component {
             <div className="home">
                 <SlideEffect className="slideEffect" />
                 <section className="info">
-                    <SideSpace />
                     <div className="news">
                         {(this.state.newsItems &&
                             ((this.state.newsItems.lenght == 0 && (
@@ -75,28 +73,31 @@ class Home extends Component {
                                 )))) || <p>laden...</p>}
                     </div>
 
-                    <div className="calender">
-                        <h2 className="titleCalendar">Kalender</h2>
-                        {(this.state.calendarItems &&
-                            ((this.state.calendarItems.length == 0 && (
-                                <p>
-                                    Er is momenteel niets gepland, kom later nog
-                                    eens terug.
-                                </p>
-                            )) ||
-                                this.state.calendarItems.map((item) => (
-                                    <CalendarItem
-                                        key={item.event}
-                                        date={item.date}
-                                        event={item.event}
-                                        until={new Date(item.until)}
-                                    />
-                                )))) || <p>laden...</p>}
+                    <div className="sideSpace">
+                        <div className="calender">
+                            <h2 className="titleCalendar">Kalender</h2>
+                            {(this.state.calendarItems &&
+                                ((this.state.calendarItems.length == 0 && (
+                                    <p>
+                                        Er is momenteel niets gepland, kom later
+                                        nog eens terug.
+                                    </p>
+                                )) ||
+                                    this.state.calendarItems.map((item) => (
+                                        <CalendarItem
+                                            key={item.event}
+                                            date={item.date}
+                                            event={item.event}
+                                            until={new Date(item.until)}
+                                        />
+                                    )))) || <p>laden...</p>}
+                        </div>
                         <br />
-                        <WidgetSlideshow />
+                        <div className="slideShow">
+                            <WidgetSlideshow />
+                        </div>
                         <SideWidget />
                     </div>
-                    <SideSpace />
                 </section>
             </div>
         );

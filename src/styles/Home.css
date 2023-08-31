@@ -1,8 +1,8 @@
-.info {
-  width: auto;
-  margin: 5px;
+section.info {
+  width: 80%;
+  margin: 0.5%;
   background-color: rgb(48, 135, 50);
-  padding: 15px;
+  padding: 5px 9.5%;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
@@ -15,9 +15,33 @@
   border-radius: 20px;
 }
 
-.calender {
-  width: 30%;
+.calender,
+.slideShow {
+  border-radius: 20px;
+  padding: 1px 0px;
   background-color: rgb(22, 104, 22);
+}
+
+.sideSpace > div,
+.containerWidgets > div {
+  width: 95%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+div.containerWidgets {
+  margin: 0px;
+  width: 100%;
+  max-width: 500px;
+}
+
+div.slideShow {
+  padding: 10px 0px;
+}
+
+.sideSpace {
+  width: 35%;
   margin: 5px;
   border-radius: 20px;
 }
@@ -36,18 +60,52 @@
   height: auto;
 }
 
+.scoutnet {
+  width: 90%;
+  margin-left: 22px;
+}
+
+.scoutnet p {
+  margin: 0px;
+}
+
+.scoutnetImg {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 @media (max-width: 768px) {
-  .news {
-    width: 100%;
-  }
-
-  .info {
-    width: 100%;
+  section.info {
+    width: calc(100% - 10px);
     display: block;
+    padding: 5px 0px;
+    margin: 5px;
   }
 
-  .info div {
+  .sideSpace {
+    width: inherit;
+  }
+
+  .sideSpace > div,
+  .containerWidgets > div,
+  .news {
     width: 95%;
+    padding: 0px;
+    margin: auto;
+  }
+
+  div.slideShow {
+    padding-bottom: 10px;
+  }
+
+  .news {
+    margin: 5px auto;
+  }
+
+  div.containerWidgets {
+    width: 100%;
   }
 
   .home {
