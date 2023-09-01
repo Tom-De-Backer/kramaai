@@ -16,9 +16,9 @@ let calendarPromise = new Promise((resolve) => {
     );
 });
 let newsPromise = new Promise((resolve) => {
-    fetch("https://kramaai.be/public/news.json").then((news) =>
-        resolve(news.json())
-    );
+    fetch("https://kramaai.be/public/news.json").then((news) => {
+        resolve(news.json());
+    });
 });
 
 class Home extends Component {
@@ -37,13 +37,25 @@ class Home extends Component {
 
     getCalendarItems() {
         calendarPromise.then((items) => {
-            this.setState((state) => (state.calendarItems = items));
+            let t = [];
+            this.setState(
+                (state) =>
+                    (state.calendarItems = items.filter(
+                        (item) => Date.parse(item.until) > new Date()
+                    ))
+            );
         });
     }
 
     getNewsItems() {
         newsPromise.then((items) => {
-            this.setState((state) => (state.newsItems = items));
+            this.setState(
+                (state) =>
+                    (state.newsItems = items.filter(
+                        (item) => Date.parse(item.until) > new Date()
+                    ))
+            );
+            console.log(this.state.newsItems.length);
         });
     }
 
@@ -55,7 +67,7 @@ class Home extends Component {
                 <section className="info">
                     <div className="news">
                         {(this.state.newsItems &&
-                            ((this.state.newsItems.lenght == 0 && (
+                            ((this.state.newsItems.length == 0 && (
                                 <p>
                                     Er is momenteel geen nieuws, kom later nog
                                     eens terug.
@@ -81,6 +93,7 @@ class Home extends Component {
                                     <p>
                                         Er is momenteel niets gepland, kom later
                                         nog eens terug.
+                                        <br />
                                     </p>
                                 )) ||
                                     this.state.calendarItems.map((item) => (

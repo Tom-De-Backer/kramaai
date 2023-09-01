@@ -9,7 +9,6 @@ function getImg(props) {
 }
 
 const NewsItem = (props) => {
-    if (props.until && props.until < new Date()) return null;
     let img = "";
     if (props.imageLink) img = <a href={props.imageLink}>{getImg(props)}</a>;
     else img = getImg(props);
