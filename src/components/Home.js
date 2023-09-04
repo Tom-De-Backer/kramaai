@@ -37,11 +37,13 @@ class Home extends Component {
 
     getCalendarItems() {
         calendarPromise.then((items) => {
-            let t = [];
             this.setState(
                 (state) =>
                     (state.calendarItems = items.filter(
-                        (item) => Date.parse(item.until) > new Date()
+                        (item) =>
+                            (!item.from ||
+                                Date.parse(item.from) < new Date()) &&
+                            (!item.until || Date.parse(item.until) > new Date())
                     ))
             );
         });
@@ -52,10 +54,12 @@ class Home extends Component {
             this.setState(
                 (state) =>
                     (state.newsItems = items.filter(
-                        (item) => Date.parse(item.until) > new Date()
+                        (item) =>
+                            (!item.from ||
+                                Date.parse(item.from) < new Date()) &&
+                            (!item.until || Date.parse(item.until) > new Date())
                     ))
             );
-            console.log(this.state.newsItems.length);
         });
     }
 
