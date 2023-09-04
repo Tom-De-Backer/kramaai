@@ -17,16 +17,7 @@ const NewsItem = (props) => {
         <div className="newsBox">
             <h2 className="titleNews">{props.title}</h2>
 
-            <p
-                style={
-                    ({ padding_left: 10 + "px" },
-                    { padding_right: 20 + "px" },
-                    { padding_bottom: 20 + "px" },
-                    { padding_top: 20 + "px" },
-                    { font_size: 1.17 + "em" })
-                }
-                dangerouslySetInnerHTML={{ __html: props.text }}
-            />
+            <p dangerouslySetInnerHTML={{ __html: props.text }} />
             {img}
         </div>
     );
