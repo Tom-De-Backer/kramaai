@@ -10,6 +10,7 @@ import "../styles/Home.css";
 import SideWidget from "./SideWidget";
 import WidgetSlideshow from "./slideShow/WidgetSlideshow";
 
+let testing = false;
 let calendarPromise = new Promise((resolve) => {
     fetch("https://kramaai.be/public/calendar.json").then((calendar) =>
         resolve(calendar.json())
@@ -41,6 +42,7 @@ class Home extends Component {
                 (state) =>
                     (state.calendarItems = items.filter(
                         (item) =>
+                            (!item.testing || testing) &&
                             (!item.from ||
                                 Date.parse(item.from) < new Date()) &&
                             (!item.until || Date.parse(item.until) > new Date())
@@ -55,6 +57,7 @@ class Home extends Component {
                 (state) =>
                     (state.newsItems = items.filter(
                         (item) =>
+                            (!item.testing || testing) &&
                             (!item.from ||
                                 Date.parse(item.from) < new Date()) &&
                             (!item.until || Date.parse(item.until) > new Date())
