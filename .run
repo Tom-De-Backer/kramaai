@@ -1,0 +1,16 @@
+#!/bin/bash
+
+run() {
+	npm start
+}
+
+compile() {
+	npm run build
+}
+
+terminate() {
+	pkill npm
+	pkill node
+}
+
+$@
