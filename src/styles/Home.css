@@ -64,12 +64,18 @@ div.slideShow {
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 930px) {
   section.info {
     width: calc(100% - 10px);
-    display: block;
+    display: flex;
     padding: 5px 0px;
     margin: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  section.info {
+    display: block;
   }
 
   .sideSpace {

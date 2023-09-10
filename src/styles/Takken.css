@@ -50,3 +50,10 @@
 .takkenButtons {
   margin: auto;
 }
+
+@media (max-width: 768px) {
+  .textDiv {
+    width: 95%;
+    margin: 5px auto;
+  }
+}
