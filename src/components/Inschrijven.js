@@ -24,38 +24,8 @@ class Inschrijven extends Component {
                     <br />
 
                     <p>
-                        Wat fijn dat je interesse toont in onze jeugdbeweging!
-                        Hoewel Scouts Mollem graag iedereen zou verwelkomen,
-                        stuiten ook wij op onze limieten. Daarom zijn we
-                        genoodzaakt sinds enkele jaren een ledenstop in te
-                        stellen. Doorheen het jaar is het spijtig genoeg niet
-                        mogelijk om nog aan te sluiten.
-                        <br />
-                        <br />
-                        De inschrijvingen voor het volgende scoutsjaar gaan
-                        steeds door begin september. Dan stellen wij onze
-                        jeugdwerking en de nieuwe leidersploegen voor op de
-                        dia-avond. Kom op zaterdag 9 september om 19u dus zeker
-                        naar de speelplaats van de lagere school. Het is het
-                        perfecte moment om kennis te maken met Scouts Mollem!
-                        Met een hapje en een drankje beantwoordt onze
-                        (groeps)leiding al jouw vragen. Sluit je gerust aan bij
-                        de facebookgroep “Scouts en Gidsen Kramaai Mollem” of
-                        houd onze website in de gaten voor verdere informatie
-                        over deze dia-avond. De eerste vergadering gaat
-                        traditiegetrouw door op autoloze zondag. Die valt dit
-                        jaar op zondag 17 september.
-                        <br />
-                        <br />
-                        Bestaande leden krijgen al op zondag 27 augustus een
-                        link toegestuurd om hun opnieuw in te schrijven. Op
-                        zondag 10 september, een dag na de dia-avond, komt er
-                        dan om 12u een link op onze website ({" "}
-                        <a href="www.kramaai.be">www.kramaai.be</a> ) waarmee
-                        nieuwe leden zich kunnen inschrijven.
-                        <br />
-                        <br />
-                        Bij de inschrijving van nieuwe leden hanteren we 2
+                        Vanaf nu kunnen ook nieuwe leden zich inschrijven, voor
+                        de inschrijving van nieuwe leden hanteren we 2
                         richtlijnen. Broers & zussen van bestaande leden
                         genieten voorrang. Daarnaast krijgen ook inwoners van
                         Mollem voorrang. Het is voor ons belangrijk dat je
@@ -70,6 +40,15 @@ class Inschrijven extends Component {
                         We kunnen jullie enkel aanraden niet te lang te wachten
                         met de inschrijving en hopen jullie zo volgend jaar ook
                         bij onze scouts te mogen verwelkomen!
+                        <br />
+                        <br />
+                        Om je in te schrijven als nieuw lid kan je{" "}
+                        <a href="https://forms.gle/fLaJXiWEEHx9Xq3C6">
+                            hier
+                        </a>{" "}
+                        drukken, als je al een lid bent bij ons heb je al een
+                        mail gekregen om je opnieuw in te schrijven en gebruik
+                        je best die link.
                     </p>
 
                     {/* { <><p>
