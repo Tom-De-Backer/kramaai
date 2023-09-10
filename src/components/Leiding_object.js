@@ -36,7 +36,7 @@ let leiding = {
     },
     Tijs: {
         name: "Tijs De Jonge",
-        totem: "",
+        totem: "Speelse Kauw",
         email: "Tijs@kramaai.be",
     },
     Frederic: {
@@ -46,7 +46,7 @@ let leiding = {
     },
     Jari: {
         name: "Jari Heyvaert",
-        totem: "",
+        totem: "Genietende steenbok",
         email: "Jari@kramaai.be",
     },
     KobeG: {
@@ -55,7 +55,7 @@ let leiding = {
         email: "Kobe@kramaai.be",
         number: "+32 474 67 70 75",
     },
-    FienDJ: {
+    Fien: {
         name: "Fien De Jonge",
         totem: "Vlotte Wasbeer",
         email: "FienDeJonge@kramaai.be",
@@ -128,42 +128,105 @@ let leiding = {
     },
     Lise: {
         name: "Lise Van Geertruyen",
-        totem: "",
+        totem: "Blijmoedig Beermarter",
         email: "Lise@kramaai.be",
     },
-    Wout: { name: "Wout Huysman", totem: "", email: "Wout@kramaai.be" },
-    Robbe: { name: "Robbe Tops", totem: "", email: "Robbe@kramaai.be" },
-    Joren: { name: "Joren Tops", totem: "", email: "Joren@kramaai.be" },
+    Wout: {
+        name: "Wout Huysman",
+        totem: "Respectvol Grijs Bokje",
+        email: "Wout@kramaai.be",
+    },
+    Robbe: {
+        name: "Robbe Tops",
+        totem: "Betrouwbare Dolfijn",
+        email: "Robbe@kramaai.be",
+    },
+    Joren: {
+        name: "Joren Tops",
+        totem: "Geestige Aap",
+        email: "Joren@kramaai.be",
+    },
     VictorC: {
         name: "Victor Carle",
-        totem: "",
+        totem: "Dromerige Bever",
         email: "Victor.carle@kramaai.be",
     },
     VictorB: {
         name: "Victor Boterdaele",
-        totem: "",
+        totem: "Zorgzame Golden Retriever",
         email: "Victor.boterdaele@kramaa.be",
     },
-    Remco: { name: "Remco Looverie", totem: "", email: "Remco@kramaai.be" },
-    Amber: { name: "Amber Gysens", totem: "", email: "Amber@kramaai.be" },
-    Tibo: { name: "Tibo De Bondt", totem: "", email: "Tibo@kramaai.be" },
-    Toon: { name: "Toon Esselens", totem: "", email: "Tibo@kramaai.be" },
-    Wiebe: { name: "Wiebe Luppens", totem: "", email: "Wiebe@kramaai.be" },
+    Remco: {
+        name: "Remco Looverie",
+        totem: "Goedhartige Vink",
+        email: "Remco@kramaai.be",
+    },
+    Amber: {
+        name: "Amber Gysens",
+        totem: "Stoutmoedige Arassari",
+        email: "Amber@kramaai.be",
+    },
+    Tibo: {
+        name: "Tibo De Bondt",
+        totem: "Beschermende Spitsvogel",
+        email: "Tibo@kramaai.be",
+    },
+    Toon: {
+        name: "Toon Esselens",
+        totem: "Nonchalante Pumba",
+        email: "Tibo@kramaai.be",
+    },
+    Wiebe: {
+        name: "Wiebe Luppens",
+        totem: "Amusante Kolibrie",
+        email: "Wiebe@kramaai.be",
+    },
 };
 
 export default {
     kapoenen: [
-        leiding.Flore,
-        leiding.Catherine,
-        leiding.Senne,
+        leiding.Lorraine,
+        leiding.Inne,
         leiding.Andreas,
-        leiding.Roxanne,
+        leiding.Robbe,
+        leiding.Lise,
+        leiding.KobeB,
+        leiding.Frederic,
         leiding.Merlijn,
     ],
-    welpen: [leiding.Inne, leiding.KobeG],
-    bevers: [leiding.Jasper, leiding.Romain],
-    jonggivers: [leiding.Matisse, leiding.Manse],
-    givers: [leiding.Arthur, leiding.Lorraine],
-    jins: [leiding.Toon, leiding.VictorC],
+    welpen: [
+        leiding.Flore,
+        leiding.Catherine,
+        leiding.VictorC,
+        leiding.Wout,
+        leiding.Remco,
+        leiding.Amber,
+        leiding.Joren,
+    ],
+    bevers: [
+        leiding.Romain,
+        leiding.Tijs,
+        leiding.Delphine,
+        leiding.Jules,
+        leiding.Ferre,
+        leiding.Jasper,
+        leiding.Tibo,
+    ],
+    jonggivers: [
+        leiding.Roxanne,
+        leiding.Toon,
+        leiding.Jari,
+        leiding.David,
+        leiding.VictorB,
+        leiding.Wiebe,
+    ],
+    givers: [
+        leiding.Gilles,
+        leiding.Arthur,
+        leiding.KobeG,
+        leiding.Senne,
+        leiding.Manse,
+    ],
+    jins: [leiding.Fien, leiding.Matisse, leiding.Mats],
     groep: [leiding.Jasper, leiding.KobeG],
 };
