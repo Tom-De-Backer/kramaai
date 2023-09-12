@@ -2,7 +2,6 @@ import React from "react";
 
 import "../../styles/Takken.css";
 import SideWidget from "../SideWidget";
-import SideSpace from "../SideSpace";
 
 import { Player } from "video-react";
 import "../../../node_modules/video-react/dist/video-react.css";
