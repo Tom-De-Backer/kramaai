@@ -6,8 +6,8 @@ class JongGivers extends Component {
     render() {
         return (
             <Tak
-                name="Jong-givers"
-                explanation=" Jonggivers zijn tussen 11 en 13 jaar oud. Jonggivers houden van
+                name="Jong-Givers"
+                explanation="Jong-givers zijn tussen 11 en 13 jaar oud. Jonggivers houden van
               avontuur en steken graag de handen uit de mouwen. Ze vinden het
               leuk om inspraak te hebben en gaan graag nieuwe uitdagingen aan:
               vlottentocht, koken op houtvuur, slapen in patrouilletenten.

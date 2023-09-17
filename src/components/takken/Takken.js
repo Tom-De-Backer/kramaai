@@ -56,8 +56,8 @@ const Tak = (props) => {
                             <p>
                                 <br />
                                 <br />
-                                Bekijk de leidersvoorstelling van de bevers
-                                hieronder:
+                                Bekijk de leidersvoorstelling van de{" "}
+                                {props.name} hieronder:
                             </p>
                         )}
                     </p>
