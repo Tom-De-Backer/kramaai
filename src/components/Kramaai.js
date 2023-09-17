@@ -5,53 +5,36 @@ import SideSpace from "./SideSpace";
 import SideWidget from "./SideWidget";
 
 class Kramaai extends Component {
-  render() {
-    return (
-      <div className="kramaaiDiv">
-        <SideSpace />
-        <section>
-          <div className="kramaaiTitle">Kramaai</div>
-          <div className="kramaaiExplanation">
-            De kramaai is ons driemaandelijks ledentijdschrift waarin je alle
-            komende activiteiten kan vinden per tak. Hieronder vind je enkele
-            kramaai’s van vroeger en nu.
-          </div>
-          <br />
-            <div>
-              <div className="titleTable">2022 - 2023</div>
-              <div>
-                <div className="kramaaiLink">
-                  <a
-                    className="kramaaiA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.kramaai.be/kramaai/2022-2023/kramaai-sep-okt-nov.pdf">
-                    september-oktober-november
-                  </a>
-				</div>
-                <div className="kramaaiLink">
-                  <a
-                    className="kramaaiA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://kramaaiblog.files.wordpress.com/2022/12/kramaai-2223-dec-jan-feb.pdf">
-					december-januari-februari
-                  </a>
-                </div>
-				<div className="kramaaiLink">
-                  <a
-                    className="kramaaiA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://kramaaiblog.files.wordpress.com/2023/03/kramaai-2223-maart-april-mei.pdf">
-					maart-april-mei
-                  </a>
-                </div>
-              </div>
-            </div>
-          {/* <h3>Nog even geduld voor de nieuwste Kramaai</h3>) */}
-          {/* titleTable is zelfde css als bij LeidingTable.css */}
-          {/* <div className="titleTable">2021 - 2022</div>
+    render() {
+        return (
+            <div className="kramaaiDiv">
+                <SideSpace />
+                <section>
+                    <div className="kramaaiTitle">Kramaai</div>
+                    <div className="kramaaiExplanation">
+                        De kramaai is ons driemaandelijks ledentijdschrift
+                        waarin je alle komende activiteiten kan vinden per tak.
+                        Hieronder vind je enkele kramaai’s van vroeger en nu.
+                    </div>
+                    <br />
+                    <div>
+                        <div className="titleTable">2023 - 2024</div>
+                        <div>
+                            <div className="kramaaiLink">
+                                <a
+                                    className="kramaaiA"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://kramaaiblog.files.wordpress.com/2023/09/kramaai-sept-okt-nov.pdf"
+                                >
+                                    september-oktober-november
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <h3>Nog even geduld voor de nieuwste Kramaai</h3>) */}
+                    {/* titleTable is zelfde css als bij LeidingTable.css */}
+                    {/* <div className="titleTable">2021 - 2022</div>
           <br />
           <div>
             <div className="kramaaiLink">
@@ -87,7 +70,7 @@ class Kramaai extends Component {
             <br />
           </div>
           <br /> */}
-          {/* <div>
+                    {/* <div>
             <br />
             <div className="kramaaiLink">
               <a
@@ -322,12 +305,12 @@ class Kramaai extends Component {
             </div>
             <br />
           </div> */}
-        </section>
-        <SideWidget />
-        <SideSpace />
-      </div>
-    );
-  }
+                </section>
+                <SideWidget />
+                <SideSpace />
+            </div>
+        );
+    }
 }
 
 export default Kramaai;
