@@ -174,7 +174,7 @@ let leiding = {
     Toon: {
         name: "Toon Esselens",
         totem: "Nonchalante Pumba",
-        email: "Tibo@kramaai.be",
+        email: "Toon@kramaai.be",
     },
     Wiebe: {
         name: "Wiebe Luppens",
