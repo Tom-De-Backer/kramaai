@@ -23,11 +23,11 @@ const Navlinks = props => {
           Etentje
         </NavLink>
       </li> */}
-      { <li>
+      {/* <li>
         <NavLink to="/inschrijven" className="link" tabIndex={tempTabIndex}>
           Inschrijven
         </NavLink>
-      </li>       }
+      </li>       */}
       {/* <li>
         <NavLink to="/wijn" className="link" tabIndex={tempTabIndex}>
           Wijn
