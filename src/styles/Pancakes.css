@@ -1,0 +1,22 @@
+.contents {
+    width: auto;
+    margin: 8px;
+    background-color: rgb(48, 135, 50);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.form {
+    width: calc(100% - 9px);
+    margin: 3px;
+    height: 1800px;
+    flex-shrink: 0.5;
+}
+
+@media (max-width: 768px) {
+    .contents {
+        display: block;
+    }
+}
