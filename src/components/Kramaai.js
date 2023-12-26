@@ -8,7 +8,7 @@ class Kramaai extends Component {
     kramaaiLink(link, months) {
         return (
             <div className="kramaaiLink">
-                <a className="kramaaiA" href={link}>
+                <a className="kramaaiA" rel="noopener norefferer" href={link}>
                     {months}
                 </a>
             </div>
@@ -34,8 +34,8 @@ class Kramaai extends Component {
                                 "september-oktober-november"
                             )}
                             {this.kramaaiLink(
-                                "https://kramaaiblog.files.wordpress.com/2023/11/kramaai-dec-jan-feb.pdf",
-                                "december-january-february"
+                                "https://kramaaiblog.files.wordpress.com/2023/12/kramaai-dec-jan-feb.pdf",
+                                "december-januari-februari"
                             )}
                         </div>
                     </div>
