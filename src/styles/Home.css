@@ -40,6 +40,10 @@ div.containerWidgets {
   max-width: 500px;
 }
 
+.sideSpace > .calender ~ .slideShow + div.containerWidgets {
+  max-width: initial;
+}
+
 div.slideShow {
   padding: 10px 0px;
 }
