@@ -1,79 +1,94 @@
 #root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 footer {
-  background: rgb(48, 135, 50);
-  text-align: center;
-  padding: 18px 0px;
-  margin-top: auto;
+    background: rgb(48, 135, 50);
+    text-align: center;
+    padding: 18px 0px;
+    margin-top: auto;
 }
 
 footer div {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer .data ul {
-  display: inline-block;
+    display: inline-block;
 }
 
 footer div ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 footer div ul li {
-  display: inline-table;
-  margin: 10px;
+    display: inline-table;
+    margin: 10px;
+}
+
+footer p {
+    margin-top: 10px;
 }
 
 .link {
-  color: white;
-  font-size: 1.5vh;
-  text-decoration: none;
+    color: white;
+    font-size: 1.5vh;
+    text-decoration: none;
 }
 
 p,
 a {
-  color: white;
+    color: white;
+}
+
+.socialsLogo {
+    padding: 0.25em;
+    padding-top: calc(0.25em + 10px);
+    height: 16px;
+    width: auto;
 }
 
 @media (min-width: 0px) and (max-width: 650px) {
-  footer {
-    padding: 20px 0;
-  }
-  footer div {
-    display: block;
-  }
+    footer {
+        padding: 20px 0;
+    }
+    footer div {
+        display: block;
+    }
 
-  footer div.data {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
-  }
-  footer div.media {
-    padding-top: 20px;
-  }
+    footer div.data {
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+    }
+    footer div.media {
+        padding-top: 20px;
+    }
 
-  footer div ul {
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-  footer div.data ul {
-    margin: 0;
-    display: block;
-    padding: 0;
-  }
+    footer div ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    footer div.data ul {
+        margin: 0;
+        display: block;
+        padding: 0;
+    }
 
-  footer div.data ul li {
-    margin: 10px 0;
-    display: block;
-    padding: 0;
-  }
+    footer div.data ul li {
+        margin: 10px 0;
+        display: block;
+        padding: 0;
+    }
 
-  footer .media ul li a {
-    font-size: 60px;
-  }
+    footer .media ul li a {
+        font-size: 60px;
+    }
+
+    .follow {
+        display: inline-flex;
+    }
 }

@@ -25,6 +25,8 @@ import Jins from "./components/takken/Jins.js";
 import Groepsleiding from "./components/takken/Groepsleiding.js";
 import DiaAvond from "./components/DiaAvond.js";
 import Pancakes from "./components/Pancakes.js";
+import facebookLogo from "./images/Facebook_Logo_Secondary.png";
+import instagramLogo from "./images/Instagram_Glyph_White.svg";
 
 function App() {
     ReactGA.initialize("UA-147726960-1");
@@ -62,6 +64,16 @@ function App() {
             <footer>
                 <div className="data">
                     <Navlinks />
+                    <div class="follow">
+                        <p>Volg ons op </p>
+                        <a href="https://www.facebook.com/groups/113217998689162/" rel="noreferrer" target="_blank">
+                            <img src={facebookLogo} alt="Facebook" class="socialsLogo"></img>
+                        </a>
+                        <p>of </p>
+                        <a href="https://www.instagram.com/scoutskramaaimollem/" rel="noreferrer" target="_blank">
+                            <img src={instagramLogo} alt="Instagram" class="socialsLogo"></img>
+                        </a>
+                    </div>
                     <p>
                         Hosting door{" "}
                         <a target="_blank" rel="noopener noreferrer" href="https://www.scoutnet.be">

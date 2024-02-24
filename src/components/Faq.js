@@ -67,6 +67,10 @@ class Faq extends Component {
             latjes) bevindt zich naast de gemeentelijke basisschool in Mollem.
             Je kan er niet naast kijken.
           </div>
+          <div className="faqQuestion">Waar kan ik Scouts Mollem volgen?</div>
+          <div className="faqAnswer">
+			Wij posten regelmatig leuke foto's van onze activiteiten met de leden op <a href="https://www.instagram.com/scoutskramaaimollem/" rel="noreferrer" target="_blank">Instagram</a>. Je kan ons ook volgen op <a href="https://www.facebook.com/groups/113217998689162/" rel="noreferrer" target="_blank">Facebook</a> voor meer info over wat er gebeurt in onze Scouts.faq
+          </div>
           <div className="faqQuestion">Kampinschrijving?</div>
           <div className="faqAnswer">
             De leiding vindt het belangrijk het hele kampgebeuren persoonlijk
