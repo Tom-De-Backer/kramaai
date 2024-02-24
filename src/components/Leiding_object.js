@@ -126,11 +126,6 @@ let leiding = {
         totem: "Onverschrokken Lori",
         email: "Arthur@kramaai.be",
     },
-    Lise: {
-        name: "Lise Van Geertruyen",
-        totem: "Blijmoedig Beermarter",
-        email: "Lise@kramaai.be",
-    },
     Wout: {
         name: "Wout Huysman",
         totem: "Respectvol Grijs Bokje",
@@ -183,50 +178,21 @@ let leiding = {
     },
 };
 
-export default {
+let takken = {
     kapoenen: [
         leiding.Lorraine,
         leiding.Inne,
         leiding.Andreas,
         leiding.Robbe,
-        leiding.Lise,
         leiding.KobeB,
         leiding.Frederic,
         leiding.Merlijn,
     ],
-    welpen: [
-        leiding.Flore,
-        leiding.Catherine,
-        leiding.VictorC,
-        leiding.Wout,
-        leiding.Remco,
-        leiding.Amber,
-        leiding.Joren,
-    ],
-    bevers: [
-        leiding.Romain,
-        leiding.Tijs,
-        leiding.Delphine,
-        leiding.Jules,
-        leiding.Ferre,
-        leiding.Jasper,
-        leiding.Tibo,
-    ],
-    jonggivers: [
-        leiding.Roxanne,
-        leiding.Toon,
-        leiding.Jari,
-        leiding.David,
-        leiding.VictorB,
-        leiding.Wiebe,
-    ],
-    givers: [
-        leiding.Gilles,
-        leiding.Arthur,
-        leiding.KobeG,
-        leiding.Senne,
-        leiding.Manse,
-    ],
+    welpen: [leiding.Flore, leiding.Catherine, leiding.VictorC, leiding.Wout, leiding.Remco, leiding.Amber, leiding.Joren],
+    bevers: [leiding.Romain, leiding.Tijs, leiding.Delphine, leiding.Jules, leiding.Ferre, leiding.Jasper, leiding.Tibo],
+    jonggivers: [leiding.Roxanne, leiding.Toon, leiding.Jari, leiding.David, leiding.VictorB, leiding.Wiebe],
+    givers: [leiding.Gilles, leiding.Arthur, leiding.KobeG, leiding.Senne, leiding.Manse],
     jins: [leiding.Fien, leiding.Matisse, leiding.Mats],
     groep: [leiding.Jasper, leiding.KobeG],
 };
+export default takken;
