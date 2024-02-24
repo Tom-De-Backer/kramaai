@@ -119,6 +119,10 @@ class Faq extends Component {
             </a>{" "}
             ziektefonds.
           </div>
+          <div className="faqQuestion">Verminderd lidgeld</div>
+          <div className="faqAnswer">
+			Als voor u moeilijk is om het lidgeld van de scouts te betalen dan kunt u verminderd lidgeld aanvragen. Indien u verminderd lidgeld hebt moet u slechts 1/3de van het lidgeld en bepaalds activiteiten zoals het weekend of het kamp betalen. Als u niet zeker weet of u hiervoor in aanmerking komt of u wilt gewoon meer info, laat het ons dan zeker weten.
+		  </div>
           <div className="faqQuestion">
             Zoekt u de privacyverklaring van Scouts Mollem?
           </div>
