@@ -5,6 +5,8 @@ import "../styles/Faq.css";
 import SideSpace from "./SideSpace";
 import SideWidget from "./SideWidget";
 
+let kampStart = 3;
+
 class Faq extends Component {
   render() {
     return (
@@ -54,12 +56,11 @@ class Faq extends Component {
           </div>
           <div className="faqQuestion">Wanneer valt het kamp dit jaar?</div>
           <div className="faqAnswer">
-            Welpen, Bevers en Jong-Givers trekken van 4 augustus tot
-            14 augustus op kamp. Kapoenen gaan van 4 tot 8
-            augustus. Givers vertrekken voor 11 dagen op kamp en vertrekken
-            al 3 augustus. De Jins vertrekken traditiegetrouw naar het
-            buitenland. Na hun buitenlands avontuur is het de gewoonte dat ze samen
-             met de andere takken het gewone kamp in de Ardennen afsluiten.
+            Welpen, Bevers en Jong-Givers trekken van {kampStart} augustus tot {kampStart + 10} augustus op kamp.
+			Kapoenen gaan van {kampStart} tot {kampStart + 4} augustus.
+			Givers vertrekken voor 11 dagen op kamp en vertrekken al {kampStart - 1} augustus.
+			De Jins vertrekken traditiegetrouw naar het buitenland.
+			Na hun buitenlands avontuur is het de gewoonte dat ze samen met de andere takken het gewone kamp in de Ardennen afsluiten.
           </div>
           <div className="faqQuestion">Waar kan ik Scouts Mollem vinden? </div>
           <div className="faqAnswer">
