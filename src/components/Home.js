@@ -9,12 +9,16 @@ import NewsItem from "./NewsItem";
 import "../styles/Home.css";
 import SideWidget from "./SideWidget";
 import WidgetSlideshow from "./slideShow/WidgetSlideshow";
+import calendarImage from "../images/calendar.png";
 
+/**
+ * This can be used to test the `news.json` and `calendar.json` files, items in those files that have `testing` set to `true` will only appear when you set this on `true`.
+ * This allows you to test using these files without impacting what the visitors of the site see.
+ *
+ */
 let testing = false;
 let calendarPromise = new Promise((resolve) => {
-    fetch("https://kramaai.be/public/calendar.json").then((calendar) =>
-        resolve(calendar.json())
-    );
+    fetch("https://kramaai.be/public/calendar.json").then((calendar) => resolve(calendar.json()));
 });
 let newsPromise = new Promise((resolve) => {
     fetch("https://kramaai.be/public/news.json").then((news) => {
@@ -43,9 +47,8 @@ class Home extends Component {
                     (state.calendarItems = items.filter(
                         (item) =>
                             (!item.testing || testing) &&
-                            (!item.from ||
-                                Date.parse(item.from) < new Date()) &&
-                            (!item.until || Date.parse(item.until) > new Date())
+                            (!item.from || Date.parse(item.from) < new Date()) &&
+                            (!item.until || Date.parse(item.until.replaceAll("/", "-")) > new Date())
                     ))
             );
         });
@@ -58,8 +61,7 @@ class Home extends Component {
                     (state.newsItems = items.filter(
                         (item) =>
                             (!item.testing || testing) &&
-                            (!item.from ||
-                                Date.parse(item.from) < new Date()) &&
+                            (!item.from || Date.parse(item.from) < new Date()) &&
                             (!item.until || Date.parse(item.until) > new Date())
                     ))
             );
@@ -75,10 +77,7 @@ class Home extends Component {
                     <div className="news">
                         {(this.state.newsItems &&
                             ((this.state.newsItems.length == 0 && (
-                                <p>
-                                    Er is momenteel geen nieuws, kom later nog
-                                    eens terug.
-                                </p>
+                                <p>Er is momenteel geen nieuws, kom later nog eens terug.</p>
                             )) ||
                                 this.state.newsItems.map((item) => (
                                     <NewsItem
@@ -87,29 +86,27 @@ class Home extends Component {
                                         text={item.text}
                                         imageUrl={item.imageURL}
                                         imageLink={item.imageLink}
-                                        until={Date.parse(item.until)}
                                     />
                                 )))) || <p>laden...</p>}
                     </div>
 
                     <div className="sideSpace">
                         <div className="calender">
-                            <h2 className="titleCalendar">Kalender</h2>
+                            <h2 className="titleCalendar">
+                                Kalender
+                                <a href="webcal://www.kramaai.be/public/ScoutsKramaaiMollem.ics">
+                                    <img src={calendarImage} alt="iCalendar" id="calendarImg" />
+                                </a>
+                            </h2>
                             {(this.state.calendarItems &&
-                                ((this.state.calendarItems.length == 0 && (
+                                ((this.state.calendarItems.length === 0 && (
                                     <p>
-                                        Er is momenteel niets gepland, kom later
-                                        nog eens terug.
+                                        Er is momenteel niets gepland, kom later nog eens terug.
                                         <br />
                                     </p>
                                 )) ||
                                     this.state.calendarItems.map((item) => (
-                                        <CalendarItem
-                                            key={item.event}
-                                            date={item.date}
-                                            event={item.event}
-                                            until={new Date(item.until)}
-                                        />
+                                        <CalendarItem key={item.event} date={item.date} event={item.event} />
                                     )))) || <p>laden...</p>}
                         </div>
                         <br />
