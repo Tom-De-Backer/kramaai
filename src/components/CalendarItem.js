@@ -4,8 +4,8 @@ import "../styles/CalendarItem.css";
 const CalendarItem = (props) => {
   return (
     <div className="box">
-      <div className="date">{props.date}</div>
-      <div>{props.event}</div>
+      <div className="event">{props.event}</div>
+	  <div>{props.date}</div>
     </div>
   );
 };
