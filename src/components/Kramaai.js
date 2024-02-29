@@ -37,6 +37,10 @@ class Kramaai extends Component {
                                 "https://kramaaiblog.files.wordpress.com/2023/12/kramaai-dec-jan-feb.pdf",
                                 "december-januari-februari"
                             )}
+                            {this.kramaaiLink(
+                                "https://kramaaiblog.files.wordpress.com/2024/02/kramaai-maart-april-mei.pdf",
+                                "maart-april-mei"
+                            )}
                         </div>
                     </div>
                     {/* <h3>Nog even geduld voor de nieuwste Kramaai</h3>) */}
