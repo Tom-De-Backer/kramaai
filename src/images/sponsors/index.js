@@ -1,61 +1,36 @@
+const empty = { logo: require("./empty.png"), site: "" };
 const hoofdSponsors = [
-    { logo: require("./hoofd/ASBESIM.jpg"), site: "https://asbesim.be/" },
+    { site: "", logo: require("./hoofd/Elbo.png"), alt: "Elbo" },
+    { site: "https://asbesim.be/", logo: require("./hoofd/ASBESIM.jpg"), alt: "Asbesim" },
     {
-        logo: require("./hoofd/Elbo.png"),
-        site: "https://www.facebook.com/ELBObvba/?locale=nl_BE",
-    },
-    {
+        site: "https://www.facebook.com/T-Gouden-Fritje-790272917985589/",
         logo: require("./hoofd/Gouden fritje.png"),
-        site: "https://foursquare.com/v/t-gouden-fritje/4d39c3c3cc48224b21be364f",
+        alt: "'T gouden fritje",
     },
+    { site: "https://ki-music.be/", logo: require("./hoofd/ki-music.jpg"), alt: "KI Music" },
+    { site: "https://techsquad.be/", logo: require("./hoofd/Techsquad.png"), alt: "Techsquad" },
+];
+
+const platinumSponsors = [
     {
-        logo: require("./hoofd/ki-music.jpg"),
-        site: "https://ki-music.be/rock-concert/",
-    },
-    {
-        logo: require("./hoofd/Poortcenter.jpg"),
-        site: "https://poortcenter.be/",
-    },
-    {
-        logo: require("./hoofd/Ruitenwasser Arne.png"),
-        site: "https://www.facebook.com/people/Ruitenwasser-Arne/100057494197564/",
-    },
-    {
-        logo: require("./hoofd/Techsquad.png"),
-        site: "https://techsquad.be/wat-we-doen/",
+        site: "https://www.makelaarinverzekeringen.be/makelaar/verzekerings-en-zakenkantoor-heyvaert-bv",
+        logo: require("./platinum/Heyvaert verzekeringen.png"),
+        alt: "Heyvaert verzekeringen",
     },
 ];
 
 const goldenSponsors = [
-    {
-        logo: require("./golden/AH MERCHTEM BOSKANT PLAAT.png"),
-        site: "https://www.ah.nl/",
-    },
-    {
-        logo: require("./golden/Avryl Nails.jpg"),
-        site: "https://www.instagram.com/avryll.nailsandmore/",
-    },
-    { logo: require("./golden/Belz.jpeg"), site: "" },
-    {
-        logo: require("./golden/Cassiman.png"),
-        site: "https://sc-electrics.be/",
-    },
-    { logo: require("./golden/cornet.png"), site: "https://www.cornetbier.be" },
-    {
-        logo: require("./golden/Heyvaert verzekeringen.png"),
-        site: "https://www.makelaarinverzekeringen.be/makelaar/verzekerings-en-zakenkantoor-heyvaert-bv",
-    },
-    {
-        logo: require("./golden/To Bounce.png"),
-        site: "https://www.tobounce.be/",
-    },
-    {
-        logo: require("./golden/White4you.png"),
-        site: "https://www.white4you.be/",
-    },
-    { logo: require("./golden/Wijnbart.jpg"), site: "https://wijnbar-t.be/" },
+    { site: "https://www.tobounce.be/", logo: require("./golden/To Bounce.png"), alt: "To Bounce" },
+    { site: "https://poortcenter.be/", logo: require("./golden/Poortcenter.jpg"), alt: "Poortcenter" },
+    { site: "https://wijnbar-t.be/", logo: require("./golden/Wijnbart.jpg"), alt: "Wijnbart" },
+    { site: "https://www.ah.nl/", logo: require("./golden/AH MERCHTEM BOSKANT PLAAT.png"), alt: "Albert Heijn" },
+    { site: "", logo: require("./golden/Belz.jpeg"), alt: "Belz" },
+    { site: "https://www.cornetbier.be", logo: require("./golden/cornet.png"), alt: "Cornet" },
+    { site: "", logo: require("./golden/D-SAN.png"), alt: "D-SAN" },
+    { site: "https://eleverco.be/", logo: require("./golden/Eleverco.png"), alt: "Eleverco" },
+    { site: "", logo: require("./golden/EVS-LOGO.jpg"), alt: "EVS Technics" },
+    { site: "", logo: require("./golden/Guna dakwerken.png"), alt: "Guna dakwerken" },
+    { site: "", logo: require("./golden/SDC Accounting.png"), alt: "SDC Accounting" },
 ];
 
-const empty = { logo: require("./empty.png"), site: "" };
-
-export { hoofdSponsors, goldenSponsors, empty };
+export { hoofdSponsors, platinumSponsors, goldenSponsors, empty };
