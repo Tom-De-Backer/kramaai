@@ -48,11 +48,11 @@ const Navlinks = props => {
           Takken
         </NavLink>
       </li>
-      <li>
+	  {/*<li>
         <NavLink to="/verhuur" className="link" tabIndex={tempTabIndex}>
           Verhuur
         </NavLink>
-      </li>
+      </li>*/}
       <li>
         <NavLink to="/fotos" className="link" tabIndex={tempTabIndex}>
           Foto's
