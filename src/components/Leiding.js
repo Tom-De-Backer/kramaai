@@ -23,19 +23,24 @@ class Leiding extends Component {
             <section className="infoLeiding">
                 <SideSpace />
                 <div className="leidingTable">
-                    <div className="title">Leiding 2023-2024</div>
-                    <div>
+                    <center>
+                        <div className="title">Leiding 2024-2025</div>
+                    </center>
+                    <div className="textdiv">
                         <p>
-                            De vetgedrukte namen zijn de{" "}
-                            <b>takverantwoordelijken</b>, aarzel niet om hen te
-                            contacteren. Je kan ook altijd een mailtje sturen
-                            naar de hele takleiding door naar tak@kramaai.be te
-                            mailen (bv. welpen@kramaai.be om de welpenleiding te
-                            contacteren).
+                            De leidingsploegen voor het scoutsjaar 2024-2025 is momenteel nog niet bekend. Deze worden
+                            bekendgemaakt op de dia-avond op 9 september om 19u op de gemeentelijke basischool in Mollem.
+                        </p>
+                    </div>
+                    {/*<div>
+                        <p>
+                            De vetgedrukte namen zijn de <b>takverantwoordelijken</b>, aarzel niet om hen te contacteren.
+                            Je kan ook altijd een mailtje sturen naar de hele takleiding door naar tak@kramaai.be te mailen
+                            (bv. welpen@kramaai.be om de welpenleiding te contacteren).
                         </p>
                         <br />
                         <LeidingTable />
-                    </div>
+                    </div>*/}
                 </div>
                 <SideWidget />
                 <SideSpace />
