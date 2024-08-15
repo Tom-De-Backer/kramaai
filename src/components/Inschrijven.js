@@ -15,13 +15,33 @@ class Inschrijven extends Component {
             <div className="inschrijven">
                 <SideSpace />
                 <div className="uitlegDiv">
-                    <center>
-                        {<h1>Inschrijvingen</h1>}
-                        {/* <h1>
+                    <center>{<h1>Inschrijvingen</h1>}</center>
+                    {/* <h1>
               Inschrijven voor scoutsjaar 2022 - 2023 is helaas niet meer mogelijk.
             </h1> */}
-                    </center>
-                    <br />
+                    <p>
+                        Informatie over de inschrijvingen en de leidersploegen krijgt u uitgebreid op onze dia-avond. Die
+                        valt dit jaar op vrijdag 13 september om 19u en gaat door op de speelplaats van de gemeentelijke
+                        basisschool in Mollem.
+                        <br />
+                        Bestaande leden krijgen op zaterdag 24 augustus reeds een link toegestuurd via de mail waarmee ze
+                        zich kunnen inschrijven voor het volgende scoutsjaar. <b>OPGELET</b>: Zij genieten slechts voorrang
+                        tot en met vrijdag 13 september. Broers en zussen die je vanaf volgend jaar ook wil inschrijven in
+                        onze scouts en nog geen lid waren, zullen moeten wachten op de inschrijvingslink voor nieuwe leden.
+                        <br />
+                        Nieuwe leden kunnen zich vanaf zaterdag 14 september (om 12u) inschrijven. Voor de inschrijving van
+                        nieuwe leden hanteren we 2 richtlijnen. Broers & zussen van bestaande leden genieten voorrang.
+                        Daarnaast krijgen ook inwoners van Mollem voorrang. Het is voor ons belangrijk dat je binnen je
+                        eigen dorp terecht kan bij de enige jeugdbeweging die er is en dat met je hele gezin. Per
+                        geboortejaar laten we ongeveer 20 leden toe. Hierbij baseren we ons op de regel “First come,
+                        first served”. Hoewel er bij sommige groepen enkele plaatsjes open blijven, zijn andere groepen
+                        binnen enkele dagen volzet. We kunnen jullie enkel aanraden niet te lang te wachten met de
+                        inschrijving en hopen jullie zo volgend jaar ook bij onze scouts te mogen verwelkomen!  De link
+                        voor de inschrijving van nieuwe leden zal hier online komen op 14 september. Voor meer info over de
+                        inschrijvingen kan u een mailtje sturen naar{" "}
+                        <a href="mailto:groepsleiding@kramaai.be">groepsleiding@kramaai.be</a> .
+                    </p>
+                    {/*<br />
 
                     <p>
                         Vanaf nu kunnen ook nieuwe leden zich inschrijven, voor
@@ -49,8 +69,7 @@ class Inschrijven extends Component {
                         drukken, als je al een lid bent bij ons heb je al een
                         mail gekregen om je opnieuw in te schrijven en gebruik
                         je best die link.
-                    </p>
-
+                    </p>*/}
                     {/* { <><p>
             Beste ouders
             <br />
