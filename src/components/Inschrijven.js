@@ -24,10 +24,12 @@ class Inschrijven extends Component {
                         valt dit jaar op vrijdag 13 september om 19u en gaat door op de speelplaats van de gemeentelijke
                         basisschool in Mollem.
                         <br />
+                        <br />
                         Bestaande leden krijgen op zaterdag 24 augustus reeds een link toegestuurd via de mail waarmee ze
                         zich kunnen inschrijven voor het volgende scoutsjaar. <b>OPGELET</b>: Zij genieten slechts voorrang
                         tot en met vrijdag 13 september. Broers en zussen die je vanaf volgend jaar ook wil inschrijven in
                         onze scouts en nog geen lid waren, zullen moeten wachten op de inschrijvingslink voor nieuwe leden.
+                        <br />
                         <br />
                         Nieuwe leden kunnen zich vanaf zaterdag 14 september (om 12u) inschrijven. Voor de inschrijving van
                         nieuwe leden hanteren we 2 richtlijnen. Broers & zussen van bestaande leden genieten voorrang.
@@ -36,9 +38,13 @@ class Inschrijven extends Component {
                         geboortejaar laten we ongeveer 20 leden toe. Hierbij baseren we ons op de regel “First come,
                         first served”. Hoewel er bij sommige groepen enkele plaatsjes open blijven, zijn andere groepen
                         binnen enkele dagen volzet. We kunnen jullie enkel aanraden niet te lang te wachten met de
-                        inschrijving en hopen jullie zo volgend jaar ook bij onze scouts te mogen verwelkomen!  De link
-                        voor de inschrijving van nieuwe leden zal hier online komen op 14 september. Voor meer info over de
-                        inschrijvingen kan u een mailtje sturen naar{" "}
+                        inschrijving en hopen jullie zo volgend jaar ook bij onze scouts te mogen verwelkomen! 
+                        <br />
+                        <br />
+                        De link voor de inschrijving van nieuwe leden zal hier online komen op 14 september.
+                        <br />
+                        <br />
+                        Voor meer info over de inschrijvingen kan u een mailtje sturen naar{" "}
                         <a href="mailto:groepsleiding@kramaai.be">groepsleiding@kramaai.be</a> .
                     </p>
                     {/*<br />
