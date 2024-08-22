@@ -28,8 +28,9 @@ class Leiding extends Component {
                     </center>
                     <div className="textdiv">
                         <p>
-                            De leidingsploegen voor het scoutsjaar 2024-2025 is momenteel nog niet bekend. Deze worden
-                            bekendgemaakt op de dia-avond op 9 september om 19u op de gemeentelijke basischool in Mollem.
+                            De leidingsploegen voor het scoutsjaar 2024-2025 zijn momenteel nog niet bekend. Deze worden
+                            bekendgemaakt op de dia-avond op vrijdag 13 september om 19u op de gemeentelijke basischool in
+                            Mollem.
                         </p>
                     </div>
                     {/*<div>
