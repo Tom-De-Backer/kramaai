@@ -3,51 +3,42 @@ import React from "react";
 import "../styles/Leiding.css";
 import leiding from "./Leiding_object.js";
 
-const LeidingTable = () => {
-    function getLeiding(leidingArray, number = false) {
-        return (
-            <tbody>
-                {leidingArray.map((leiding, index) => {
-                    let first = index == 0 && !number;
-                    return (
-                        <tr>
-                            <td>
-                                {(first && <b>{leiding.name}</b>) ||
-                                    leiding.name}
-                            </td>
-                            <td>
-                                {(first && <b>{leiding.totem}</b>) ||
-                                    leiding.totem}
-                            </td>
-                            <td>
-                                {(first && <b>{leiding.email}</b>) ||
-                                    leiding.email}
-                            </td>
-                            {number && <td>{leiding.number}</td>}
-                        </tr>
-                    );
-                })}
-            </tbody>
-        );
-    }
+function getLeiding(leidingArray, number = false) {
+    return (
+        <tbody>
+            {leidingArray.map((leiding, index) => {
+                let first = index == 0 && !number;
+                return (
+                    <tr>
+                        <td>{(first && <b>{leiding.name}</b>) || leiding.name}</td>
+                        <td>{(first && <b>{leiding.totem}</b>) || leiding.totem}</td>
+                        <td>{(first && <b>{leiding.email}</b>) || leiding.email}</td>
+                        {number && <td>{leiding.number}</td>}
+                    </tr>
+                );
+            })}
+        </tbody>
+    );
+}
 
+const GroupsleidingTable = () => {
+    return (
+        <div>
+            <div className="titleTable" id="groupsleiding">
+                <div>Groepsleiding</div>
+                <a className="emailTable" href="mailto:groepsleiding@kramaai.be">
+                    Groepsleiding@kramaai.be
+                </a>
+            </div>
+            <table className="table">{getLeiding(leiding.groep, true)}</table>
+        </div>
+    );
+};
+
+const LeidingTable = () => {
     return (
         <div>
             <div>
-                <br />
-                <div className="titleTable" id="groupsleiding">
-                    <div>Groepsleiding</div>
-                    <a
-                        className="emailTable"
-                        href="mailto:groepsleiding@kramaai.be"
-                    >
-                        Groepsleiding@kramaai.be
-                    </a>
-                </div>
-                <table className="table">
-                    {getLeiding(leiding.groep, true)}
-                </table>
-                <br />
                 <br />
                 <div className="titleTable" id="kapoenen">
                     <div>Kapoenen</div>
@@ -78,16 +69,11 @@ const LeidingTable = () => {
                 <br />
                 <div className="titleTable" id="jonggivers">
                     <div>Jong-Givers</div>
-                    <a
-                        className="emailTable"
-                        href="mailto:jonggivers@kramaai.be"
-                    >
+                    <a className="emailTable" href="mailto:jonggivers@kramaai.be">
                         Jonggivers@kramaai.be
                     </a>
                 </div>
-                <table className="table">
-                    {getLeiding(leiding.jonggivers)}
-                </table>
+                <table className="table">{getLeiding(leiding.jonggivers)}</table>
                 <br />
                 <br />
                 <div className="titleTable" id="givers">
@@ -111,4 +97,4 @@ const LeidingTable = () => {
     );
 };
 
-export default LeidingTable;
+export { LeidingTable, GroupsleidingTable };

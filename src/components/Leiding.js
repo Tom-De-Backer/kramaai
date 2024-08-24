@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import ReactGA from "react-ga";
 
 import "../styles/Leiding.css";
-import LeidingTable from "./LeidingTable";
+import { LeidingTable, GroupsleidingTable } from "./LeidingTable";
 import SideWidget from "./SideWidget";
 import SideSpace from "./SideSpace";
 
@@ -26,6 +26,9 @@ class Leiding extends Component {
                     <center>
                         <div className="title">Leiding 2024-2025</div>
                     </center>
+                    <GroupsleidingTable />
+                    <br />
+                    <br />
                     <div className="textdiv">
                         <p>
                             De leidingsploegen voor het scoutsjaar 2024-2025 zijn momenteel nog niet bekend. Deze worden
