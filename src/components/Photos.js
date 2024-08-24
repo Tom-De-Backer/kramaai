@@ -14,10 +14,20 @@ class Photos extends Component {
         return (
             <div>
                 <div className="photosTextDiv">
-                    <div className="titlePhotos">
-                        Foto's van de afgelopen kampen:
-                    </div>
+                    <div className="titlePhotos">Foto's van de afgelopen kampen:</div>
                     <div className="photosTextDiv2">
+                        {new Date() > new Date(2024, 8, 13, 21) && (
+                            <div className="yearPhotos">
+                                {" "}
+                                <a
+                                    href="https://photos.app.goo.gl/vH6kvyCp79UZZNRP9"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Kamp 2024
+                                </a>{" "}
+                            </div>
+                        )}
                         <div className="yearPhotos">
                             {" "}
                             <a
@@ -80,11 +90,7 @@ class Photos extends Component {
                         </div>
                         <div className="yearPhotos">
                             {" "}
-                            <a
-                                href="https://goo.gl/photos/TwQUEufTCw4YvBmJ8"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <a href="https://goo.gl/photos/TwQUEufTCw4YvBmJ8" target="_blank" rel="noopener noreferrer">
                                 Kamp 2017
                             </a>{" "}
                         </div>
@@ -105,10 +111,7 @@ class Photos extends Component {
                     </NavLink>
                 </div>
                 <div className="photosButtonsDiv">
-                    <NavLink
-                        to="/fotos/albumLaatsteVergadering2017"
-                        className="button"
-                    >
+                    <NavLink to="/fotos/albumLaatsteVergadering2017" className="button">
                         Laatste vergadering 2017
                     </NavLink>
                     <NavLink to="/fotos/album2019" className="button">
