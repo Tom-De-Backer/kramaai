@@ -130,6 +130,7 @@ let leiding = {
         name: "Wout Huysman",
         totem: "Respectvol Grijs Bokje",
         email: "Wout@kramaai.be",
+		number: "+32 470 09 30 61",
     },
     Robbe: {
         name: "Robbe Tops",
@@ -149,7 +150,8 @@ let leiding = {
     VictorB: {
         name: "Victor Boterdaele",
         totem: "Zorgzame Golden Retriever",
-        email: "Victor.boterdaele@kramaa.be",
+        email: "Victor@kramaai.be",
+		number: "+32 478 67 03 78",
     },
     Remco: {
         name: "Remco Looverie",
@@ -193,6 +195,6 @@ let takken = {
     jonggivers: [leiding.Roxanne, leiding.Toon, leiding.Jari, leiding.David, leiding.VictorB, leiding.Wiebe],
     givers: [leiding.Gilles, leiding.Arthur, leiding.KobeG, leiding.Senne, leiding.Manse],
     jins: [leiding.Fien, leiding.Matisse, leiding.Mats],
-    groep: [leiding.Jasper, leiding.KobeG],
+    groep: [leiding.KobeG, leiding.VictorB, leiding.Wout],
 };
 export default takken;

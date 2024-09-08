@@ -12,8 +12,8 @@ function getLeiding(leidingArray, number = false) {
                     <tr>
                         <td>{(first && <b>{leiding.name}</b>) || leiding.name}</td>
                         <td>{(first && <b>{leiding.totem}</b>) || leiding.totem}</td>
-                        <td>{(first && <b>{leiding.email}</b>) || leiding.email}</td>
-                        {number && <td>{leiding.number}</td>}
+                        <td><a className="emailTable" href={"mailto:" + leiding.email}>{(first && <b>{leiding.email}</b>) || leiding.email}</a></td>
+                        {number && <td><a className="emailTable" href={"tel:" + leiding.number}>{leiding.number}</a></td>}
                     </tr>
                 );
             })}
