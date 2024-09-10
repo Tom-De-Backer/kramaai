@@ -47,7 +47,7 @@ class Home extends Component {
                     (state.calendarItems = items.filter(
                         (item) =>
                             (!item.testing || testing) &&
-                            (!item.from || Date.parse(item.from) < new Date()) &&
+                            (!item.from || Date.parse(item.from.replaceAll("/", "-")) < new Date()) &&
                             (!item.until || Date.parse(item.until.replaceAll("/", "-")) > new Date())
                     ))
             );
@@ -61,8 +61,8 @@ class Home extends Component {
                     (state.newsItems = items.filter(
                         (item) =>
                             (!item.testing || testing) &&
-                            (!item.from || Date.parse(item.from) < new Date()) &&
-                            (!item.until || Date.parse(item.until) > new Date())
+                            (!item.from || Date.parse(item.from.replaceAll("/", "-")) < new Date()) &&
+                            (!item.until || Date.parse(item.until.replaceAll("/", "-")) > new Date())
                     ))
             );
         });
