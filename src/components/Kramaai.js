@@ -8,7 +8,7 @@ class Kramaai extends Component {
     kramaaiLink(link, months) {
         return (
             <div className="kramaaiLink">
-                <a className="kramaaiA" rel="noopener norefferer" href={link}>
+                <a className="kramaaiA" rel="noopener norefferer nofollow" href={link}>
                     {months}
                 </a>
             </div>
