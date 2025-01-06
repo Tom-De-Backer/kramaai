@@ -29,22 +29,25 @@ class Leiding extends Component {
                     <GroupsleidingTable />
                     <br />
                     <br />
-                    <div className="textdiv">
-                        <p>
-                            De leidingsploegen voor het scoutsjaar 2024-2025 zijn momenteel nog niet bekend. Deze worden
-                            bekendgemaakt op de dia-avond op vrijdag 13 september om 19u op de gemeentelijke basischool in
-                            Mollem.
-                        </p>
-                    </div>
-                    {/*<div>
-                        <p>
-                            De vetgedrukte namen zijn de <b>takverantwoordelijken</b>, aarzel niet om hen te contacteren.
-                            Je kan ook altijd een mailtje sturen naar de hele takleiding door naar tak@kramaai.be te mailen
-                            (bv. welpen@kramaai.be om de welpenleiding te contacteren).
-                        </p>
-                        <br />
-                        <LeidingTable />
-                    </div>*/}
+                    {(new Date() < new Date(2024, 8, 13, 21) && (
+                        <div className="textdiv">
+                            <p>
+                                De leidingsploegen voor het scoutsjaar 2024-2025 zijn momenteel nog niet bekend. Deze
+                                worden bekendgemaakt op de dia-avond op vrijdag 13 september om 19u op de gemeentelijke
+                                basischool in Mollem.
+                            </p>
+                        </div>
+                    )) || (
+                        <div>
+                            <p>
+                                De vetgedrukte namen zijn de <b>takverantwoordelijken</b>, aarzel niet om hen te
+                                contacteren. Je kan ook altijd een mailtje sturen naar de hele takleiding door naar
+                                tak@kramaai.be te mailen (bv. welpen@kramaai.be om de welpenleiding te contacteren).
+                            </p>
+                            <br />
+                            <LeidingTable />
+                        </div>
+                    )}
                 </div>
                 <SideWidget />
                 <SideSpace />
