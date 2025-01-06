@@ -59,6 +59,10 @@ const Navlinks = props => {
         </NavLink>
       </li>
       <li>
+        <NavLink to="/privacy" className="link" tabIndex={tempTabIndex}>
+          Privacy
+        </NavLink>
+      </li><li>
         <NavLink to="/faq" className="link" tabIndex={tempTabIndex}>
           FAQ
         </NavLink>

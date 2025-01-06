@@ -99,19 +99,6 @@ class Faq extends Component {
                         bepaalde activiteiten zoals het weekend of het kamp te betalen. Als u niet zeker weet of u hiervoor
                         in aanmerking komt of u meer informatie wenst, laat het ons dan zeker weten.
                     </div>
-                    <div className="faqQuestion">Zoekt u de privacyverklaring van Scouts Mollem?</div>
-                    <div className="faqAnswer">
-                        Bent u geïnteresseerd in de privacyverklaring waarin wordt uitgelegd hoe wij persoonsgegevens
-                        verzamelen en verwerken? Deze kan u{" "}
-                        <a target="_blank" rel="noopener noreferrer" href="/downloads/privacyverklaring-02-02-2021.pdf">
-                            hier
-                        </a>{" "}
-                        vinden.
-                        <br />
-                        <br />
-                        Als u nog bijkomende vragen heeft, kan u steeds een mail sturen naar{" "}
-                        <a href="mailto:groepsleiding@kramaai.be">groepsleiding@kramaai.be</a>{" "}
-                    </div>
                 </section>
                 <SideWidget />
                 <SideSpace />
