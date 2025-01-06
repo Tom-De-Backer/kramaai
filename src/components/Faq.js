@@ -5,7 +5,7 @@ import "../styles/Faq.css";
 import SideSpace from "./SideSpace";
 import SideWidget from "./SideWidget";
 
-let kampStart = 3;
+let kampStart = 4;
 
 class Faq extends Component {
     render() {
