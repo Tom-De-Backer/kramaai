@@ -16,7 +16,7 @@ class Givers extends Component {
               3-daagse met de fiets op kamp, leefweek, in-het-oog-springende
               constructies, enzoverder."
                 leiding="Door wie de givers dit jaar begeleid worden, kan je %s terugvinden."
-                video="https://www.kramaai.be/images/videos/2023-2024/Givers.mp4"
+                //video="https://www.kramaai.be/images/videos/2023-2024/Givers.mp4"
             />
         );
     }

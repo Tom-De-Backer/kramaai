@@ -17,7 +17,7 @@ class Jins extends Component {
               samenwerken en verantwoordelijkheden opnemen. JIN’s gaan elk jaar
               op buitenlands kamp."
                 leiding="Door wie de JIN's dit jaar worden bijgestaan kan je %s terugvinden. "
-                video="https://www.kramaai.be/images/videos/2023-2024/Jins.mp4"
+                //video="https://www.kramaai.be/images/videos/2023-2024/Jins.mp4"
             />
         );
     }

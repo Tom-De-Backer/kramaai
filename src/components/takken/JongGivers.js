@@ -17,7 +17,7 @@ class JongGivers extends Component {
               tussen kind en puber. Hun leefwereld verandert razendsnel en wordt
               plots veel complexer. Al die veranderingen zijn soms
               overweldigend."
-                video="https://www.kramaai.be/images/videos/2023-2024/Jong-Givers.mp4"
+                //video="https://www.kramaai.be/images/videos/2023-2024/Jong-Givers.mp4"
             />
         );
     }

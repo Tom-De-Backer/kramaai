@@ -15,7 +15,7 @@ class Welpen extends Component {
               een millimeter per week, krijgt er op een jaar drie tanden bij en
               wordt elke week 5 gram zwaarder."
                 leiding="Door wie de welpen dit jaar in toom worden gehouden, kan je %s terugvinden."
-                video="https://www.kramaai.be/images/videos/2023-2024/Welpen.mp4"
+                //video="https://www.kramaai.be/images/videos/2023-2024/Welpen.mp4"
             />
         );
     }

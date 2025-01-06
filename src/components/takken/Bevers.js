@@ -15,7 +15,7 @@ class Bevers extends Component {
             vertrouwd met allerlei technieken. Stapsgewijs leren ze ook kennis
             maken met verantwoordelijkheid. Maar amuseren staat nog steeds op de
             eerste plaats!"
-                video="https://www.kramaai.be/images/videos/2023-2024/Bevers.mp4"
+                //video="https://www.kramaai.be/images/videos/2023-2024/Bevers.mp4"
             />
         );
     }

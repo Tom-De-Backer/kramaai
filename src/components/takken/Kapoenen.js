@@ -13,7 +13,7 @@ class Kapoenen extends Component {
               genoeg ruimte om op hun eigen impulsen in te gaan. Wat vinden ze
               leuk en wat kunnen ze al op die leeftijd?"
                 leiding="Door wie de fantasie van de kapoenen dit jaar wordt aangewakkerd kan je %s terugvinden."
-                video="https://www.kramaai.be/images/videos/2023-2024/Kapoenen.mp4"
+                //video="https://www.kramaai.be/images/videos/2023-2024/Kapoenen.mp4"
             />
         );
     }
