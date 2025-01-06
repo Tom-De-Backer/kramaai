@@ -33,6 +33,10 @@ class Kramaai extends Component {
                                 "https://kramaaiblog.wordpress.com/wp-content/uploads/2024/09/kramaai-sept-okt-nov.pdf",
                                 "september-oktober-november"
                             )}
+                            {this.kramaaiLink(
+                                "https://kramaaiblog.wordpress.com/wp-content/uploads/2024/11/kramaai-dec-jan-feb.pdf",
+                                "december-januari-februari"
+                            )}
                         </div>
                         <div className="titleTable">2023 - 2024</div>
                         <div>
