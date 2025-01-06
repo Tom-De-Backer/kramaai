@@ -27,6 +27,13 @@ class Kramaai extends Component {
                     </div>
                     <br />
                     <div>
+                        <div className="titleTable">2024 - 2025</div>
+                        <div>
+                            {this.kramaaiLink(
+                                "https://kramaaiblog.wordpress.com/wp-content/uploads/2024/09/kramaai-sept-okt-nov.pdf",
+                                "september-oktober-november"
+                            )}
+                        </div>
                         <div className="titleTable">2023 - 2024</div>
                         <div>
                             {this.kramaaiLink(
