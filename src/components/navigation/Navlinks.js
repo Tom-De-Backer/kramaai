@@ -48,6 +48,11 @@ const Navlinks = props => {
           Takken
         </NavLink>
       </li>
+      <li>
+        <a href="https://kramaai.be/jubile" className="link" tabIndex={tempTabIndex}>
+          Jubile
+        </a>
+      </li>
 	  {/*<li>
         <NavLink to="/verhuur" className="link" tabIndex={tempTabIndex}>
           Verhuur

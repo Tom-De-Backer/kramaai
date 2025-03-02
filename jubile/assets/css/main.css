@@ -2246,6 +2246,11 @@ button.special:active,
   align-items: stretch;
 }
 
+.flex.flex-column {
+	flex-direction: column;
+	justify-content: center;
+}
+
 .flex.flex-2.center,
 .flex.flex-3.center {
   -moz-align-items: center;
@@ -3305,11 +3310,11 @@ table.alt tbody tr td {
 }
 
 .wrapper.style2 a {
-  color: #999999;
+  color: #000000;
 }
 
 .wrapper.style2 a:hover {
-  color: rgba(153, 153, 153, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .wrapper.style2 strong,
@@ -3886,7 +3891,7 @@ body.subpage {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../../images/banner.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
