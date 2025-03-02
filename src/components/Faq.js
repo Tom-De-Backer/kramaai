@@ -86,11 +86,17 @@ class Faq extends Component {
                     <div className="faqQuestion">Fiscale voordeel</div>
                     <div className="faqAnswer">
                         De jeugdactiviteiten van erkende jeugdbewegingen zijn jaarlijks fiscaal aftrekbaar, wel enkel voor
-                        kinderen onder de 12 jaar. Indien u hiervan wenst gebruik te maken, kan u bij de takleiding een
-                        fiscaal attest verkrijgen om toe te voegen aan uw belastingsaangifte. Vraag dit gewoon eens na de
-                        vergadering. Ook kan u bij uw ziektefonds voordelen in verband met het lidgeld en voordelen in
-                        verband met het kamp verkrijgen. De bedragen verschillen van ziektefonds tot ziektefonds, dus voor
-                        de specifieke bedragen en de precieze details neemt u best contact op met uw ziektefonds.
+                        kinderen onder de 12 jaar. Indien u hiervan wenst gebruik te maken, kan u{" "}
+                        <a
+                            rel="noopener norefferer nofollow"
+                            href="https://kramaaiblog.wordpress.com/wp-content/uploads/2025/03/fiscaal-attest-scouts-kramaai-mollem-2024.pdf"
+                        >
+                            hier
+                        </a>{" "}
+                        een fiscaal attest vinden om toe te voegen aan uw belastingsaangifte. Ook kan u bij uw ziektefonds
+                        voordelen in verband met het lidgeld en voordelen in verband met het kamp verkrijgen. De bedragen
+                        verschillen van ziektefonds tot ziektefonds, dus voor de specifieke bedragen en de precieze details
+                        neemt u best contact op met uw ziektefonds.
                     </div>
                     <div className="faqQuestion">Verminderd lidgeld</div>
                     <div className="faqAnswer">
