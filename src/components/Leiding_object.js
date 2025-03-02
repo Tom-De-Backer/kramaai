@@ -146,7 +146,6 @@ let leiding = {
     Matthijs: { name: "Matthijs Huysman", totem: "Enthousiaste Parkiet", email: "matthijs@kramaai.be" },
     Klaas: { name: "Klaas De Jonge", totem: "Amusant Nijlpaard", email: "klaas@kramaai.be" },
     Luca: { name: "Luca Tastenoy", totem: "Onverschrokken Agame", email: "luca@kramaai.be" },
-    Viktor: { name: "Viktor Van Gothem", email: "viktor@kramaai.be" },
     Emma: { name: "Emma Lammens", totem: "Goedgelovige Simia", email: "emma@kramaai.be" },
     Arno: { name: "Arno Engels", totem: "Behulpzame Berner Sennenhond", email: "arno@kramaai.be" },
     Lara: { name: "Lara Vebelen", totem: "Zorgzame sifaka", email: "lara@kramaai.be" },
@@ -173,7 +172,7 @@ let takken = {
         leiding.Leyla,
         leiding.Arno,
     ],
-    bevers: [leiding.KobeG, leiding.VictorB, leiding.Matthijs, leiding.Lara, leiding.Elise, leiding.Viktor, leiding.Klaas],
+    bevers: [leiding.KobeG, leiding.VictorB, leiding.Matthijs, leiding.Lara, leiding.Elise, leiding.Klaas],
     jonggivers: [
         leiding.Ferre,
         leiding.Wout,
