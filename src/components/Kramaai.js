@@ -38,7 +38,7 @@ class Kramaai extends Component {
                                 "december-januari-februari"
                             )}
                             {this.kramaaiLink(
-                                "https://kramaaiblog.wordpress.com/wp-content/uploads/2025/03/kramaai-maart-april-mei_2024-2025.pdf",
+                                "https://kramaaiblog.wordpress.com/wp-content/uploads/2025/03/kramaai-maart-april-mei_2024-2025-1.pdf",
                                 "maart-april-mei"
                             )}
                         </div>
