@@ -6,8 +6,8 @@ import "react-slideshow-image/dist/styles.css";
 import { hoofdSponsors, platinumSponsors, goldenSponsors } from "../../images/sponsors/index.js";
 
 let slideImages = hoofdSponsors;
-if (new Date(2024, 8, 25, 0, 0, 0, 0) > new Date()) slideImages = slideImages.concat(platinumSponsors);
-if (new Date(2024, 5, 25, 0, 0, 0, 0) > new Date()) slideImages = slideImages.concat(goldenSponsors);
+if (new Date(2025, 9, 12, 0, 0, 0, 0) > new Date()) slideImages = slideImages.concat(platinumSponsors);
+if (new Date(2025, 6, 12, 0, 0, 0, 0) > new Date()) slideImages = slideImages.concat(goldenSponsors);
 
 const properties = {
     duration: 0,

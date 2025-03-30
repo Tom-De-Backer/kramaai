@@ -1,7 +1,6 @@
 const empty = { logo: require("./empty.png"), site: "" };
 const hoofdSponsors = [
     { site: "", logo: require("./hoofd/Elbo.png"), alt: "Elbo" },
-    { site: "https://asbesim.be/", logo: require("./hoofd/ASBESIM.jpg"), alt: "Asbesim" },
     {
         site: "https://www.facebook.com/T-Gouden-Fritje-790272917985589/",
         logo: require("./hoofd/Gouden fritje.png"),
@@ -9,28 +8,41 @@ const hoofdSponsors = [
     },
     { site: "https://ki-music.be/", logo: require("./hoofd/ki-music.jpg"), alt: "KI Music" },
     { site: "https://techsquad.be/", logo: require("./hoofd/Techsquad.png"), alt: "Techsquad" },
+    { site: "https://stores.delhaize.be/nl/delhaize-asse", logo: require("./hoofd/logo asse.png"), alt: "Delhaize Asse" },
+    {
+        site: "https://www.ebikestoreasse.be/nl/",
+        logo: require("./hoofd/Premium E-Bike Store_Final 1.jpg"),
+        alt: "E-Bike store Asse",
+    },
 ];
 
 const platinumSponsors = [
     {
-        site: "https://www.makelaarinverzekeringen.be/makelaar/verzekerings-en-zakenkantoor-heyvaert-bv",
-        logo: require("./platinum/Heyvaert verzekeringen.png"),
-        alt: "Heyvaert verzekeringen",
+        site: "https://www.praktijkvitalis.be/",
+        logo: require("./platinum/Vitalis-grootv2.jpg"),
+        alt: "Vitalis - osteopathie & kenesistherapie",
     },
+    { site: "https://www.m-i.be/", logo: require("./platinum/logo_MI.png"), alt: "Mechanic international" },
 ];
 
 const goldenSponsors = [
-    { site: "https://www.tobounce.be/", logo: require("./golden/To Bounce.png"), alt: "To Bounce" },
-    { site: "https://poortcenter.be/", logo: require("./golden/Poortcenter.jpg"), alt: "Poortcenter" },
+    {
+        site: "http://www.heyvaert.eu",
+        logo: require("./golden/Heyvaert verzekeringen.png"),
+        alt: "Heyvaert verzekeringen",
+    },
     { site: "https://wijnbar-t.be/", logo: require("./golden/Wijnbart.jpg"), alt: "Wijnbart" },
-    { site: "https://www.ah.nl/", logo: require("./golden/AH MERCHTEM BOSKANT PLAAT.png"), alt: "Albert Heijn" },
     { site: "", logo: require("./golden/Belz.jpeg"), alt: "Belz" },
     { site: "https://www.cornetbier.be", logo: require("./golden/cornet.png"), alt: "Cornet" },
-    { site: "", logo: require("./golden/D-SAN.png"), alt: "D-SAN" },
-    { site: "https://eleverco.be/", logo: require("./golden/Eleverco.png"), alt: "Eleverco" },
-    { site: "", logo: require("./golden/EVS-LOGO.jpg"), alt: "EVS Technics" },
-    { site: "", logo: require("./golden/Guna dakwerken.png"), alt: "Guna dakwerken" },
     { site: "", logo: require("./golden/SDC Accounting.png"), alt: "SDC Accounting" },
+    { site: "", logo: require("./golden/Kopie van Wouter Tistaert.png"), alt: "Wouter Tistaert bvba" },
+    { site: "https://www.white4you.be/", logo: require("./golden/Logo white4you kleur.png"), alt: "White4you" },
+    {
+        site: "https://garage.peugeot.be/nl/vanweyenbergh/?location=Asse%7C0",
+        logo: require("./golden/Van Weyenberg Asse_HR.png"),
+        alt: "Van Weyenberg Asse",
+    },
+    { site: "https://jdworks.be", logo: require("./golden/jdworks.jpeg"), alt: "JD Works" },
 ];
 
 export { hoofdSponsors, platinumSponsors, goldenSponsors, empty };
