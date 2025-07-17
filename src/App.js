@@ -66,14 +66,14 @@ function App() {
             <footer>
                 <div className="data">
                     <Navlinks />
-                    <div class="follow">
+                    <div className="follow">
                         <p>Volg ons op </p>
                         <a href="https://www.facebook.com/groups/113217998689162/" rel="noreferrer" target="_blank">
-                            <img src={facebookLogo} alt="Facebook" class="socialsLogo"></img>
+                            <img src={facebookLogo} alt="Facebook" className="socialsLogo"></img>
                         </a>
                         <p>of </p>
                         <a href="https://www.instagram.com/scoutskramaaimollem/" rel="noreferrer" target="_blank">
-                            <img src={instagramLogo} alt="Instagram" class="socialsLogo"></img>
+                            <img src={instagramLogo} alt="Instagram" className="socialsLogo"></img>
                         </a>
                     </div>
                     <p>
