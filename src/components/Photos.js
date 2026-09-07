@@ -16,18 +16,26 @@ class Photos extends Component {
                 <div className="photosTextDiv">
                     <div className="titlePhotos">Foto's van de afgelopen kampen:</div>
                     <div className="photosTextDiv2">
-                        {new Date() > new Date(2024, 8, 13, 21) && (
-                            <div className="yearPhotos">
-                                {" "}
-                                <a
-                                    href="https://photos.app.goo.gl/vH6kvyCp79UZZNRP9"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    Kamp 2024
-                                </a>{" "}
-                            </div>
-                        )}
+                        <div className="yearPhotos">
+                            {" "}
+                            <a
+                                href="https://photos.app.goo.gl/tnhreeoqGiJooQqH7"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Kamp 2025 - Onhaye
+                            </a>{" "}
+                        </div>
+                        <div className="yearPhotos">
+                            {" "}
+                            <a
+                                href="https://photos.app.goo.gl/vH6kvyCp79UZZNRP9"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Kamp 2024 - Couvin
+                            </a>{" "}
+                        </div>
                         <div className="yearPhotos">
                             {" "}
                             <a
@@ -35,7 +43,7 @@ class Photos extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Kamp 2023
+                                Kamp 2023 - Gerpinnes
                             </a>{" "}
                         </div>
                         <div className="yearPhotos">
@@ -45,7 +53,7 @@ class Photos extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Kamp 2022
+                                Kamp 2022 - Couvin
                             </a>{" "}
                         </div>
                         <div className="yearPhotos">
@@ -55,7 +63,7 @@ class Photos extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Kamp 2021
+                                Kamp 2021 - Recht/Manderfeld
                             </a>{" "}
                         </div>
                         <div className="yearPhotos">
@@ -65,7 +73,7 @@ class Photos extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Kamp 2020
+                                Kamp 2020 - Opont
                             </a>{" "}
                         </div>
                         <div className="yearPhotos">
@@ -75,7 +83,7 @@ class Photos extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Kamp 2019
+                                Kamp 2019 - Büllingen
                             </a>{" "}
                         </div>
                         <div className="yearPhotos">
@@ -85,13 +93,13 @@ class Photos extends Component {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                Kamp 2018
+                                Kamp 2018 - Bomal
                             </a>{" "}
                         </div>
                         <div className="yearPhotos">
                             {" "}
                             <a href="https://goo.gl/photos/TwQUEufTCw4YvBmJ8" target="_blank" rel="noopener noreferrer">
-                                Kamp 2017
+                                Kamp 2017 - Opont
                             </a>{" "}
                         </div>
                     </div>
