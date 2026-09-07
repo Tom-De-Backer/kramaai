@@ -1,49 +1,60 @@
 .slide-containerSponsor {
-  width: auto;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .each-slideSponsor {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-  width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: fit-content;
 }
 
 .imageSponsor {
-  height: 200px;
-  width: auto;
-  justify-content: center;
-  align-items: center;
+    height: 200px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-containerSponsor .react-slideshow-container {
+    overflow: hidden;
+}
+
+.slide-containerSponsor .react-slideshow-wrapper.slide {
+    overflow: visible;
+    overflow-y: clip;
 }
 
 .slide-containerSponsor .images-wrap {
-  height: 220px;
+    height: 220px;
+    --slide_width: inherit;
+    width: var(--slide_width);
 }
 
 .slide-containerSponsor .images-wrap > div {
-  margin: 15px;
-  white-space: nowrap !important;
-  width: fit-content !important;
-  height: 200px;
+    margin: 15px;
+    white-space: nowrap !important;
+    width: fit-content !important;
+    height: 200px;
 }
 
 @media (max-width: 768px) {
-  .imageSponsor {
-    width: 70%;
-  }
-  .each-slideSponsor {
-    height: 120px;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .slide-containerSponsor {
-    width: auto;
-    margin: auto;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
+    .imageSponsor {
+        width: 70%;
+    }
+    .each-slideSponsor {
+        height: 120px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .slide-containerSponsor {
+        width: auto;
+        margin: auto;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
 }
