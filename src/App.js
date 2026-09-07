@@ -5,6 +5,7 @@ import ReactGA from "react-ga";
 
 import Home from "./components/Home.js";
 import Inschrijven from "./components/Inschrijven.js";
+import Lidgeld from "./components/Lidgeld.js";
 import Leiding from "./components/Leiding.js";
 import Navbar from "./components/navigation/Navbar";
 import Navlinks from "./components/navigation/Navlinks";
@@ -41,6 +42,7 @@ function App() {
             <Switch>
                 <Route path="/" component={Home} exact />
                 <Route path="/inschrijven" component={Inschrijven} exact />
+                <Route path="/lidgeld" component={Lidgeld} exact />
                 <Route path="/leiding" component={Leiding} exact />
                 <Route path="/fotos" component={Photos} exact />
                 <Route path="/fotos/:id" component={Album} />

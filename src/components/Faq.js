@@ -104,6 +104,10 @@ class Faq extends Component {
                         aanvragen. Indien u beroep doet op verminderd lidgeld, dient u slechts 1/3de van het lidgeld en
                         bepaalde activiteiten zoals het weekend of het kamp te betalen. Als u niet zeker weet of u hiervoor
                         in aanmerking komt of u meer informatie wenst, laat het ons dan zeker weten.
+                        <br />
+                        <br />
+                        Als u meer informatie wenst over wat er gebeurd met did lidgeld, kan je did{" "}
+                        <a href="/#/lidgeld">hier</a> vinden.
                     </div>
                 </section>
                 <SideWidget />
