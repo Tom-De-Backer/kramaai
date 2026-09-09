@@ -16,8 +16,8 @@ class Lidgeld extends Component {
                         <h1>Uitleg lidgeld scoutsjaar 2026-2027</h1>
                     </center>
                     <p>
-                        Scouts en Gidsen Vlaanderen vraagt de jeugdbewegingen dit jaar om zoveel mogelijk kosten te
-                        verwerken in het lidgeld. We geven daarom graag een klein woordje uitleg…
+                        Scouts en Gidsen Vlaanderen vraagt de jeugdbewegingen om zoveel mogelijk kosten te verwerken in het
+                        lidgeld. We geven daarom graag een klein woordje uitleg…
                         <br />
                         <br />
                         Voor Kapoenen, Welpen, Bevers en Jong Givers bedraagt het lidgeld €75.
@@ -34,28 +34,24 @@ class Lidgeld extends Component {
                         <br />
                         <br />
                         <ul>
-                            {/* TODO: move this to a CSS file */}
                             <li style={{ marginLeft: "20px" }}>
-                                {" "}
-                                €45,40 gaat integraal naar Scouts en Gidsen Vlaanderen. Daarmee ben je verzekerd tijdens
+                                €46,10 gaat integraal naar Scouts en Gidsen Vlaanderen. Daarmee ben je verzekerd tijdens
                                 elke scoutsvergadering, op weekend en op kamp.
                             </li>
                             <li style={{ marginLeft: "20px" }}>
-                                €17 (bij Kapoenen, Welpen, Bevers & Jong Givers) & €30 (bij Givers & Jins) wordt gestort
-                                naar de takkas van jouw kind voor de vieruurtjes en de kookvergadering. Vanaf dit jaar moet
-                                je dus geen muntjes meer meenemen naar de vergadering 🙂
+                                €15 (bij Kapoenen, Welpen, Bevers & Jong Givers) & €30 (bij Givers & Jins) wordt gestort
+                                naar de takkas van jouw kind voor de vieruurtjes en de kookvergadering.
                             </li>
                             <li style={{ marginLeft: "20px" }}>
-                                €8,60 gaat naar de schaats- en zwemactiviteit. Op deze manier verlagen we de kost per lid
+                                €7,90 gaat naar de schaats- en zwemactiviteit. Op deze manier verlagen we de kost per lid
                                 (anders is dat €7,50 voor schaatsen en €4 voor zwemmen) en voorkomen we dat verschillende
-                                leden vergeten te betalen voor deze activiteiten…
+                                leden vergeten te betalen voor deze activiteiten.
                             </li>
                             <li style={{ marginLeft: "20px" }}>
                                 €6 wordt gebruikt voor kleine kosten zoals EHBO (plakkers, zonnecrème, ontsmetting,...),
                                 jaartekens & meer.
                             </li>
                         </ul>
-                        <br />
                         <br />
                         We kiezen er bewust voor om de kosten voor het scoutsweekend en het scoutskamp niet op te nemen in
                         dit bedrag. We kunnen jullie wel al meegeven dat de richtprijs voor een weekend €35 bedraagt bij
